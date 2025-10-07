@@ -32,10 +32,6 @@ print(data['products'])
 sales_merged = data['sales'].merge(data['products'][['product_id', 'price', 'category', 'supplier_id']], on='product_id', how='left')
 sales_merged['transaction_date'] = pd.to_datetime(sales_merged['transaction_date'])
 
-print(sales_merged)
-
-
-
 # Объединяем sales с returns по transaction_id
 sales_merged = sales_merged.merge(
     data['returns'][['reason', 'transaction_id']],
@@ -63,16 +59,21 @@ def calculate_sales(product_category=None, product_ids=None, date_from=None, dat
 
     sum_without_returns = 0
     sum_returns = 0
+    # Количество в штуках проданных товаров и возвращённых товаров
+    sales_quantity = 0 
+    returns_quantity = 0
     for line in sales_merged.itertuples():
         if line.category in product_category and line.supplier_id in supplier_ids and line.product_id in product_ids and date_from <= line.transaction_date <= date_to:
             sum_without_returns += line.quantity * line.price
+            sales_quantity += line.quantity
             if pd.notna(line.reason):
                 sum_returns += line.quantity * line.price
+                returns_quantity += line.quantity
 
     # Процент выкупа
     buys_perc = (sum_without_returns - sum_returns) * 100 / sum_without_returns
 
-    return round(sum_without_returns, 2), round(sum_returns, 2), round(buys_perc, 2)
+    return round(sum_without_returns, 2), sales_quantity, round(sum_returns, 2), returns_quantity, round(buys_perc, 2)
 
 
 
