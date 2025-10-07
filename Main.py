@@ -43,7 +43,7 @@ sales_merged = sales_merged.merge(
 # Прибыль
 def calculate_sales(product_category=None, product_ids=None, date_from=None, date_to=None, supplier_ids=None):
     if product_category is None:
-        product_category = {'Beauty', 'Clothes', 'Food', 'Electronic', 'Home'}
+        product_category = {'Beauty', 'Clothes', 'Food', 'Electronics', 'Home'}
     if product_ids is None:
         product_ids = set(range(1, 501))
     if date_from is None:
@@ -67,9 +67,11 @@ def calculate_sales(product_category=None, product_ids=None, date_from=None, dat
                 returns_quantity += line.quantity
 
     # Процент выкупа
-    buys_perc = (sum_without_returns - sum_returns) * 100 / sum_without_returns
-
-    return round(sum_without_returns, 2), sales_quantity, round(sum_returns, 2), returns_quantity, round(buys_perc, 2)
+    if sum_without_returns != 0:
+        buys_perc = (sum_without_returns - sum_returns) * 100 / sum_without_returns
+    else:
+        buys_perc = 0
+    return int(sum_without_returns), sales_quantity, int(sum_returns), returns_quantity, int(buys_perc)
 
 
 
@@ -85,7 +87,7 @@ products_merged_inventory['last_updated'] = pd.to_datetime(products_merged_inven
 
 def calculate_ost(product_category=None, product_ids=None, date_from=None, date_to=None, low_ost_flag=250):
     if product_category is None:
-        product_category = {'Beauty', 'Clothes', 'Food', 'Electronic', 'Home'}
+        product_category = {'Beauty', 'Clothes', 'Food', 'Electronics', 'Home'}
     if product_ids is None:
         product_ids = set(range(1, 501))
     if date_from is None:
@@ -99,6 +101,8 @@ def calculate_ost(product_category=None, product_ids=None, date_from=None, date_
 
     return low_ost
 
+
+
 # 
 # Потом добавить, чтобы если были вот так остатки:
 # Хиты продаж: высокие продажи + низкие остатки = срочное пополнение
@@ -109,7 +113,7 @@ def calculate_ost(product_category=None, product_ids=None, date_from=None, date_
 
 def calculate_ad(product_category=None, product_ids=None, date_from=None, date_to=None):
     if product_category is None:
-        product_category = {'Beauty', 'Clothes', 'Food', 'Electronic', 'Home'}
+        product_category = {'Beauty', 'Clothes', 'Food', 'Electronics', 'Home'}
     if product_ids is None:
         product_ids = set(range(1, 501))
     if date_from is None:
@@ -127,7 +131,7 @@ def calculate_ad(product_category=None, product_ids=None, date_from=None, date_t
             ad_revenue += line.revenue
             clicls_count += line.clicks
     
-    return round(ad_spend, 2), round(ad_revenue, 2), clicls_count, (round(ad_spend / clicls_count, 2) if clicls_count != 0 else 0)
+    return int(ad_spend), int(ad_revenue), clicls_count, (int(ad_spend / clicls_count) if clicls_count != 0 else 0)
 
 
 ad_merged = data['products'][['product_id', 'category']].merge(
@@ -136,6 +140,8 @@ ad_merged = data['products'][['product_id', 'category']].merge(
     how='left'
 )
 ad_merged['date'] = pd.to_datetime(ad_merged['date'])
+
+
 
 
 
@@ -196,12 +202,11 @@ def save_results_to_json(filename='results.json'):
 
 
 # Выполняем расчёты и сохраняем результаты
-if __name__ == "__main__":
-    results = save_results_to_json()
-    print("Анализ завершён. Результаты:")
-    print(f"- Продажи без возвратов: {results['sales_analysis']['total_sales_without_returns']}")
-    print(f"- Процент выкупа: {results['sales_analysis']['buyout_percentage']}%")
-    print(f"- Расходы на рекламу: {results['advertising_analysis']['ad_spend']}")
-    print(f"- Товаров с низким остатком: {results['inventory_analysis']['low_stock_count']}")
+# if __name__ == "__main__":
+#     results = save_results_to_json()
 
+print(calculate_sales(date_from=datetime.today() - timedelta(days=365), date_to=datetime.today()))
+print('\n\n\n\n')
+for i in ('Beauty', 'Clothes', 'Food', 'Electronics', 'Home'):
+    print(calculate_sales(product_category=i, date_from=datetime.today() - timedelta(days=7), date_to=datetime.today()))
 
