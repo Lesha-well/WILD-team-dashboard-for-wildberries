@@ -111,6 +111,11 @@ def calculate_ost(product_category=None, product_ids=None, date_from=None, date_
 # Неликвиды: низкие продажи + высокие остатки = стоп закупки
 # 
 
+
+def calculate_ad(product_category=None, product_ids=None):
+    pass
+
+
 print(calculate_ost())
         
 
