@@ -1,0 +1,51 @@
+[
+  {
+    "sales_analysis": {
+      "total_sales_without_returns": 214441977.94,
+      "sales_quantity": 20304,
+      "total_returns": 32150960.7,
+      "returns_quantity": 3068,
+      "buyout_percentage": 85.01
+    },
+    "advertising_analysis": {
+      "ad_spend": 23513.16,
+      "ad_revenue": 43012.01,
+      "clicks_count": 32151.0,
+      "cost_per_click": 0.73
+    },
+    "inventory_analysis": {
+      "low_stock_products": {
+        "144": 80,
+        "200": 190,
+        "331": 105,
+        "340": 203
+      },
+      "low_stock_count": 4
+    }
+  },
+  {
+    "timestamp": "2025-10-07T19:44:17.991408",
+    "sales_analysis": {
+      "total_sales_without_returns": 214360061.88,
+      "sales_quantity": 20299,
+      "total_returns": 32121227.96,
+      "returns_quantity": 3066,
+      "buyout_percentage": 85.02
+    },
+    "advertising_analysis": {
+      "ad_spend": 23513.16,
+      "ad_revenue": 43012.01,
+      "clicks_count": 32151.0,
+      "cost_per_click": 0.73
+    },
+    "inventory_analysis": {
+      "low_stock_products": {
+        "144": 80,
+        "200": 190,
+        "331": 105,
+        "340": 203
+      },
+      "low_stock_count": 4
+    }
+  }
+]

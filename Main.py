@@ -26,8 +26,6 @@ def _load_data() -> dict[str, pd.DataFrame]:
 
 data = _load_data()
 
-print(data['sales'])
-print(data['products'])
 
 sales_merged = data['sales'].merge(data['products'][['product_id', 'price', 'category', 'supplier_id']], on='product_id', how='left')
 sales_merged['transaction_date'] = pd.to_datetime(sales_merged['transaction_date'])
@@ -40,8 +38,6 @@ sales_merged = sales_merged.merge(
     how='left',
 )
 
-
-print(sales_merged)
 
 
 # Прибыль
@@ -85,7 +81,6 @@ products_merged_inventory = data['products'][['product_id', 'product_name', 'cat
 )
 products_merged_inventory['last_updated'] = pd.to_datetime(products_merged_inventory['last_updated'])
 
-print(products_merged_inventory)
 
 
 def calculate_ost(product_category=None, product_ids=None, date_from=None, date_to=None, low_ost_flag=250):
@@ -112,10 +107,101 @@ def calculate_ost(product_category=None, product_ids=None, date_from=None, date_
 # 
 
 
-def calculate_ad(product_category=None, product_ids=None):
-    pass
+def calculate_ad(product_category=None, product_ids=None, date_from=None, date_to=None):
+    if product_category is None:
+        product_category = {'Beauty', 'Clothes', 'Food', 'Electronic', 'Home'}
+    if product_ids is None:
+        product_ids = set(range(1, 501))
+    if date_from is None:
+        # Тогда берём за последний месяц
+        date_from = datetime.today() - timedelta(days=30)
+        date_to = datetime.today()
+    
+    # расходы на рекламу
+    ad_spend = 0
+    ad_revenue = 0
+    clicls_count = 0
+    for line in ad_merged.itertuples():
+        if line.category in product_category and line.product_id in product_ids and date_from <= line.date <= date_to:
+            ad_spend += line.spend
+            ad_revenue += line.revenue
+            clicls_count += line.clicks
+    
+    return round(ad_spend, 2), round(ad_revenue, 2), clicls_count, (round(ad_spend / clicls_count, 2) if clicls_count != 0 else 0)
 
 
-print(calculate_ost())
-        
+ad_merged = data['products'][['product_id', 'category']].merge(
+    data['ad_revenue'],
+    on='product_id',
+    how='left'
+)
+ad_merged['date'] = pd.to_datetime(ad_merged['date'])
+
+
+
+
+
+def save_results_to_json(filename='results.json'):
+    """Сохранение результатов всех расчётов в JSON файл"""
+    
+    # Получаем результаты всех функций
+    sales_result = calculate_sales()
+    ad_result = calculate_ad()
+    ost_result = calculate_ost()
+    
+    # Формируем структуру данных для JSON
+    results = {
+        'sales_analysis': {
+            'total_sales_without_returns': sales_result[0],
+            'sales_quantity': sales_result[1],
+            'total_returns': sales_result[2],
+            'returns_quantity': sales_result[3],
+            'buyout_percentage': sales_result[4]
+        },
+        'advertising_analysis': {
+            'ad_spend': ad_result[0],
+            'ad_revenue': ad_result[1],
+            'clicks_count': ad_result[2],
+            'cost_per_click': ad_result[3]
+        },
+        'inventory_analysis': {
+            'low_stock_products': ost_result,
+            'low_stock_count': len(ost_result)
+        }
+    }
+    
+    # Читаем существующий файл и обновляем (добавляем запись), вместо перезаписи
+    existing_data = []
+    if os.path.exists(filename):
+        try:
+            with open(filename, 'r', encoding='utf-8') as f:
+                loaded = json.load(f)
+            if isinstance(loaded, list):
+                existing_data = loaded
+            elif isinstance(loaded, dict):
+                # Миграция старого формата (один объект) в список
+                existing_data = [loaded]
+        except Exception:
+            # Если файл повреждён/пустой — начинаем заново со списком
+            existing_data = []
+
+    existing_data.append(results)
+
+    # Сохраняем обновлённый список записей в JSON файл
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(existing_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"Результаты обновлены в файле: {filename}")
+    return results
+
+
+# Выполняем расчёты и сохраняем результаты
+if __name__ == "__main__":
+    results = save_results_to_json()
+    print("Анализ завершён. Результаты:")
+    print(f"- Продажи без возвратов: {results['sales_analysis']['total_sales_without_returns']}")
+    print(f"- Процент выкупа: {results['sales_analysis']['buyout_percentage']}%")
+    print(f"- Расходы на рекламу: {results['advertising_analysis']['ad_spend']}")
+    print(f"- Товаров с низким остатком: {results['inventory_analysis']['low_stock_count']}")
+
 
