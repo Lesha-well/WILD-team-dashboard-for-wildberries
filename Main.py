@@ -55,7 +55,7 @@ def calculate_sales(product_category=None, product_ids=None, date_from=None, dat
         date_from = datetime.today() - timedelta(days=30)
         date_to = datetime.today()
     if supplier_ids is None:
-        supplier_ids = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
+        supplier_ids = set(range(1, 21))
 
     sum_without_returns = 0
     sum_returns = 0
@@ -78,7 +78,39 @@ def calculate_sales(product_category=None, product_ids=None, date_from=None, dat
 
 
 
+products_merged_inventory = data['products'][['product_id', 'product_name', 'category']].merge(
+    data['inventory'],
+    on='product_id',
+    how='left'
+)
+products_merged_inventory['last_updated'] = pd.to_datetime(products_merged_inventory['last_updated'])
+
+print(products_merged_inventory)
 
 
-print(calculate_sales())
+def calculate_ost(product_category=None, product_ids=None, date_from=None, date_to=None, low_ost_flag=250):
+    if product_category is None:
+        product_category = {'Beauty', 'Clothes', 'Food', 'Electronic', 'Home'}
+    if product_ids is None:
+        product_ids = set(range(1, 501))
+    if date_from is None:
+        # Тогда берём за последний месяц
+        date_from = datetime.today() - timedelta(days=30)
+        date_to = datetime.today()
+
+    # Товары с мелким остатком + остаток
+    low_ost = {line.product_id: int(line.stock_quantity) for line in products_merged_inventory.itertuples() if
+    line.category in product_category and line.product_id in product_ids and pd.notna(line.stock_quantity) and pd.notna(line.stock_quantity) and line.stock_quantity <= low_ost_flag and date_from <= line.last_updated <= date_to}
+
+    return low_ost
+
+# 
+# Потом добавить, чтобы если были вот так остатки:
+# Хиты продаж: высокие продажи + низкие остатки = срочное пополнение
+# Стабильные: средние продажи + средние остатки = плановое пополнение
+# Неликвиды: низкие продажи + высокие остатки = стоп закупки
+# 
+
+print(calculate_ost())
+        
 
