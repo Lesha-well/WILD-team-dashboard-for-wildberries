@@ -1,0 +1,991 @@
+{
+  "app_name": "Аналитическая панель Малинка",
+  "period_info": {
+    "year_description": "Период с 1 января 2025 по 7 октября 2025",
+    "total_days": 280,
+    "months": [
+      "Янв 2025",
+      "Фев 2025",
+      "Мар 2025",
+      "Апр 2025",
+      "Май 2025",
+      "Июн 2025",
+      "Июл 2025",
+      "Авг 2025",
+      "Сен 2025",
+      "Окт 2025"
+    ]
+  },
+  "metrics": {
+    "operational_expenses": {
+      "Year": {
+        "all": 48273615,
+        "Gasoline": 12486321,
+        "Warehouses": 8926143,
+        "Advertising": 9024164,
+        "Gasoline_percent": 25.86,
+        "Warehouses_percent": 18.49,
+        "Advertising_percent": 18.69
+      },
+      "Month": {
+        "all": 4019523,
+        "Gasoline": 1038254,
+        "Warehouses": 744218,
+        "Advertising": 754841,
+        "Gasoline_percent": 25.83,
+        "Warehouses_percent": 18.52,
+        "Advertising_percent": 18.79
+      },
+      "Week": {
+        "all": 1004881,
+        "Gasoline": 259563,
+        "Warehouses": 187624,
+        "Advertising": 187704,
+        "Gasoline_percent": 25.83,
+        "Warehouses_percent": 18.67,
+        "Advertising_percent": 18.68
+      }
+    },
+    "orders": {
+      "Year": {
+        "all": 1835129342,
+        "all_quantity": 458214,
+        "avg_order_value": 4006,
+        "returns": 215634182,
+        "returns_quantity": 37219,
+        "redemption_rate": 88
+      },
+      "Month": {
+        "all": 154347812,
+        "all_quantity": 38120,
+        "avg_order_value": 4047,
+        "returns": 17851472,
+        "returns_quantity": 3108,
+        "redemption_rate": 88
+      },
+      "Week": {
+        "all": 38481953,
+        "all_quantity": 9503,
+        "avg_order_value": 4050,
+        "returns": 4421873,
+        "returns_quantity": 772,
+        "redemption_rate": 88
+      }
+    },
+    "storage": {
+      "Year": {
+        "all": 11243891,
+        "avg_per_item": 24,
+        "warehouse_count": 6
+      },
+      "Month": {
+        "all": 937231,
+        "avg_per_item": 23,
+        "warehouse_count": 6
+      },
+      "Week": {
+        "all": 234308,
+        "avg_per_item": 22,
+        "warehouse_count": 6
+      }
+    },
+    "cost_of_sales": {
+      "Year": {
+        "all": 934517324,
+        "percent": 28.6,
+        "change_rub": 12563114,
+        "change_percent": 1.36
+      },
+      "Month": {
+        "all": 77876443,
+        "percent": 28.3,
+        "change_rub": 1025304,
+        "change_percent": 1.33
+      },
+      "Week": {
+        "all": 19469111,
+        "percent": 28.1,
+        "change_rub": 268055,
+        "change_percent": 1.39
+      }
+    },
+    "logistics": {
+      "Year": {
+        "all": 128736458,
+        "percent": 21.5,
+        "average_delivery_days": 3.8
+      },
+      "Month": {
+        "all": 10731371,
+        "percent": 21.3,
+        "average_delivery_days": 3.8
+      },
+      "Week": {
+        "all": 2682843,
+        "percent": 21.4,
+        "average_delivery_days": 3.9
+      }
+    },
+    "other_retentions": {
+      "Year": {
+        "all": 2364812,
+        "percent": 0.38,
+        "penalties": 1439210,
+        "adjustments": 925602
+      },
+      "Month": {
+        "all": 197068,
+        "percent": 0.39,
+        "penalties": 118934,
+        "adjustments": 78134
+      },
+      "Week": {
+        "all": 49267,
+        "percent": 0.39,
+        "penalties": 29783,
+        "adjustments": 19484
+      }
+    },
+    "taxes": {
+      "Year": {
+        "all": 112483921,
+        "percent": 3.9,
+        "nds": 82931421,
+        "income_tax": 29552500
+      },
+      "Month": {
+        "all": 9373653,
+        "percent": 3.8,
+        "nds": 6890773,
+        "income_tax": 2482880
+      },
+      "Week": {
+        "all": 2345582,
+        "percent": 3.8,
+        "nds": 1722693,
+        "income_tax": 622889
+      }
+    },
+    "realization": {
+      "Year": {
+        "all": 3654219284,
+        "percent": 100,
+        "change_rub": 21963143,
+        "change_percent": 0.6
+      },
+      "Month": {
+        "all": 304518827,
+        "percent": 100,
+        "change_rub": 1789134,
+        "change_percent": 0.59
+      },
+      "Week": {
+        "all": 76129706,
+        "percent": 100,
+        "change_rub": 447278,
+        "change_percent": 0.59
+      }
+    },
+    "advertising": {
+      "Year": {
+        "all": 86439214,
+        "percent": 9.2,
+        "roi": 12.4
+      },
+      "Month": {
+        "all": 7204934,
+        "percent": 9.1,
+        "roi": 12.5
+      },
+      "Week": {
+        "all": 1801234,
+        "percent": 9.1,
+        "roi": 12.5
+      }
+    },
+    "roi": {
+      "Year": {
+        "percent": 12.1,
+        "change_percent": 0.8
+      },
+      "Month": {
+        "percent": 12.4,
+        "change_percent": 0.3
+      },
+      "Week": {
+        "percent": 12.6,
+        "change_percent": 0.2
+      }
+    },
+    "commission": {
+      "Year": {
+        "all": 68734125,
+        "percent": 2.1,
+        "partner_fees": 49873212,
+        "marketplace_fees": 18860913
+      },
+      "Month": {
+        "all": 5727843,
+        "percent": 2.0,
+        "partner_fees": 4156109,
+        "marketplace_fees": 1571734
+      },
+      "Week": {
+        "all": 1431961,
+        "percent": 2.0,
+        "partner_fees": 1039027,
+        "marketplace_fees": 392934
+      }
+    }
+  },
+  "category_metrics": {
+    "Beauty": {
+      "Year": {
+        "realization_all": 12514071,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 97998,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 7839,
+        "operational_expenses_all": 4015381,
+        "logistics_all": 1282652,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 13.5,
+        "roi_change_percent": 1.2,
+        "advertising_all": 1001125,
+        "advertising_roi": 4.2,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 2252532,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 295327,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 5832414,
+        "cost_of_sales_percent": 46.6,
+        "cost_of_sales_change_percent": -1.8
+      },
+      "Month": {
+        "realization_all": 1390452,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 10888,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 871,
+        "operational_expenses_all": 415886,
+        "logistics_all": 130074,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 13.0,
+        "roi_change_percent": 1.2,
+        "advertising_all": 111236,
+        "advertising_roi": 4.3,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 250281,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 38512,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 660826,
+        "cost_of_sales_percent": 47.5,
+        "cost_of_sales_change_percent": -1.8
+      },
+      "Week": {
+        "realization_all": 312851,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 2449,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 195,
+        "operational_expenses_all": 87280,
+        "logistics_all": 32975,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 14.2,
+        "roi_change_percent": 1.2,
+        "advertising_all": 25028,
+        "advertising_roi": 4.0,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 56313,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 7271,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 143090,
+        "cost_of_sales_percent": 45.7,
+        "cost_of_sales_change_percent": -1.8
+      }
+    },
+    "Clothes": {
+      "Year": {
+        "realization_all": 11384458,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 89152,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 7132,
+        "operational_expenses_all": 3972478,
+        "logistics_all": 1339011,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 13.5,
+        "roi_change_percent": 1.2,
+        "advertising_all": 910756,
+        "advertising_roi": 4.3,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 2049202,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 312234,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 6039864,
+        "cost_of_sales_percent": 53.1,
+        "cost_of_sales_change_percent": -1.8
+      },
+      "Month": {
+        "realization_all": 1264939,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 9905,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 792,
+        "operational_expenses_all": 326973,
+        "logistics_all": 121736,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 13.4,
+        "roi_change_percent": 1.2,
+        "advertising_all": 101195,
+        "advertising_roi": 4.3,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 227689,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 28593,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 661581,
+        "cost_of_sales_percent": 52.3,
+        "cost_of_sales_change_percent": -1.8
+      },
+      "Week": {
+        "realization_all": 284611,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 2228,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 178,
+        "operational_expenses_all": 84291,
+        "logistics_all": 23870,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 13.7,
+        "roi_change_percent": 1.2,
+        "advertising_all": 22768,
+        "advertising_roi": 3.9,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 51230,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 6870,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 133827,
+        "cost_of_sales_percent": 47.0,
+        "cost_of_sales_change_percent": -1.8
+      }
+    },
+    "Food": {
+      "Year": {
+        "realization_all": 10487281,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 82126,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 6570,
+        "operational_expenses_all": 3201754,
+        "logistics_all": 938756,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 14.9,
+        "roi_change_percent": 1.2,
+        "advertising_all": 838982,
+        "advertising_roi": 4.4,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 1887710,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 213905,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 5125698,
+        "cost_of_sales_percent": 48.9,
+        "cost_of_sales_change_percent": -1.8
+      },
+      "Month": {
+        "realization_all": 1165253,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 9125,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 730,
+        "operational_expenses_all": 307742,
+        "logistics_all": 108817,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 14.9,
+        "roi_change_percent": 1.2,
+        "advertising_all": 93220,
+        "advertising_roi": 4.1,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 209745,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 31475,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 540532,
+        "cost_of_sales_percent": 46.4,
+        "cost_of_sales_change_percent": -1.8
+      },
+      "Week": {
+        "realization_all": 262182,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 2053,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 164,
+        "operational_expenses_all": 85841,
+        "logistics_all": 23561,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 15.2,
+        "roi_change_percent": 1.2,
+        "advertising_all": 20974,
+        "advertising_roi": 4.5,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 47192,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 5848,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 119969,
+        "cost_of_sales_percent": 45.8,
+        "cost_of_sales_change_percent": -1.8
+      }
+    },
+    "Electronics": {
+      "Year": {
+        "realization_all": 13664246,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 107005,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 8560,
+        "operational_expenses_all": 4340344,
+        "logistics_all": 1375043,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 13.5,
+        "roi_change_percent": 1.2,
+        "advertising_all": 1093139,
+        "advertising_roi": 4.1,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 2459564,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 325960,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 6559107,
+        "cost_of_sales_percent": 48.0,
+        "cost_of_sales_change_percent": -1.8
+      },
+      "Month": {
+        "realization_all": 1518249,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 11889,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 951,
+        "operational_expenses_all": 382801,
+        "logistics_all": 167427,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 13.3,
+        "roi_change_percent": 1.2,
+        "advertising_all": 121459,
+        "advertising_roi": 4.2,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 273284,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 37679,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 706952,
+        "cost_of_sales_percent": 46.6,
+        "cost_of_sales_change_percent": -1.8
+      },
+      "Week": {
+        "realization_all": 341606,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 2675,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 214,
+        "operational_expenses_all": 103153,
+        "logistics_all": 40678,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 14.4,
+        "roi_change_percent": 1.2,
+        "advertising_all": 27328,
+        "advertising_roi": 4.2,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 61489,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 8651,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 163871,
+        "cost_of_sales_percent": 48.0,
+        "cost_of_sales_change_percent": -1.8
+      }
+    },
+    "Home": {
+      "Year": {
+        "realization_all": 10462417,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 81931,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 6554,
+        "operational_expenses_all": 3188400,
+        "logistics_all": 1190118,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 13.9,
+        "roi_change_percent": 1.2,
+        "advertising_all": 836993,
+        "advertising_roi": 4.4,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 1883235,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 248777,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 4764242,
+        "cost_of_sales_percent": 45.5,
+        "cost_of_sales_change_percent": -1.8
+      },
+      "Month": {
+        "realization_all": 1162490,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 9103,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 728,
+        "operational_expenses_all": 383891,
+        "logistics_all": 133858,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 14.1,
+        "roi_change_percent": 1.2,
+        "advertising_all": 92999,
+        "advertising_roi": 4.1,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 209248,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 28855,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 622125,
+        "cost_of_sales_percent": 53.5,
+        "cost_of_sales_change_percent": -1.8
+      },
+      "Week": {
+        "realization_all": 261560,
+        "realization_change_percent": 8.0,
+        "orders_all_quantity": 2048,
+        "orders_avg_order_value": 127,
+        "orders_returns_quantity": 163,
+        "operational_expenses_all": 71156,
+        "logistics_all": 26469,
+        "logistics_percent": 8.5,
+        "logistics_change_percent": 6.0,
+        "logistics_delivery_days": 2.1,
+        "roi_percent": 14.3,
+        "roi_change_percent": 1.2,
+        "advertising_all": 20924,
+        "advertising_roi": 4.4,
+        "advertising_change_percent": 12.0,
+        "taxes_all": 47080,
+        "taxes_percent": 18.0,
+        "taxes_change_percent": 2.5,
+        "storage_all": 6810,
+        "storage_change_percent": 3.2,
+        "cost_of_sales_all": 134953,
+        "cost_of_sales_percent": 51.6,
+        "cost_of_sales_change_percent": -1.8
+      }
+    }
+  },
+  "campaigns_by_category": {
+    "Beauty": {
+      "Кампания_Beauty_1": {
+        "spend": 22616.47,
+        "revenue": 57744.18,
+        "impressions": 164787,
+        "clicks": 3629,
+        "ctr": 2.2,
+        "roas": 2.55,
+        "cpc": 6.23
+      },
+      "Кампания_Beauty_2": {
+        "spend": 37887.89,
+        "revenue": 145105.74,
+        "impressions": 161496,
+        "clicks": 4780,
+        "ctr": 2.96,
+        "roas": 3.83,
+        "cpc": 7.93
+      },
+      "Кампания_Beauty_3": {
+        "spend": 15305.69,
+        "revenue": 42228.09,
+        "impressions": 169465,
+        "clicks": 5606,
+        "ctr": 3.31,
+        "roas": 2.76,
+        "cpc": 2.73
+      },
+      "Кампания_Beauty_4": {
+        "spend": 44079.29,
+        "revenue": 184185.47,
+        "impressions": 177049,
+        "clicks": 4800,
+        "ctr": 2.71,
+        "roas": 4.18,
+        "cpc": 9.18
+      },
+      "Кампания_Beauty_5": {
+        "spend": 37547.65,
+        "revenue": 110640.3,
+        "impressions": 95439,
+        "clicks": 1802,
+        "ctr": 1.89,
+        "roas": 2.95,
+        "cpc": 20.84
+      },
+      "Кампания_Beauty_6": {
+        "spend": 35716.52,
+        "revenue": 91984.11,
+        "impressions": 103527,
+        "clicks": 2614,
+        "ctr": 2.53,
+        "roas": 2.58,
+        "cpc": 13.66
+      }
+    },
+    "Clothes": {
+      "Кампания_Clothes_1": {
+        "spend": 16430.73,
+        "revenue": 49735.93,
+        "impressions": 199019,
+        "clicks": 4625,
+        "ctr": 2.32,
+        "roas": 3.03,
+        "cpc": 3.55
+      },
+      "Кампания_Clothes_2": {
+        "spend": 44027.64,
+        "revenue": 124210.03,
+        "impressions": 168738,
+        "clicks": 3914,
+        "ctr": 2.32,
+        "roas": 2.82,
+        "cpc": 11.25
+      },
+      "Кампания_Clothes_3": {
+        "spend": 35376.51,
+        "revenue": 91736.73,
+        "impressions": 194502,
+        "clicks": 6531,
+        "ctr": 3.36,
+        "roas": 2.59,
+        "cpc": 5.42
+      },
+      "Кампания_Clothes_4": {
+        "spend": 28951.17,
+        "revenue": 85722.99,
+        "impressions": 92114,
+        "clicks": 2258,
+        "ctr": 2.45,
+        "roas": 2.96,
+        "cpc": 12.82
+      },
+      "Кампания_Clothes_5": {
+        "spend": 34471.28,
+        "revenue": 138458.47,
+        "impressions": 102104,
+        "clicks": 3091,
+        "ctr": 3.03,
+        "roas": 4.02,
+        "cpc": 11.15
+      },
+      "Кампания_Clothes_6": {
+        "spend": 31743.1,
+        "revenue": 122604.08,
+        "impressions": 175118,
+        "clicks": 5892,
+        "ctr": 3.36,
+        "roas": 3.86,
+        "cpc": 5.39
+      }
+    },
+    "Food": {
+      "Кампания_Food_1": {
+        "spend": 34033.85,
+        "revenue": 134903.17,
+        "impressions": 114032,
+        "clicks": 3575,
+        "ctr": 3.14,
+        "roas": 3.96,
+        "cpc": 9.52
+      },
+      "Кампания_Food_2": {
+        "spend": 19666.7,
+        "revenue": 59862.93,
+        "impressions": 118832,
+        "clicks": 3969,
+        "ctr": 3.34,
+        "roas": 3.04,
+        "cpc": 4.96
+      },
+      "Кампания_Food_3": {
+        "spend": 17567.59,
+        "revenue": 71276.92,
+        "impressions": 108638,
+        "clicks": 3310,
+        "ctr": 3.05,
+        "roas": 4.06,
+        "cpc": 5.31
+      },
+      "Кампания_Food_4": {
+        "spend": 42041.11,
+        "revenue": 160099.39,
+        "impressions": 153831,
+        "clicks": 4291,
+        "ctr": 2.79,
+        "roas": 3.81,
+        "cpc": 9.8
+      },
+      "Кампания_Food_5": {
+        "spend": 22942.81,
+        "revenue": 60826.01,
+        "impressions": 109924,
+        "clicks": 3627,
+        "ctr": 3.3,
+        "roas": 2.65,
+        "cpc": 6.33
+      },
+      "Кампания_Food_6": {
+        "spend": 26463.86,
+        "revenue": 92301.29,
+        "impressions": 170228,
+        "clicks": 4909,
+        "ctr": 2.88,
+        "roas": 3.49,
+        "cpc": 5.39
+      }
+    },
+    "Electronics": {
+      "Кампания_Electronics_1": {
+        "spend": 28731.4,
+        "revenue": 96652.29,
+        "impressions": 165741,
+        "clicks": 5100,
+        "ctr": 3.08,
+        "roas": 3.36,
+        "cpc": 5.63
+      },
+      "Кампания_Electronics_2": {
+        "spend": 25451.78,
+        "revenue": 106497.75,
+        "impressions": 178799,
+        "clicks": 4885,
+        "ctr": 2.73,
+        "roas": 4.18,
+        "cpc": 5.21
+      },
+      "Кампания_Electronics_3": {
+        "spend": 39973.85,
+        "revenue": 133896.75,
+        "impressions": 156822,
+        "clicks": 2959,
+        "ctr": 1.89,
+        "roas": 3.35,
+        "cpc": 13.51
+      },
+      "Кампания_Electronics_4": {
+        "spend": 32152.49,
+        "revenue": 117456.04,
+        "impressions": 180941,
+        "clicks": 4880,
+        "ctr": 2.7,
+        "roas": 3.65,
+        "cpc": 6.59
+      },
+      "Кампания_Electronics_5": {
+        "spend": 29105.79,
+        "revenue": 87102.94,
+        "impressions": 173665,
+        "clicks": 3462,
+        "ctr": 1.99,
+        "roas": 2.99,
+        "cpc": 8.41
+      },
+      "Кампания_Electronics_6": {
+        "spend": 26982.72,
+        "revenue": 69126.34,
+        "impressions": 141669,
+        "clicks": 3112,
+        "ctr": 2.2,
+        "roas": 2.56,
+        "cpc": 8.67
+      }
+    },
+    "Home": {
+      "Кампания_Home_1": {
+        "spend": 27987.11,
+        "revenue": 112140.38,
+        "impressions": 111879,
+        "clicks": 3239,
+        "ctr": 2.9,
+        "roas": 4.01,
+        "cpc": 8.64
+      },
+      "Кампания_Home_2": {
+        "spend": 27457.49,
+        "revenue": 83513.28,
+        "impressions": 168028,
+        "clicks": 4167,
+        "ctr": 2.48,
+        "roas": 3.04,
+        "cpc": 6.59
+      },
+      "Кампания_Home_3": {
+        "spend": 43019.3,
+        "revenue": 163311.99,
+        "impressions": 106094,
+        "clicks": 3670,
+        "ctr": 3.46,
+        "roas": 3.8,
+        "cpc": 11.72
+      },
+      "Кампания_Home_4": {
+        "spend": 20585.62,
+        "revenue": 67296.55,
+        "impressions": 177507,
+        "clicks": 4842,
+        "ctr": 2.73,
+        "roas": 3.27,
+        "cpc": 4.25
+      },
+      "Кампания_Home_5": {
+        "spend": 25116.85,
+        "revenue": 75754.88,
+        "impressions": 136220,
+        "clicks": 4463,
+        "ctr": 3.28,
+        "roas": 3.02,
+        "cpc": 5.63
+      },
+      "Кампания_Home_6": {
+        "spend": 22138.5,
+        "revenue": 82332.61,
+        "impressions": 80223,
+        "clicks": 1460,
+        "ctr": 1.82,
+        "roas": 3.72,
+        "cpc": 15.16
+      }
+    }
+  },
+  "monthly_trends": {
+    "Beauty": [
+      1373308,
+      1452274,
+      1290580,
+      1342928,
+      1490754,
+      1442206,
+      1417729,
+      1571119,
+      1463175,
+      1556893
+    ],
+    "Clothes": [
+      1164664,
+      1168807,
+      1173097,
+      1329591,
+      1186910,
+      1190094,
+      1239049,
+      1260802,
+      1328144,
+      1310885
+    ],
+    "Food": [
+      1169830,
+      1070367,
+      1295052,
+      1077338,
+      1111298,
+      1171955,
+      1255481,
+      1110129,
+      1200434,
+      1279171
+    ],
+    "Electronics": [
+      1406667,
+      1565184,
+      1642412,
+      1446553,
+      1411875,
+      1613118,
+      1599509,
+      1526042,
+      1519341,
+      1440678
+    ],
+    "Home": [
+      1231849,
+      1140411,
+      1224918,
+      1201901,
+      1155135,
+      1122461,
+      1207538,
+      1200586,
+      1179246,
+      1098712
+    ]
+  },
+  "categories": [
+    "Beauty",
+    "Clothes",
+    "Food",
+    "Electronics",
+    "Home"
+  ],
+  "chart_insights": {
+    "revenue_chart": "Помогает аналитику отслеживать динамику доходов и выявлять тренды роста или падения по периодам",
+    "orders_chart": "Позволяет аналитику понять объёмы заказов, средний чек и эффективность продаж",
+    "expenses_chart": "Показывает аналитику структуру затрат для оптимизации расходов",
+    "logistics_chart": "Помогает аналитику оценить эффективность логистических процессов и время доставки",
+    "roi_chart": "Позволяет аналитику оценить рентабельность инвестиций и принимать решения о бюджете",
+    "advertising_chart": "Показывает аналитику эффективность рекламных кампаний и ROI по каналам",
+    "taxes_chart": "Помогает аналитику контролировать налоговую нагрузку и планировать платежи",
+    "storage_chart": "Позволяет аналитику оптимизировать складские расходы и управлять запасами",
+    "funnel_chart": "Показывает аналитику точки потерь клиентов и возможности улучшения конверсии",
+    "cost_chart": "Помогает аналитику анализировать себестоимость товаров и оптимизировать маржу"
+  }
+}

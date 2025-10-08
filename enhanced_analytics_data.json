@@ -1,0 +1,929 @@
+{
+  "metrics": {
+    "operational_expenses": {
+      "Year": {
+        "all": 48273615,
+        "Gasoline": 12486321,
+        "Warehouses": 8926143,
+        "Advertising": 9024164,
+        "Gasoline_percent": 25.86,
+        "Warehouses_percent": 18.49,
+        "Advertising_percent": 18.69
+      },
+      "Month": {
+        "all": 4019523,
+        "Gasoline": 1038254,
+        "Warehouses": 744218,
+        "Advertising": 754841,
+        "Gasoline_percent": 25.83,
+        "Warehouses_percent": 18.52,
+        "Advertising_percent": 18.79
+      },
+      "Week": {
+        "all": 1004881,
+        "Gasoline": 259563,
+        "Warehouses": 187624,
+        "Advertising": 187704,
+        "Gasoline_percent": 25.83,
+        "Warehouses_percent": 18.67,
+        "Advertising_percent": 18.68
+      }
+    },
+    "orders": {
+      "Year": {
+        "all": 1835129342,
+        "all_quantity": 458214,
+        "avg_order_value": 4006,
+        "returns": 215634182,
+        "returns_quantity": 37219,
+        "redemption_rate": 88
+      },
+      "Month": {
+        "all": 154347812,
+        "all_quantity": 38120,
+        "avg_order_value": 4047,
+        "returns": 17851472,
+        "returns_quantity": 3108,
+        "redemption_rate": 88
+      },
+      "Week": {
+        "all": 38481953,
+        "all_quantity": 9503,
+        "avg_order_value": 4050,
+        "returns": 4421873,
+        "returns_quantity": 772,
+        "redemption_rate": 88
+      }
+    },
+    "storage": {
+      "Year": {
+        "all": 11243891,
+        "avg_per_item": 24,
+        "warehouse_count": 6
+      },
+      "Month": {
+        "all": 937231,
+        "avg_per_item": 23,
+        "warehouse_count": 6
+      },
+      "Week": {
+        "all": 234308,
+        "avg_per_item": 22,
+        "warehouse_count": 6
+      }
+    },
+    "cost_of_sales": {
+      "Year": {
+        "all": 934517324,
+        "percent": 28.6,
+        "change_rub": 12563114,
+        "change_percent": 1.36
+      },
+      "Month": {
+        "all": 77876443,
+        "percent": 28.3,
+        "change_rub": 1025304,
+        "change_percent": 1.33
+      },
+      "Week": {
+        "all": 19469111,
+        "percent": 28.1,
+        "change_rub": 268055,
+        "change_percent": 1.39
+      }
+    },
+    "logistics": {
+      "Year": {
+        "all": 128736458,
+        "percent": 21.5,
+        "average_delivery_days": 3.8
+      },
+      "Month": {
+        "all": 10731371,
+        "percent": 21.3,
+        "average_delivery_days": 3.8
+      },
+      "Week": {
+        "all": 2682843,
+        "percent": 21.4,
+        "average_delivery_days": 3.9
+      }
+    },
+    "other_retentions": {
+      "Year": {
+        "all": 2364812,
+        "percent": 0.38,
+        "penalties": 1439210,
+        "adjustments": 925602
+      },
+      "Month": {
+        "all": 197068,
+        "percent": 0.39,
+        "penalties": 118934,
+        "adjustments": 78134
+      },
+      "Week": {
+        "all": 49267,
+        "percent": 0.39,
+        "penalties": 29783,
+        "adjustments": 19484
+      }
+    },
+    "taxes": {
+      "Year": {
+        "all": 112483921,
+        "percent": 3.9,
+        "nds": 82931421,
+        "income_tax": 29552500
+      },
+      "Month": {
+        "all": 9373653,
+        "percent": 3.8,
+        "nds": 6890773,
+        "income_tax": 2482880
+      },
+      "Week": {
+        "all": 2345582,
+        "percent": 3.8,
+        "nds": 1722693,
+        "income_tax": 622889
+      }
+    },
+    "realization": {
+      "Year": {
+        "all": 3654219284,
+        "percent": 100,
+        "change_rub": 21963143,
+        "change_percent": 0.6
+      },
+      "Month": {
+        "all": 304518827,
+        "percent": 100,
+        "change_rub": 1789134,
+        "change_percent": 0.59
+      },
+      "Week": {
+        "all": 76129706,
+        "percent": 100,
+        "change_rub": 447278,
+        "change_percent": 0.59
+      }
+    },
+    "advertising": {
+      "Year": {
+        "all": 86439214,
+        "percent": 9.2,
+        "roi": 12.4
+      },
+      "Month": {
+        "all": 7204934,
+        "percent": 9.1,
+        "roi": 12.5
+      },
+      "Week": {
+        "all": 1801234,
+        "percent": 9.1,
+        "roi": 12.5
+      }
+    },
+    "roi": {
+      "Year": {
+        "percent": 12.1,
+        "change_percent": 0.8
+      },
+      "Month": {
+        "percent": 12.4,
+        "change_percent": 0.3
+      },
+      "Week": {
+        "percent": 12.6,
+        "change_percent": 0.2
+      }
+    },
+    "commission": {
+      "Year": {
+        "all": 68734125,
+        "percent": 2.1,
+        "partner_fees": 49873212,
+        "marketplace_fees": 18860913
+      },
+      "Month": {
+        "all": 5727843,
+        "percent": 2.0,
+        "partner_fees": 4156109,
+        "marketplace_fees": 1571734
+      },
+      "Week": {
+        "all": 1431961,
+        "percent": 2.0,
+        "partner_fees": 1039027,
+        "marketplace_fees": 392934
+      }
+    }
+  },
+  "sales_returns": {
+    "sales_and_returns": {
+      "Year": {
+        "all": 2608561921,
+        "all_quantity": 247159,
+        "all_returns": 400396119,
+        "all_returns_quantity": 38050,
+        "all_redemption_percentage": 84,
+        "Beauty": 12514071,
+        "Beauty_quantity": 1177,
+        "Beauty_returns": 2057725,
+        "Beauty_returns_quantity": 167,
+        "Beauty_redemption_percentage": 83,
+        "Clothes": 11384458,
+        "Clothes_quantity": 1037,
+        "Clothes_returns": 1617562,
+        "Clothes_returns_quantity": 137,
+        "Clothes_redemption_percentage": 85,
+        "Food": 10487281,
+        "Food_quantity": 1064,
+        "Food_returns": 1521421,
+        "Food_returns_quantity": 181,
+        "Food_redemption_percentage": 85,
+        "Electronics": 13664246,
+        "Electronics_returns": 1302,
+        "Electronics_returns_quantity": 2056780,
+        "Electronics_quantity": 194,
+        "Electonics_redemption_percentage": 84,
+        "Home": 10462417,
+        "Home_returns": 890,
+        "Home_returns_quantity": 1520984,
+        "Home_quantity": 125,
+        "Home_redemption_percentage": 85
+      },
+      "Month": {
+        "all": 275161243,
+        "all_quantity": 25961,
+        "all_returns": 41771467,
+        "all_returns_quantity": 3927,
+        "all_redemption_percentage": 84,
+        "Beauty": 59277586,
+        "Beauty_quantity": 5696,
+        "Beauty_returns": 892,
+        "Beauty_returns_quantity": 83,
+        "Beauty_redemption_percentage": 84,
+        "Clothes": 53466039,
+        "Clothes_quantity": 4889,
+        "Clothes_returns": 757,
+        "Clothes_returns_quantity": 85,
+        "Clothes_redemption_percentage": 84,
+        "Food": 49472463,
+        "Food_quantity": 5141,
+        "Food_returns": 759,
+        "Food_returns_quantity": 85,
+        "Food_redemption_percentage": 85,
+        "Electronics": 62216716,
+        "Electronics_returns": 885,
+        "Electronics_returns_quantity": 84,
+        "Electronics_quantity": 5801,
+        "Electronics_redemption_percentage": 84,
+        "Home": 50728437,
+        "Home_returns": 634,
+        "Home_returns_quantity": 85,
+        "Home_quantity": 4434,
+        "Home_redemption_percentage": 84
+      },
+      "Week": {
+        "all": 58673462,
+        "all_quantity": 5489,
+        "all_returns": 8832811,
+        "all_returns_quantity": 807,
+        "all_redemption_percentage": 84,
+        "Beauty": 12565278,
+        "Beauty_quantity": 1184,
+        "Beauty_returns": 2057725,
+        "Beauty_returns_quantity": 167,
+        "Beauty_redemption_percentage": 84,
+        "Clothes": 11384458,
+        "Clothes_quantity": 1037,
+        "Clothes_returns": 1617562,
+        "Clothes_returns_quantity": 137,
+        "Clothes_redemption_percentage": 84,
+        "Food": 10492118,
+        "Food_quantity": 1068,
+        "Food_returns": 1521421,
+        "Food_returns_quantity": 181,
+        "Food_redemption_percentage": 84,
+        "Electronics": 13664246,
+        "Electronics_returns": 1302,
+        "Electronics_returns_quantity": 2056780,
+        "Electronics_quantity": 194,
+        "Electonics_redemption_percentage": 84,
+        "Home": 10462417,
+        "Home_returns": 890,
+        "Home_returns_quantity": 1520984,
+        "Home_quantity": 125,
+        "Home_redemption_percentage": 85
+      }
+    }
+  },
+  "funnel": {
+    "funnel_data": [
+      {
+        "category": "Beauty",
+        "stages": [
+          {
+            "name": "Просмотры категории",
+            "value": 66706
+          },
+          {
+            "name": "Переходы в карточку",
+            "value": 17540
+          },
+          {
+            "name": "Добавления в корзину",
+            "value": 2631
+          },
+          {
+            "name": "Оформленные заказы",
+            "value": 1184
+          },
+          {
+            "name": "Выкупленные заказы",
+            "value": 994
+          }
+        ]
+      },
+      {
+        "category": "Clothes",
+        "stages": [
+          {
+            "name": "Просмотры категории",
+            "value": 55680
+          },
+          {
+            "name": "Переходы в карточку",
+            "value": 15360
+          },
+          {
+            "name": "Добавления в корзину",
+            "value": 2304
+          },
+          {
+            "name": "Оформленные заказы",
+            "value": 1037
+          },
+          {
+            "name": "Выкупленные заказы",
+            "value": 871
+          }
+        ]
+      },
+      {
+        "category": "Food",
+        "stages": [
+          {
+            "name": "Просмотры категории",
+            "value": 65138
+          },
+          {
+            "name": "Переходы в карточку",
+            "value": 15820
+          },
+          {
+            "name": "Добавления в корзину",
+            "value": 2373
+          },
+          {
+            "name": "Оформленные заказы",
+            "value": 1068
+          },
+          {
+            "name": "Выкупленные заказы",
+            "value": 897
+          }
+        ]
+      },
+      {
+        "category": "Electronics",
+        "stages": [
+          {
+            "name": "Просмотры категории",
+            "value": 11724
+          },
+          {
+            "name": "Переходы в карточку",
+            "value": 2873
+          },
+          {
+            "name": "Добавления в корзину",
+            "value": 431
+          },
+          {
+            "name": "Оформленные заказы",
+            "value": 194
+          },
+          {
+            "name": "Выкупленные заказы",
+            "value": 162
+          }
+        ]
+      },
+      {
+        "category": "Home",
+        "stages": [
+          {
+            "name": "Просмотры категории",
+            "value": 7397
+          },
+          {
+            "name": "Переходы в карточку",
+            "value": 1846
+          },
+          {
+            "name": "Добавления в корзину",
+            "value": 277
+          },
+          {
+            "name": "Оформленные заказы",
+            "value": 125
+          },
+          {
+            "name": "Выкупленные заказы",
+            "value": 106
+          }
+        ]
+      }
+    ]
+  },
+  "sales_funnel_detailed": {
+    "sales_funnel_weekly": {
+      "categories": {
+        "Beauty": {
+          "viewed_category": 66706,
+          "viewed_product": 17540,
+          "added_to_cart": 2631,
+          "ordered": 1184,
+          "purchased": 994,
+          "conversion_rates": {
+            "category_to_product": 26.3,
+            "product_to_cart": 15.0,
+            "cart_to_order": 45.0,
+            "order_to_purchase": 84.0
+          }
+        },
+        "Clothes": {
+          "viewed_category": 55680,
+          "viewed_product": 15360,
+          "added_to_cart": 2304,
+          "ordered": 1037,
+          "purchased": 871,
+          "conversion_rates": {
+            "category_to_product": 27.6,
+            "product_to_cart": 15.0,
+            "cart_to_order": 45.0,
+            "order_to_purchase": 84.0
+          }
+        },
+        "Food": {
+          "viewed_category": 65138,
+          "viewed_product": 15820,
+          "added_to_cart": 2373,
+          "ordered": 1068,
+          "purchased": 897,
+          "conversion_rates": {
+            "category_to_product": 24.3,
+            "product_to_cart": 15.0,
+            "cart_to_order": 45.0,
+            "order_to_purchase": 84.0
+          }
+        },
+        "Electronics": {
+          "viewed_category": 11724,
+          "viewed_product": 2873,
+          "added_to_cart": 431,
+          "ordered": 194,
+          "purchased": 162,
+          "conversion_rates": {
+            "category_to_product": 24.5,
+            "product_to_cart": 15.0,
+            "cart_to_order": 45.0,
+            "order_to_purchase": 83.5
+          }
+        },
+        "Home": {
+          "viewed_category": 7397,
+          "viewed_product": 1846,
+          "added_to_cart": 277,
+          "ordered": 125,
+          "purchased": 106,
+          "conversion_rates": {
+            "category_to_product": 25.0,
+            "product_to_cart": 15.0,
+            "cart_to_order": 45.1,
+            "order_to_purchase": 84.8
+          }
+        }
+      },
+      "totals": {
+        "viewed_category": 206645,
+        "viewed_product": 53439,
+        "added_to_cart": 8016,
+        "ordered": 3608,
+        "purchased": 3030,
+        "conversion_rates": {
+          "category_to_product": 25.9,
+          "product_to_cart": 15.0,
+          "cart_to_order": 45.0,
+          "order_to_purchase": 84.0
+        }
+      },
+      "period": "week",
+      "description": "Sales funnel data showing user journey from category view to purchase completion"
+    }
+  },
+  "categories": [
+    "Beauty",
+    "Clothes",
+    "Food",
+    "Electronics",
+    "Home"
+  ],
+  "geographic_distribution": {
+    "Beauty": {
+      "Москва": 287161,
+      "СПб": 45465,
+      "Екатеринбург": 51839,
+      "Новосибирск": 94473,
+      "Казань": 161147,
+      "Нижний Новгород": 101113,
+      "Челябинск": 15896,
+      "Самара": 55744,
+      "Ростов-на-Дону": 20962,
+      "Уфа": 198629
+    },
+    "Clothes": {
+      "Москва": 561799,
+      "СПб": 221884,
+      "Екатеринбург": 294188,
+      "Новосибирск": 97117,
+      "Казань": 178384,
+      "Нижний Новгород": 122682,
+      "Челябинск": 121281,
+      "Самара": 67757,
+      "Ростов-на-Дону": 47755,
+      "Уфа": 218597
+    },
+    "Food": {
+      "Москва": 51040,
+      "СПб": 119500,
+      "Екатеринбург": 95616,
+      "Новосибирск": 29855,
+      "Казань": 92892,
+      "Нижний Новгород": 41433,
+      "Челябинск": 71784,
+      "Самара": 65788,
+      "Ростов-на-Дону": 12081,
+      "Уфа": 167041
+    },
+    "Electronics": {
+      "Москва": 219115,
+      "СПб": 239162,
+      "Екатеринбург": 84119,
+      "Новосибирск": 101667,
+      "Казань": 114041,
+      "Нижний Новгород": 59692,
+      "Челябинск": 51911,
+      "Самара": 36814,
+      "Ростов-на-Дону": 15771,
+      "Уфа": 227833
+    },
+    "Home": {
+      "Москва": 161529,
+      "СПб": 102624,
+      "Екатеринбург": 130116,
+      "Новосибирск": 32022,
+      "Казань": 68546,
+      "Нижний Новгород": 82673,
+      "Челябинск": 21798,
+      "Самара": 56984,
+      "Ростов-на-Дону": 16339,
+      "Уфа": 119815
+    }
+  },
+  "hourly_sales": {
+    "Beauty": {
+      "00:00": 51,
+      "01:00": 158,
+      "02:00": 77,
+      "03:00": 116,
+      "04:00": 89,
+      "05:00": 131,
+      "06:00": 87,
+      "07:00": 135,
+      "08:00": 49,
+      "09:00": 42,
+      "10:00": 73,
+      "11:00": 108,
+      "12:00": 114,
+      "13:00": 112,
+      "14:00": 194,
+      "15:00": 199,
+      "16:00": 75,
+      "17:00": 117,
+      "18:00": 264,
+      "19:00": 108,
+      "20:00": 162,
+      "21:00": 289,
+      "22:00": 220,
+      "23:00": 198
+    },
+    "Clothes": {
+      "00:00": 58,
+      "01:00": 167,
+      "02:00": 180,
+      "03:00": 106,
+      "04:00": 53,
+      "05:00": 139,
+      "06:00": 133,
+      "07:00": 48,
+      "08:00": 133,
+      "09:00": 121,
+      "10:00": 128,
+      "11:00": 177,
+      "12:00": 145,
+      "13:00": 200,
+      "14:00": 63,
+      "15:00": 136,
+      "16:00": 196,
+      "17:00": 128,
+      "18:00": 108,
+      "19:00": 277,
+      "20:00": 255,
+      "21:00": 139,
+      "22:00": 186,
+      "23:00": 144
+    },
+    "Food": {
+      "00:00": 79,
+      "01:00": 152,
+      "02:00": 114,
+      "03:00": 35,
+      "04:00": 34,
+      "05:00": 102,
+      "06:00": 65,
+      "07:00": 101,
+      "08:00": 160,
+      "09:00": 163,
+      "10:00": 53,
+      "11:00": 112,
+      "12:00": 322,
+      "13:00": 280,
+      "14:00": 172,
+      "15:00": 131,
+      "16:00": 152,
+      "17:00": 60,
+      "18:00": 191,
+      "19:00": 210,
+      "20:00": 180,
+      "21:00": 150,
+      "22:00": 97,
+      "23:00": 165
+    },
+    "Electronics": {
+      "00:00": 148,
+      "01:00": 189,
+      "02:00": 79,
+      "03:00": 68,
+      "04:00": 43,
+      "05:00": 63,
+      "06:00": 79,
+      "07:00": 55,
+      "08:00": 162,
+      "09:00": 177,
+      "10:00": 50,
+      "11:00": 53,
+      "12:00": 59,
+      "13:00": 180,
+      "14:00": 270,
+      "15:00": 198,
+      "16:00": 207,
+      "17:00": 127,
+      "18:00": 92,
+      "19:00": 144,
+      "20:00": 150,
+      "21:00": 116,
+      "22:00": 136,
+      "23:00": 157
+    },
+    "Home": {
+      "00:00": 107,
+      "01:00": 105,
+      "02:00": 68,
+      "03:00": 59,
+      "04:00": 66,
+      "05:00": 70,
+      "06:00": 31,
+      "07:00": 72,
+      "08:00": 133,
+      "09:00": 75,
+      "10:00": 161,
+      "11:00": 88,
+      "12:00": 241,
+      "13:00": 172,
+      "14:00": 178,
+      "15:00": 120,
+      "16:00": 200,
+      "17:00": 147,
+      "18:00": 157,
+      "19:00": 105,
+      "20:00": 153,
+      "21:00": 74,
+      "22:00": 116,
+      "23:00": 200
+    }
+  },
+  "customer_demographics": {
+    "Beauty": {
+      "age_groups": {
+        "18-25": 15.0,
+        "26-35": 36.3,
+        "36-45": 21.2,
+        "46-55": 17.7,
+        "56+": 9.7
+      },
+      "gender": {
+        "Мужчины": 48.6,
+        "Женщины": 51.4
+      }
+    },
+    "Clothes": {
+      "age_groups": {
+        "18-25": 15.5,
+        "26-35": 25.0,
+        "36-45": 28.4,
+        "46-55": 20.7,
+        "56+": 10.3
+      },
+      "gender": {
+        "Мужчины": 60.7,
+        "Женщины": 39.3
+      }
+    },
+    "Food": {
+      "age_groups": {
+        "18-25": 20.2,
+        "26-35": 34.9,
+        "36-45": 26.6,
+        "46-55": 11.0,
+        "56+": 7.3
+      },
+      "gender": {
+        "Мужчины": 61.9,
+        "Женщины": 38.1
+      }
+    },
+    "Electronics": {
+      "age_groups": {
+        "18-25": 13.1,
+        "26-35": 34.4,
+        "36-45": 26.2,
+        "46-55": 17.2,
+        "56+": 9.0
+      },
+      "gender": {
+        "Мужчины": 56.4,
+        "Женщины": 43.6
+      }
+    },
+    "Home": {
+      "age_groups": {
+        "18-25": 26.1,
+        "26-35": 24.4,
+        "36-45": 26.1,
+        "46-55": 11.8,
+        "56+": 11.8
+      },
+      "gender": {
+        "Мужчины": 58.7,
+        "Женщины": 41.3
+      }
+    }
+  },
+  "seasonal_trends": {
+    "Beauty": {
+      "Янв": 919864,
+      "Фев": 951827,
+      "Мар": 912296,
+      "Апр": 1155360,
+      "Май": 1063940,
+      "Июн": 700344,
+      "Июл": 985528,
+      "Авг": 845000,
+      "Сен": 1167370,
+      "Окт": 1372213,
+      "Ноя": 1084806,
+      "Дек": 1514683
+    },
+    "Clothes": {
+      "Янв": 857711,
+      "Фев": 915009,
+      "Мар": 967830,
+      "Апр": 1066132,
+      "Май": 1263225,
+      "Июн": 859689,
+      "Июл": 855334,
+      "Авг": 779776,
+      "Сен": 1500996,
+      "Окт": 1613624,
+      "Ноя": 1568719,
+      "Дек": 1311676
+    },
+    "Food": {
+      "Янв": 1391685,
+      "Фев": 1641937,
+      "Мар": 1510625,
+      "Апр": 1572716,
+      "Май": 1471728,
+      "Июн": 1130218,
+      "Июл": 1415891,
+      "Авг": 1204050,
+      "Сен": 1577534,
+      "Окт": 1492571,
+      "Ноя": 1249028,
+      "Дек": 1802607
+    },
+    "Electronics": {
+      "Янв": 1297919,
+      "Фев": 1192741,
+      "Мар": 1127206,
+      "Апр": 1309447,
+      "Май": 1594290,
+      "Июн": 1410239,
+      "Июл": 1651878,
+      "Авг": 1441695,
+      "Сен": 1375269,
+      "Окт": 1547062,
+      "Ноя": 2595932,
+      "Дек": 2275654
+    },
+    "Home": {
+      "Янв": 855139,
+      "Фев": 851679,
+      "Мар": 1907260,
+      "Апр": 1492985,
+      "Май": 1484009,
+      "Июн": 1143019,
+      "Июл": 1172324,
+      "Авг": 1289368,
+      "Сен": 1242638,
+      "Окт": 1285900,
+      "Ноя": 1055138,
+      "Дек": 1223163
+    }
+  },
+  "return_reasons": {
+    "Beauty": {
+      "Не подошёл оттенок": 11,
+      "Повреждение упаковки": 27,
+      "Аллергическая реакция": 15,
+      "Неправильный товар": 28,
+      "Брак товара": 19
+    },
+    "Clothes": {
+      "Не подошёл размер": 22,
+      "Не подошёл цвет": 26,
+      "Повреждение ткани": 14,
+      "Неправильный товар": 12,
+      "Качество не соответствует": 26
+    },
+    "Food": {
+      "Истёк срок годности": 23,
+      "Повреждение упаковки": 19,
+      "Неправильный товар": 14,
+      "Не подошёл вкус": 27,
+      "Проблемы с качеством": 17
+    },
+    "Electronics": {
+      "Технический брак": 30,
+      "Не работает": 26,
+      "Повреждение при доставке": 22,
+      "Неправильный товар": 15,
+      "Не подошли характеристики": 7
+    },
+    "Home": {
+      "Повреждение при доставке": 13,
+      "Неправильный товар": 11,
+      "Не подошёл размер": 12,
+      "Брак товара": 29,
+      "Не подошёл цвет": 35
+    }
+  },
+  "wildberries_colors": {
+    "primary": "#6639BA",
+    "primary_light": "#8B5FE6",
+    "secondary": "#F5F5F5",
+    "accent": "#FF6B35",
+    "success": "#10B981",
+    "warning": "#F59E0B",
+    "danger": "#EF4444",
+    "text_primary": "#1F2937",
+    "text_secondary": "#6B7280",
+    "background": "#FFFFFF",
+    "card_bg": "#F9FAFB"
+  }
+}

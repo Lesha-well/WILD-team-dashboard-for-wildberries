@@ -1,0 +1,8216 @@
+{
+  "metrics": {
+    "operational_expenses": {
+      "Year": {
+        "all": 48273615,
+        "Gasoline": 12486321,
+        "Warehouses": 8926143,
+        "Advertising": 9024164,
+        "Gasoline_percent": 25.86,
+        "Warehouses_percent": 18.49,
+        "Advertising_percent": 18.69
+      },
+      "Month": {
+        "all": 4019523,
+        "Gasoline": 1038254,
+        "Warehouses": 744218,
+        "Advertising": 754841,
+        "Gasoline_percent": 25.83,
+        "Warehouses_percent": 18.52,
+        "Advertising_percent": 18.79
+      },
+      "Week": {
+        "all": 1004881,
+        "Gasoline": 259563,
+        "Warehouses": 187624,
+        "Advertising": 187704,
+        "Gasoline_percent": 25.83,
+        "Warehouses_percent": 18.67,
+        "Advertising_percent": 18.68
+      }
+    },
+    "orders": {
+      "Year": {
+        "all": 1835129342,
+        "all_quantity": 458214,
+        "avg_order_value": 4006,
+        "returns": 215634182,
+        "returns_quantity": 37219,
+        "redemption_rate": 88
+      },
+      "Month": {
+        "all": 154347812,
+        "all_quantity": 38120,
+        "avg_order_value": 4047,
+        "returns": 17851472,
+        "returns_quantity": 3108,
+        "redemption_rate": 88
+      },
+      "Week": {
+        "all": 38481953,
+        "all_quantity": 9503,
+        "avg_order_value": 4050,
+        "returns": 4421873,
+        "returns_quantity": 772,
+        "redemption_rate": 88
+      }
+    },
+    "storage": {
+      "Year": {
+        "all": 11243891,
+        "avg_per_item": 24,
+        "warehouse_count": 6
+      },
+      "Month": {
+        "all": 937231,
+        "avg_per_item": 23,
+        "warehouse_count": 6
+      },
+      "Week": {
+        "all": 234308,
+        "avg_per_item": 22,
+        "warehouse_count": 6
+      }
+    },
+    "cost_of_sales": {
+      "Year": {
+        "all": 934517324,
+        "percent": 28.6,
+        "change_rub": 12563114,
+        "change_percent": 1.36
+      },
+      "Month": {
+        "all": 77876443,
+        "percent": 28.3,
+        "change_rub": 1025304,
+        "change_percent": 1.33
+      },
+      "Week": {
+        "all": 19469111,
+        "percent": 28.1,
+        "change_rub": 268055,
+        "change_percent": 1.39
+      }
+    },
+    "logistics": {
+      "Year": {
+        "all": 128736458,
+        "percent": 21.5,
+        "average_delivery_days": 3.8
+      },
+      "Month": {
+        "all": 10731371,
+        "percent": 21.3,
+        "average_delivery_days": 3.8
+      },
+      "Week": {
+        "all": 2682843,
+        "percent": 21.4,
+        "average_delivery_days": 3.9
+      }
+    },
+    "other_retentions": {
+      "Year": {
+        "all": 2364812,
+        "percent": 0.38,
+        "penalties": 1439210,
+        "adjustments": 925602
+      },
+      "Month": {
+        "all": 197068,
+        "percent": 0.39,
+        "penalties": 118934,
+        "adjustments": 78134
+      },
+      "Week": {
+        "all": 49267,
+        "percent": 0.39,
+        "penalties": 29783,
+        "adjustments": 19484
+      }
+    },
+    "taxes": {
+      "Year": {
+        "all": 112483921,
+        "percent": 3.9,
+        "nds": 82931421,
+        "income_tax": 29552500
+      },
+      "Month": {
+        "all": 9373653,
+        "percent": 3.8,
+        "nds": 6890773,
+        "income_tax": 2482880
+      },
+      "Week": {
+        "all": 2345582,
+        "percent": 3.8,
+        "nds": 1722693,
+        "income_tax": 622889
+      }
+    },
+    "realization": {
+      "Year": {
+        "all": 3654219284,
+        "percent": 100,
+        "change_rub": 21963143,
+        "change_percent": 0.6
+      },
+      "Month": {
+        "all": 304518827,
+        "percent": 100,
+        "change_rub": 1789134,
+        "change_percent": 0.59
+      },
+      "Week": {
+        "all": 76129706,
+        "percent": 100,
+        "change_rub": 447278,
+        "change_percent": 0.59
+      }
+    },
+    "advertising": {
+      "Year": {
+        "all": 86439214,
+        "percent": 9.2,
+        "roi": 12.4
+      },
+      "Month": {
+        "all": 7204934,
+        "percent": 9.1,
+        "roi": 12.5
+      },
+      "Week": {
+        "all": 1801234,
+        "percent": 9.1,
+        "roi": 12.5
+      }
+    },
+    "roi": {
+      "Year": {
+        "percent": 12.1,
+        "change_percent": 0.8
+      },
+      "Month": {
+        "percent": 12.4,
+        "change_percent": 0.3
+      },
+      "Week": {
+        "percent": 12.6,
+        "change_percent": 0.2
+      }
+    },
+    "commission": {
+      "Year": {
+        "all": 68734125,
+        "percent": 2.1,
+        "partner_fees": 49873212,
+        "marketplace_fees": 18860913
+      },
+      "Month": {
+        "all": 5727843,
+        "percent": 2.0,
+        "partner_fees": 4156109,
+        "marketplace_fees": 1571734
+      },
+      "Week": {
+        "all": 1431961,
+        "percent": 2.0,
+        "partner_fees": 1039027,
+        "marketplace_fees": 392934
+      }
+    }
+  },
+  "sales_returns": {
+    "sales_and_returns": {
+      "Year": {
+        "all": 2608561921,
+        "all_quantity": 247159,
+        "all_returns": 400396119,
+        "all_returns_quantity": 38050,
+        "all_redemption_percentage": 84,
+        "Beauty": 12514071,
+        "Beauty_quantity": 1177,
+        "Beauty_returns": 2057725,
+        "Beauty_returns_quantity": 167,
+        "Beauty_redemption_percentage": 83,
+        "Clothes": 11384458,
+        "Clothes_quantity": 1037,
+        "Clothes_returns": 1617562,
+        "Clothes_returns_quantity": 137,
+        "Clothes_redemption_percentage": 85,
+        "Food": 10487281,
+        "Food_quantity": 1064,
+        "Food_returns": 1521421,
+        "Food_returns_quantity": 181,
+        "Food_redemption_percentage": 85,
+        "Electronics": 13664246,
+        "Electronics_returns": 1302,
+        "Electronics_returns_quantity": 2056780,
+        "Electronics_quantity": 194,
+        "Electonics_redemption_percentage": 84,
+        "Home": 10462417,
+        "Home_returns": 890,
+        "Home_returns_quantity": 1520984,
+        "Home_quantity": 125,
+        "Home_redemption_percentage": 85
+      },
+      "Month": {
+        "all": 275161243,
+        "all_quantity": 25961,
+        "all_returns": 41771467,
+        "all_returns_quantity": 3927,
+        "all_redemption_percentage": 84,
+        "Beauty": 59277586,
+        "Beauty_quantity": 5696,
+        "Beauty_returns": 892,
+        "Beauty_returns_quantity": 83,
+        "Beauty_redemption_percentage": 84,
+        "Clothes": 53466039,
+        "Clothes_quantity": 4889,
+        "Clothes_returns": 757,
+        "Clothes_returns_quantity": 85,
+        "Clothes_redemption_percentage": 84,
+        "Food": 49472463,
+        "Food_quantity": 5141,
+        "Food_returns": 759,
+        "Food_returns_quantity": 85,
+        "Food_redemption_percentage": 85,
+        "Electronics": 62216716,
+        "Electronics_returns": 885,
+        "Electronics_returns_quantity": 84,
+        "Electronics_quantity": 5801,
+        "Electronics_redemption_percentage": 84,
+        "Home": 50728437,
+        "Home_returns": 634,
+        "Home_returns_quantity": 85,
+        "Home_quantity": 4434,
+        "Home_redemption_percentage": 84
+      },
+      "Week": {
+        "all": 58673462,
+        "all_quantity": 5489,
+        "all_returns": 8832811,
+        "all_returns_quantity": 807,
+        "all_redemption_percentage": 84,
+        "Beauty": 12565278,
+        "Beauty_quantity": 1184,
+        "Beauty_returns": 2057725,
+        "Beauty_returns_quantity": 167,
+        "Beauty_redemption_percentage": 84,
+        "Clothes": 11384458,
+        "Clothes_quantity": 1037,
+        "Clothes_returns": 1617562,
+        "Clothes_returns_quantity": 137,
+        "Clothes_redemption_percentage": 84,
+        "Food": 10492118,
+        "Food_quantity": 1068,
+        "Food_returns": 1521421,
+        "Food_returns_quantity": 181,
+        "Food_redemption_percentage": 84,
+        "Electronics": 13664246,
+        "Electronics_returns": 1302,
+        "Electronics_returns_quantity": 2056780,
+        "Electronics_quantity": 194,
+        "Electonics_redemption_percentage": 84,
+        "Home": 10462417,
+        "Home_returns": 890,
+        "Home_returns_quantity": 1520984,
+        "Home_quantity": 125,
+        "Home_redemption_percentage": 85
+      }
+    }
+  },
+  "category_data": {
+    "Beauty": {
+      "Year": {
+        "sales": 12514071,
+        "quantity": 1177,
+        "avg_order_value": 10632,
+        "returns": 2057725,
+        "returns_quantity": 167,
+        "return_rate": 16.44,
+        "redemption_rate": 83,
+        "products_count": 107,
+        "avg_product_price": 10752.33,
+        "max_product_price": 19865.45,
+        "min_product_price": 388.82,
+        "total_inventory": 35529,
+        "avg_inventory_per_product": 473.72,
+        "return_incidents": 4321,
+        "return_incident_rate": 4038.32,
+        "advertising_spend": 54047.71,
+        "advertising_revenue": 96802.52,
+        "advertising_roas": 1.79,
+        "operational_expenses": 10324284,
+        "logistics_cost": 42124773,
+        "storage_cost": 3679193
+      },
+      "Month": {
+        "sales": 1128209,
+        "quantity": 106,
+        "avg_order_value": 10632,
+        "returns": 166963,
+        "returns_quantity": 13,
+        "return_rate": 16.44,
+        "redemption_rate": 83,
+        "products_count": 107,
+        "avg_product_price": 10752.33,
+        "total_inventory": 35529,
+        "return_incidents": 350,
+        "advertising_spend": 4872,
+        "advertising_revenue": 8727,
+        "advertising_roas": 1.79,
+        "operational_expenses": 930788,
+        "logistics_cost": 3797771,
+        "storage_cost": 331698
+      },
+      "Week": {
+        "sales": 254196,
+        "quantity": 23,
+        "avg_order_value": 10632,
+        "returns": 37618,
+        "returns_quantity": 3,
+        "return_rate": 16.44,
+        "redemption_rate": 83,
+        "products_count": 107,
+        "avg_product_price": 10752.33,
+        "total_inventory": 35529,
+        "return_incidents": 78,
+        "advertising_spend": 1097,
+        "advertising_revenue": 1966,
+        "advertising_roas": 1.79,
+        "operational_expenses": 209716,
+        "logistics_cost": 855676,
+        "storage_cost": 74735
+      }
+    },
+    "Clothes": {
+      "Year": {
+        "sales": 11384458,
+        "quantity": 1037,
+        "avg_order_value": 10978,
+        "returns": 1617562,
+        "returns_quantity": 137,
+        "return_rate": 14.21,
+        "redemption_rate": 85,
+        "products_count": 96,
+        "avg_product_price": 10760.08,
+        "max_product_price": 19891.79,
+        "min_product_price": 408.78,
+        "total_inventory": 38809,
+        "avg_inventory_per_product": 491.25,
+        "return_incidents": 3854,
+        "return_incident_rate": 4014.58,
+        "advertising_spend": 43584.6,
+        "advertising_revenue": 77181.52,
+        "advertising_roas": 1.77,
+        "operational_expenses": 9392338,
+        "logistics_cost": 37114180,
+        "storage_cost": 3241566
+      },
+      "Month": {
+        "sales": 1205332,
+        "quantity": 109,
+        "avg_order_value": 10978,
+        "returns": 154133,
+        "returns_quantity": 13,
+        "return_rate": 14.21,
+        "redemption_rate": 85,
+        "products_count": 96,
+        "avg_product_price": 10760.08,
+        "total_inventory": 38809,
+        "return_incidents": 367,
+        "advertising_spend": 4614,
+        "advertising_revenue": 8171,
+        "advertising_roas": 1.77,
+        "operational_expenses": 994416,
+        "logistics_cost": 3929472,
+        "storage_cost": 343201
+      },
+      "Week": {
+        "sales": 296121,
+        "quantity": 26,
+        "avg_order_value": 10978,
+        "returns": 37867,
+        "returns_quantity": 3,
+        "return_rate": 14.21,
+        "redemption_rate": 85,
+        "products_count": 96,
+        "avg_product_price": 10760.08,
+        "total_inventory": 38809,
+        "return_incidents": 90,
+        "advertising_spend": 1133,
+        "advertising_revenue": 2007,
+        "advertising_roas": 1.77,
+        "operational_expenses": 244304,
+        "logistics_cost": 965378,
+        "storage_cost": 84316
+      }
+    },
+    "Food": {
+      "Year": {
+        "sales": 10487281,
+        "quantity": 1064,
+        "avg_order_value": 9856,
+        "returns": 1521421,
+        "returns_quantity": 181,
+        "return_rate": 14.51,
+        "redemption_rate": 85,
+        "products_count": 103,
+        "avg_product_price": 9586.0,
+        "max_product_price": 19979.16,
+        "min_product_price": 215.95,
+        "total_inventory": 41769,
+        "avg_inventory_per_product": 528.72,
+        "return_incidents": 4091,
+        "return_incident_rate": 3971.84,
+        "advertising_spend": 60504.14,
+        "advertising_revenue": 108759.36,
+        "advertising_roas": 1.8,
+        "operational_expenses": 8652154,
+        "logistics_cost": 38080509,
+        "storage_cost": 3325966
+      },
+      "Month": {
+        "sales": 1052570,
+        "quantity": 106,
+        "avg_order_value": 9856,
+        "returns": 137429,
+        "returns_quantity": 16,
+        "return_rate": 14.51,
+        "redemption_rate": 85,
+        "products_count": 103,
+        "avg_product_price": 9586.0,
+        "total_inventory": 41769,
+        "return_incidents": 369,
+        "advertising_spend": 6072,
+        "advertising_revenue": 10915,
+        "advertising_roas": 1.8,
+        "operational_expenses": 868385,
+        "logistics_cost": 3822004,
+        "storage_cost": 333815
+      },
+      "Week": {
+        "sales": 303266,
+        "quantity": 30,
+        "avg_order_value": 9856,
+        "returns": 39596,
+        "returns_quantity": 4,
+        "return_rate": 14.51,
+        "redemption_rate": 85,
+        "products_count": 103,
+        "avg_product_price": 9586.0,
+        "total_inventory": 41769,
+        "return_incidents": 106,
+        "advertising_spend": 1749,
+        "advertising_revenue": 3145,
+        "advertising_roas": 1.8,
+        "operational_expenses": 250198,
+        "logistics_cost": 1101194,
+        "storage_cost": 96178
+      }
+    },
+    "Electronics": {
+      "Year": {
+        "sales": 13664246,
+        "quantity": 194,
+        "avg_order_value": 70434,
+        "returns": 1302,
+        "returns_quantity": 2056780,
+        "return_rate": 0.01,
+        "redemption_rate": 84,
+        "products_count": 111,
+        "avg_product_price": 10631.41,
+        "max_product_price": 19940.59,
+        "min_product_price": 240.82,
+        "total_inventory": 45362,
+        "avg_inventory_per_product": 546.53,
+        "return_incidents": 4444,
+        "return_incident_rate": 4003.6,
+        "advertising_spend": 47386.43,
+        "advertising_revenue": 87017.56,
+        "advertising_roas": 1.84,
+        "operational_expenses": 11273195,
+        "logistics_cost": 6943250,
+        "storage_cost": 606426
+      },
+      "Month": {
+        "sales": 1466120,
+        "quantity": 20,
+        "avg_order_value": 70434,
+        "returns": 125,
+        "returns_quantity": 198616,
+        "return_rate": 0.01,
+        "redemption_rate": 84,
+        "products_count": 111,
+        "avg_product_price": 10631.41,
+        "total_inventory": 45362,
+        "return_incidents": 429,
+        "advertising_spend": 5084,
+        "advertising_revenue": 9336,
+        "advertising_roas": 1.84,
+        "operational_expenses": 1209570,
+        "logistics_cost": 744983,
+        "storage_cost": 65067
+      },
+      "Week": {
+        "sales": 274677,
+        "quantity": 3,
+        "avg_order_value": 70434,
+        "returns": 23,
+        "returns_quantity": 37210,
+        "return_rate": 0.01,
+        "redemption_rate": 84,
+        "products_count": 111,
+        "avg_product_price": 10631.41,
+        "total_inventory": 45362,
+        "return_incidents": 80,
+        "advertising_spend": 952,
+        "advertising_revenue": 1749,
+        "advertising_roas": 1.84,
+        "operational_expenses": 226612,
+        "logistics_cost": 139572,
+        "storage_cost": 12190
+      }
+    },
+    "Home": {
+      "Year": {
+        "sales": 10462417,
+        "quantity": 125,
+        "avg_order_value": 83699,
+        "returns": 890,
+        "returns_quantity": 1520984,
+        "return_rate": 0.01,
+        "redemption_rate": 85,
+        "products_count": 83,
+        "avg_product_price": 11228.16,
+        "max_product_price": 19994.71,
+        "min_product_price": 337.98,
+        "total_inventory": 29915,
+        "avg_inventory_per_product": 507.03,
+        "return_incidents": 3290,
+        "return_incident_rate": 3963.86,
+        "advertising_spend": 39723.15,
+        "advertising_revenue": 70716.37,
+        "advertising_roas": 1.78,
+        "operational_expenses": 8631641,
+        "logistics_cost": 4473744,
+        "storage_cost": 390738
+      },
+      "Month": {
+        "sales": 900747,
+        "quantity": 10,
+        "avg_order_value": 83699,
+        "returns": 68,
+        "returns_quantity": 117852,
+        "return_rate": 0.01,
+        "redemption_rate": 85,
+        "products_count": 83,
+        "avg_product_price": 11228.16,
+        "total_inventory": 29915,
+        "return_incidents": 254,
+        "advertising_spend": 3419,
+        "advertising_revenue": 6088,
+        "advertising_roas": 1.78,
+        "operational_expenses": 743129,
+        "logistics_cost": 385160,
+        "storage_cost": 33640
+      },
+      "Week": {
+        "sales": 280661,
+        "quantity": 3,
+        "avg_order_value": 83699,
+        "returns": 21,
+        "returns_quantity": 36721,
+        "return_rate": 0.01,
+        "redemption_rate": 85,
+        "products_count": 83,
+        "avg_product_price": 11228.16,
+        "total_inventory": 29915,
+        "return_incidents": 79,
+        "advertising_spend": 1065,
+        "advertising_revenue": 1897,
+        "advertising_roas": 1.78,
+        "operational_expenses": 231549,
+        "logistics_cost": 120011,
+        "storage_cost": 10481
+      }
+    }
+  },
+  "campaign_performance": {
+    "Campaign_1": {
+      "spend": 315.75,
+      "revenue": 649.67,
+      "impressions": 1152,
+      "clicks": 354,
+      "ctr": 30.73,
+      "roas": 2.06,
+      "cpc": 0.89
+    },
+    "Campaign_2": {
+      "spend": 332.5,
+      "revenue": 437.61,
+      "impressions": 1070,
+      "clicks": 391,
+      "ctr": 36.54,
+      "roas": 1.32,
+      "cpc": 0.85
+    },
+    "Campaign_3": {
+      "spend": 473.04,
+      "revenue": 566.72,
+      "impressions": 1074,
+      "clicks": 385,
+      "ctr": 35.85,
+      "roas": 1.2,
+      "cpc": 1.23
+    },
+    "Campaign_4": {
+      "spend": 279.51,
+      "revenue": 569.4,
+      "impressions": 1136,
+      "clicks": 363,
+      "ctr": 31.95,
+      "roas": 2.04,
+      "cpc": 0.77
+    },
+    "Campaign_5": {
+      "spend": 310.2,
+      "revenue": 550.38,
+      "impressions": 1142,
+      "clicks": 320,
+      "ctr": 28.02,
+      "roas": 1.77,
+      "cpc": 0.97
+    },
+    "Campaign_6": {
+      "spend": 126.08,
+      "revenue": 220.58,
+      "impressions": 1069,
+      "clicks": 315,
+      "ctr": 29.47,
+      "roas": 1.75,
+      "cpc": 0.4
+    },
+    "Campaign_7": {
+      "spend": 236.15,
+      "revenue": 438.76,
+      "impressions": 1060,
+      "clicks": 345,
+      "ctr": 32.55,
+      "roas": 1.86,
+      "cpc": 0.68
+    },
+    "Campaign_8": {
+      "spend": 209.88,
+      "revenue": 467.98,
+      "impressions": 1112,
+      "clicks": 319,
+      "ctr": 28.69,
+      "roas": 2.23,
+      "cpc": 0.66
+    },
+    "Campaign_9": {
+      "spend": 125.01,
+      "revenue": 217.83,
+      "impressions": 2272,
+      "clicks": 681,
+      "ctr": 29.97,
+      "roas": 1.74,
+      "cpc": 0.18
+    },
+    "Campaign_10": {
+      "spend": 435.26,
+      "revenue": 967.99,
+      "impressions": 2262,
+      "clicks": 662,
+      "ctr": 29.27,
+      "roas": 2.22,
+      "cpc": 0.66
+    },
+    "Campaign_11": {
+      "spend": 340.67,
+      "revenue": 821.68,
+      "impressions": 1553,
+      "clicks": 429,
+      "ctr": 27.62,
+      "roas": 2.41,
+      "cpc": 0.79
+    },
+    "Campaign_12": {
+      "spend": 369.48,
+      "revenue": 803.43,
+      "impressions": 1621,
+      "clicks": 417,
+      "ctr": 25.72,
+      "roas": 2.17,
+      "cpc": 0.89
+    },
+    "Campaign_13": {
+      "spend": 260.13,
+      "revenue": 581.81,
+      "impressions": 1548,
+      "clicks": 428,
+      "ctr": 27.65,
+      "roas": 2.24,
+      "cpc": 0.61
+    },
+    "Campaign_14": {
+      "spend": 158.87,
+      "revenue": 241.03,
+      "impressions": 2130,
+      "clicks": 693,
+      "ctr": 32.54,
+      "roas": 1.52,
+      "cpc": 0.23
+    },
+    "Campaign_15": {
+      "spend": 332.83,
+      "revenue": 737.86,
+      "impressions": 2180,
+      "clicks": 695,
+      "ctr": 31.88,
+      "roas": 2.22,
+      "cpc": 0.48
+    },
+    "Campaign_16": {
+      "spend": 291.15,
+      "revenue": 465.08,
+      "impressions": 1581,
+      "clicks": 422,
+      "ctr": 26.69,
+      "roas": 1.6,
+      "cpc": 0.69
+    },
+    "Campaign_17": {
+      "spend": 303.66,
+      "revenue": 344.51,
+      "impressions": 1544,
+      "clicks": 432,
+      "ctr": 27.98,
+      "roas": 1.13,
+      "cpc": 0.7
+    },
+    "Campaign_18": {
+      "spend": 447.09,
+      "revenue": 762.27,
+      "impressions": 1572,
+      "clicks": 451,
+      "ctr": 28.69,
+      "roas": 1.7,
+      "cpc": 0.99
+    },
+    "Campaign_19": {
+      "spend": 282.57,
+      "revenue": 552.02,
+      "impressions": 1177,
+      "clicks": 330,
+      "ctr": 28.04,
+      "roas": 1.95,
+      "cpc": 0.86
+    },
+    "Campaign_20": {
+      "spend": 115.53,
+      "revenue": 158.48,
+      "impressions": 1211,
+      "clicks": 330,
+      "ctr": 27.25,
+      "roas": 1.37,
+      "cpc": 0.35
+    },
+    "Campaign_21": {
+      "spend": 343.08,
+      "revenue": 570.8,
+      "impressions": 1235,
+      "clicks": 323,
+      "ctr": 26.15,
+      "roas": 1.66,
+      "cpc": 1.06
+    },
+    "Campaign_22": {
+      "spend": 471.8,
+      "revenue": 632.88,
+      "impressions": 1160,
+      "clicks": 329,
+      "ctr": 28.36,
+      "roas": 1.34,
+      "cpc": 1.43
+    },
+    "Campaign_23": {
+      "spend": 140.91,
+      "revenue": 301.8,
+      "impressions": 1099,
+      "clicks": 324,
+      "ctr": 29.48,
+      "roas": 2.14,
+      "cpc": 0.43
+    },
+    "Campaign_24": {
+      "spend": 125.81,
+      "revenue": 240.14,
+      "impressions": 1173,
+      "clicks": 318,
+      "ctr": 27.11,
+      "roas": 1.91,
+      "cpc": 0.4
+    },
+    "Campaign_25": {
+      "spend": 141.54,
+      "revenue": 180.18,
+      "impressions": 1137,
+      "clicks": 345,
+      "ctr": 30.34,
+      "roas": 1.27,
+      "cpc": 0.41
+    },
+    "Campaign_26": {
+      "spend": 116.55,
+      "revenue": 190.03,
+      "impressions": 1078,
+      "clicks": 341,
+      "ctr": 31.63,
+      "roas": 1.63,
+      "cpc": 0.34
+    },
+    "Campaign_27": {
+      "spend": 431.47,
+      "revenue": 971.69,
+      "impressions": 1367,
+      "clicks": 378,
+      "ctr": 27.65,
+      "roas": 2.25,
+      "cpc": 1.14
+    },
+    "Campaign_28": {
+      "spend": 285.94,
+      "revenue": 529.71,
+      "impressions": 1358,
+      "clicks": 365,
+      "ctr": 26.88,
+      "roas": 1.85,
+      "cpc": 0.78
+    },
+    "Campaign_29": {
+      "spend": 398.8,
+      "revenue": 950.06,
+      "impressions": 1378,
+      "clicks": 376,
+      "ctr": 27.29,
+      "roas": 2.38,
+      "cpc": 1.06
+    },
+    "Campaign_30": {
+      "spend": 308.09,
+      "revenue": 639.12,
+      "impressions": 1657,
+      "clicks": 408,
+      "ctr": 24.62,
+      "roas": 2.07,
+      "cpc": 0.76
+    },
+    "Campaign_31": {
+      "spend": 366.59,
+      "revenue": 472.39,
+      "impressions": 1657,
+      "clicks": 389,
+      "ctr": 23.48,
+      "roas": 1.29,
+      "cpc": 0.94
+    },
+    "Campaign_32": {
+      "spend": 356.85,
+      "revenue": 407.92,
+      "impressions": 1596,
+      "clicks": 385,
+      "ctr": 24.12,
+      "roas": 1.14,
+      "cpc": 0.93
+    },
+    "Campaign_33": {
+      "spend": 200.98,
+      "revenue": 383.29,
+      "impressions": 2299,
+      "clicks": 732,
+      "ctr": 31.84,
+      "roas": 1.91,
+      "cpc": 0.27
+    },
+    "Campaign_34": {
+      "spend": 167.89,
+      "revenue": 184.72,
+      "impressions": 2281,
+      "clicks": 696,
+      "ctr": 30.51,
+      "roas": 1.1,
+      "cpc": 0.24
+    },
+    "Campaign_35": {
+      "spend": 132.92,
+      "revenue": 260.98,
+      "impressions": 2383,
+      "clicks": 575,
+      "ctr": 24.13,
+      "roas": 1.96,
+      "cpc": 0.23
+    },
+    "Campaign_36": {
+      "spend": 254.01,
+      "revenue": 324.42,
+      "impressions": 2330,
+      "clicks": 607,
+      "ctr": 26.05,
+      "roas": 1.28,
+      "cpc": 0.42
+    },
+    "Campaign_37": {
+      "spend": 489.3,
+      "revenue": 1150.05,
+      "impressions": 2256,
+      "clicks": 658,
+      "ctr": 29.17,
+      "roas": 2.35,
+      "cpc": 0.74
+    },
+    "Campaign_38": {
+      "spend": 174.62,
+      "revenue": 347.65,
+      "impressions": 2251,
+      "clicks": 664,
+      "ctr": 29.5,
+      "roas": 1.99,
+      "cpc": 0.26
+    },
+    "Campaign_39": {
+      "spend": 488.82,
+      "revenue": 785.08,
+      "impressions": 1537,
+      "clicks": 398,
+      "ctr": 25.89,
+      "roas": 1.61,
+      "cpc": 1.23
+    },
+    "Campaign_40": {
+      "spend": 329.49,
+      "revenue": 628.26,
+      "impressions": 1506,
+      "clicks": 383,
+      "ctr": 25.43,
+      "roas": 1.91,
+      "cpc": 0.86
+    },
+    "Campaign_41": {
+      "spend": 234.09,
+      "revenue": 288.78,
+      "impressions": 1502,
+      "clicks": 404,
+      "ctr": 26.9,
+      "roas": 1.23,
+      "cpc": 0.58
+    },
+    "Campaign_42": {
+      "spend": 485.67,
+      "revenue": 924.04,
+      "impressions": 2349,
+      "clicks": 651,
+      "ctr": 27.71,
+      "roas": 1.9,
+      "cpc": 0.75
+    },
+    "Campaign_43": {
+      "spend": 289.63,
+      "revenue": 694.73,
+      "impressions": 2323,
+      "clicks": 643,
+      "ctr": 27.68,
+      "roas": 2.4,
+      "cpc": 0.45
+    },
+    "Campaign_44": {
+      "spend": 447.01,
+      "revenue": 736.92,
+      "impressions": 1493,
+      "clicks": 442,
+      "ctr": 29.6,
+      "roas": 1.65,
+      "cpc": 1.01
+    },
+    "Campaign_45": {
+      "spend": 133.38,
+      "revenue": 290.77,
+      "impressions": 1421,
+      "clicks": 453,
+      "ctr": 31.88,
+      "roas": 2.18,
+      "cpc": 0.29
+    },
+    "Campaign_46": {
+      "spend": 324.2,
+      "revenue": 384.36,
+      "impressions": 1467,
+      "clicks": 469,
+      "ctr": 31.97,
+      "roas": 1.19,
+      "cpc": 0.69
+    },
+    "Campaign_47": {
+      "spend": 263.44,
+      "revenue": 602.06,
+      "impressions": 2288,
+      "clicks": 637,
+      "ctr": 27.84,
+      "roas": 2.29,
+      "cpc": 0.41
+    },
+    "Campaign_48": {
+      "spend": 158.86,
+      "revenue": 206.64,
+      "impressions": 2350,
+      "clicks": 648,
+      "ctr": 27.57,
+      "roas": 1.3,
+      "cpc": 0.25
+    },
+    "Campaign_49": {
+      "spend": 414.58,
+      "revenue": 649.9,
+      "impressions": 2126,
+      "clicks": 592,
+      "ctr": 27.85,
+      "roas": 1.57,
+      "cpc": 0.7
+    },
+    "Campaign_50": {
+      "spend": 135.67,
+      "revenue": 168.64,
+      "impressions": 2136,
+      "clicks": 560,
+      "ctr": 26.22,
+      "roas": 1.24,
+      "cpc": 0.24
+    },
+    "Campaign_51": {
+      "spend": 132.65,
+      "revenue": 201.35,
+      "impressions": 2397,
+      "clicks": 670,
+      "ctr": 27.95,
+      "roas": 1.52,
+      "cpc": 0.2
+    },
+    "Campaign_52": {
+      "spend": 427.59,
+      "revenue": 687.71,
+      "impressions": 2434,
+      "clicks": 671,
+      "ctr": 27.57,
+      "roas": 1.61,
+      "cpc": 0.64
+    },
+    "Campaign_53": {
+      "spend": 302.55,
+      "revenue": 540.44,
+      "impressions": 2136,
+      "clicks": 630,
+      "ctr": 29.49,
+      "roas": 1.79,
+      "cpc": 0.48
+    },
+    "Campaign_54": {
+      "spend": 105.59,
+      "revenue": 181.02,
+      "impressions": 2212,
+      "clicks": 621,
+      "ctr": 28.07,
+      "roas": 1.71,
+      "cpc": 0.17
+    },
+    "Campaign_55": {
+      "spend": 350.56,
+      "revenue": 738.48,
+      "impressions": 1633,
+      "clicks": 459,
+      "ctr": 28.11,
+      "roas": 2.11,
+      "cpc": 0.76
+    },
+    "Campaign_56": {
+      "spend": 329.1,
+      "revenue": 433.66,
+      "impressions": 1572,
+      "clicks": 467,
+      "ctr": 29.71,
+      "roas": 1.32,
+      "cpc": 0.7
+    },
+    "Campaign_57": {
+      "spend": 491.24,
+      "revenue": 1106.34,
+      "impressions": 1560,
+      "clicks": 442,
+      "ctr": 28.33,
+      "roas": 2.25,
+      "cpc": 1.11
+    },
+    "Campaign_58": {
+      "spend": 479.65,
+      "revenue": 768.87,
+      "impressions": 2204,
+      "clicks": 667,
+      "ctr": 30.26,
+      "roas": 1.6,
+      "cpc": 0.72
+    },
+    "Campaign_59": {
+      "spend": 335.77,
+      "revenue": 615.05,
+      "impressions": 2257,
+      "clicks": 662,
+      "ctr": 29.33,
+      "roas": 1.83,
+      "cpc": 0.51
+    },
+    "Campaign_60": {
+      "spend": 411.97,
+      "revenue": 987.21,
+      "impressions": 1132,
+      "clicks": 307,
+      "ctr": 27.12,
+      "roas": 2.4,
+      "cpc": 1.34
+    },
+    "Campaign_61": {
+      "spend": 234.82,
+      "revenue": 438.44,
+      "impressions": 1157,
+      "clicks": 289,
+      "ctr": 24.98,
+      "roas": 1.87,
+      "cpc": 0.81
+    },
+    "Campaign_62": {
+      "spend": 388.38,
+      "revenue": 676.97,
+      "impressions": 1135,
+      "clicks": 272,
+      "ctr": 23.96,
+      "roas": 1.74,
+      "cpc": 1.43
+    },
+    "Campaign_63": {
+      "spend": 269.23,
+      "revenue": 335.49,
+      "impressions": 1125,
+      "clicks": 305,
+      "ctr": 27.11,
+      "roas": 1.25,
+      "cpc": 0.88
+    },
+    "Campaign_64": {
+      "spend": 233.79,
+      "revenue": 363.37,
+      "impressions": 2241,
+      "clicks": 564,
+      "ctr": 25.17,
+      "roas": 1.55,
+      "cpc": 0.41
+    },
+    "Campaign_65": {
+      "spend": 204.73,
+      "revenue": 407.99,
+      "impressions": 2173,
+      "clicks": 581,
+      "ctr": 26.74,
+      "roas": 1.99,
+      "cpc": 0.35
+    },
+    "Campaign_66": {
+      "spend": 488.39,
+      "revenue": 912.93,
+      "impressions": 2429,
+      "clicks": 687,
+      "ctr": 28.28,
+      "roas": 1.87,
+      "cpc": 0.71
+    },
+    "Campaign_67": {
+      "spend": 186.26,
+      "revenue": 391.17,
+      "impressions": 2460,
+      "clicks": 688,
+      "ctr": 27.97,
+      "roas": 2.1,
+      "cpc": 0.27
+    },
+    "Campaign_68": {
+      "spend": 127.49,
+      "revenue": 211.49,
+      "impressions": 2346,
+      "clicks": 697,
+      "ctr": 29.71,
+      "roas": 1.66,
+      "cpc": 0.18
+    },
+    "Campaign_69": {
+      "spend": 161.68,
+      "revenue": 227.54,
+      "impressions": 2266,
+      "clicks": 688,
+      "ctr": 30.36,
+      "roas": 1.41,
+      "cpc": 0.24
+    },
+    "Campaign_70": {
+      "spend": 433.94,
+      "revenue": 726.09,
+      "impressions": 2344,
+      "clicks": 666,
+      "ctr": 28.41,
+      "roas": 1.67,
+      "cpc": 0.65
+    },
+    "Campaign_71": {
+      "spend": 208.76,
+      "revenue": 481.24,
+      "impressions": 2330,
+      "clicks": 678,
+      "ctr": 29.1,
+      "roas": 2.31,
+      "cpc": 0.31
+    },
+    "Campaign_72": {
+      "spend": 103.61,
+      "revenue": 255.89,
+      "impressions": 2364,
+      "clicks": 698,
+      "ctr": 29.53,
+      "roas": 2.47,
+      "cpc": 0.15
+    },
+    "Campaign_73": {
+      "spend": 111.86,
+      "revenue": 145.02,
+      "impressions": 2288,
+      "clicks": 718,
+      "ctr": 31.38,
+      "roas": 1.3,
+      "cpc": 0.16
+    },
+    "Campaign_74": {
+      "spend": 132.44,
+      "revenue": 287.62,
+      "impressions": 2167,
+      "clicks": 617,
+      "ctr": 28.47,
+      "roas": 2.17,
+      "cpc": 0.21
+    },
+    "Campaign_75": {
+      "spend": 148.15,
+      "revenue": 274.94,
+      "impressions": 2136,
+      "clicks": 639,
+      "ctr": 29.92,
+      "roas": 1.86,
+      "cpc": 0.23
+    },
+    "Campaign_76": {
+      "spend": 131.17,
+      "revenue": 149.0,
+      "impressions": 1561,
+      "clicks": 453,
+      "ctr": 29.02,
+      "roas": 1.14,
+      "cpc": 0.29
+    },
+    "Campaign_77": {
+      "spend": 409.58,
+      "revenue": 969.39,
+      "impressions": 1571,
+      "clicks": 440,
+      "ctr": 28.01,
+      "roas": 2.37,
+      "cpc": 0.93
+    },
+    "Campaign_78": {
+      "spend": 477.18,
+      "revenue": 744.95,
+      "impressions": 1541,
+      "clicks": 437,
+      "ctr": 28.36,
+      "roas": 1.56,
+      "cpc": 1.09
+    },
+    "Campaign_79": {
+      "spend": 104.46,
+      "revenue": 163.31,
+      "impressions": 2196,
+      "clicks": 708,
+      "ctr": 32.24,
+      "roas": 1.56,
+      "cpc": 0.15
+    },
+    "Campaign_80": {
+      "spend": 371.52,
+      "revenue": 443.74,
+      "impressions": 2228,
+      "clicks": 729,
+      "ctr": 32.72,
+      "roas": 1.19,
+      "cpc": 0.51
+    },
+    "Campaign_81": {
+      "spend": 253.47,
+      "revenue": 574.34,
+      "impressions": 1066,
+      "clicks": 351,
+      "ctr": 32.93,
+      "roas": 2.27,
+      "cpc": 0.72
+    },
+    "Campaign_82": {
+      "spend": 358.02,
+      "revenue": 504.92,
+      "impressions": 1141,
+      "clicks": 374,
+      "ctr": 32.78,
+      "roas": 1.41,
+      "cpc": 0.96
+    },
+    "Campaign_83": {
+      "spend": 415.31,
+      "revenue": 987.73,
+      "impressions": 1141,
+      "clicks": 367,
+      "ctr": 32.16,
+      "roas": 2.38,
+      "cpc": 1.13
+    },
+    "Campaign_84": {
+      "spend": 124.01,
+      "revenue": 272.55,
+      "impressions": 1127,
+      "clicks": 379,
+      "ctr": 33.63,
+      "roas": 2.2,
+      "cpc": 0.33
+    },
+    "Campaign_85": {
+      "spend": 366.41,
+      "revenue": 879.12,
+      "impressions": 1165,
+      "clicks": 332,
+      "ctr": 28.5,
+      "roas": 2.4,
+      "cpc": 1.1
+    },
+    "Campaign_86": {
+      "spend": 325.04,
+      "revenue": 568.05,
+      "impressions": 1178,
+      "clicks": 343,
+      "ctr": 29.12,
+      "roas": 1.75,
+      "cpc": 0.95
+    },
+    "Campaign_87": {
+      "spend": 485.11,
+      "revenue": 547.54,
+      "impressions": 1162,
+      "clicks": 341,
+      "ctr": 29.35,
+      "roas": 1.13,
+      "cpc": 1.42
+    },
+    "Campaign_88": {
+      "spend": 464.62,
+      "revenue": 1020.46,
+      "impressions": 1244,
+      "clicks": 320,
+      "ctr": 25.72,
+      "roas": 2.2,
+      "cpc": 1.45
+    },
+    "Campaign_89": {
+      "spend": 288.43,
+      "revenue": 702.24,
+      "impressions": 2179,
+      "clicks": 666,
+      "ctr": 30.56,
+      "roas": 2.43,
+      "cpc": 0.43
+    },
+    "Campaign_90": {
+      "spend": 393.64,
+      "revenue": 895.42,
+      "impressions": 2178,
+      "clicks": 645,
+      "ctr": 29.61,
+      "roas": 2.27,
+      "cpc": 0.61
+    },
+    "Campaign_91": {
+      "spend": 326.28,
+      "revenue": 380.04,
+      "impressions": 1157,
+      "clicks": 286,
+      "ctr": 24.72,
+      "roas": 1.16,
+      "cpc": 1.14
+    },
+    "Campaign_92": {
+      "spend": 347.61,
+      "revenue": 682.45,
+      "impressions": 1100,
+      "clicks": 290,
+      "ctr": 26.36,
+      "roas": 1.96,
+      "cpc": 1.2
+    },
+    "Campaign_93": {
+      "spend": 125.3,
+      "revenue": 147.25,
+      "impressions": 1131,
+      "clicks": 273,
+      "ctr": 24.14,
+      "roas": 1.18,
+      "cpc": 0.46
+    },
+    "Campaign_94": {
+      "spend": 321.08,
+      "revenue": 675.08,
+      "impressions": 1120,
+      "clicks": 303,
+      "ctr": 27.05,
+      "roas": 2.1,
+      "cpc": 1.06
+    },
+    "Campaign_95": {
+      "spend": 317.2,
+      "revenue": 594.36,
+      "impressions": 2193,
+      "clicks": 616,
+      "ctr": 28.09,
+      "roas": 1.87,
+      "cpc": 0.51
+    },
+    "Campaign_96": {
+      "spend": 275.17,
+      "revenue": 441.56,
+      "impressions": 2193,
+      "clicks": 609,
+      "ctr": 27.77,
+      "roas": 1.6,
+      "cpc": 0.45
+    },
+    "Campaign_97": {
+      "spend": 319.47,
+      "revenue": 521.95,
+      "impressions": 1561,
+      "clicks": 412,
+      "ctr": 26.39,
+      "roas": 1.63,
+      "cpc": 0.78
+    },
+    "Campaign_98": {
+      "spend": 451.0,
+      "revenue": 664.24,
+      "impressions": 1556,
+      "clicks": 417,
+      "ctr": 26.8,
+      "roas": 1.47,
+      "cpc": 1.08
+    },
+    "Campaign_99": {
+      "spend": 332.57,
+      "revenue": 408.19,
+      "impressions": 1532,
+      "clicks": 437,
+      "ctr": 28.52,
+      "roas": 1.23,
+      "cpc": 0.76
+    },
+    "Campaign_100": {
+      "spend": 450.33,
+      "revenue": 581.44,
+      "impressions": 1095,
+      "clicks": 364,
+      "ctr": 33.24,
+      "roas": 1.29,
+      "cpc": 1.24
+    },
+    "Campaign_101": {
+      "spend": 317.07,
+      "revenue": 733.43,
+      "impressions": 1050,
+      "clicks": 357,
+      "ctr": 34.0,
+      "roas": 2.31,
+      "cpc": 0.89
+    },
+    "Campaign_102": {
+      "spend": 386.36,
+      "revenue": 723.63,
+      "impressions": 1128,
+      "clicks": 378,
+      "ctr": 33.51,
+      "roas": 1.87,
+      "cpc": 1.02
+    },
+    "Campaign_103": {
+      "spend": 137.74,
+      "revenue": 173.2,
+      "impressions": 1140,
+      "clicks": 367,
+      "ctr": 32.19,
+      "roas": 1.26,
+      "cpc": 0.38
+    },
+    "Campaign_104": {
+      "spend": 173.16,
+      "revenue": 214.07,
+      "impressions": 1624,
+      "clicks": 492,
+      "ctr": 30.3,
+      "roas": 1.24,
+      "cpc": 0.35
+    },
+    "Campaign_105": {
+      "spend": 179.89,
+      "revenue": 388.46,
+      "impressions": 1553,
+      "clicks": 481,
+      "ctr": 30.97,
+      "roas": 2.16,
+      "cpc": 0.37
+    },
+    "Campaign_106": {
+      "spend": 475.77,
+      "revenue": 757.6,
+      "impressions": 1566,
+      "clicks": 481,
+      "ctr": 30.72,
+      "roas": 1.59,
+      "cpc": 0.99
+    },
+    "Campaign_107": {
+      "spend": 303.95,
+      "revenue": 622.73,
+      "impressions": 1213,
+      "clicks": 294,
+      "ctr": 24.24,
+      "roas": 2.05,
+      "cpc": 1.03
+    },
+    "Campaign_108": {
+      "spend": 318.29,
+      "revenue": 551.79,
+      "impressions": 1133,
+      "clicks": 317,
+      "ctr": 27.98,
+      "roas": 1.73,
+      "cpc": 1.0
+    },
+    "Campaign_109": {
+      "spend": 359.56,
+      "revenue": 578.74,
+      "impressions": 1179,
+      "clicks": 307,
+      "ctr": 26.04,
+      "roas": 1.61,
+      "cpc": 1.17
+    },
+    "Campaign_110": {
+      "spend": 435.32,
+      "revenue": 1064.37,
+      "impressions": 1188,
+      "clicks": 325,
+      "ctr": 27.36,
+      "roas": 2.45,
+      "cpc": 1.34
+    },
+    "Campaign_111": {
+      "spend": 132.5,
+      "revenue": 193.28,
+      "impressions": 1460,
+      "clicks": 391,
+      "ctr": 26.78,
+      "roas": 1.46,
+      "cpc": 0.34
+    },
+    "Campaign_112": {
+      "spend": 130.3,
+      "revenue": 285.72,
+      "impressions": 1451,
+      "clicks": 418,
+      "ctr": 28.81,
+      "roas": 2.19,
+      "cpc": 0.31
+    },
+    "Campaign_113": {
+      "spend": 216.35,
+      "revenue": 243.11,
+      "impressions": 1404,
+      "clicks": 417,
+      "ctr": 29.7,
+      "roas": 1.12,
+      "cpc": 0.52
+    },
+    "Campaign_114": {
+      "spend": 234.4,
+      "revenue": 393.15,
+      "impressions": 2433,
+      "clicks": 641,
+      "ctr": 26.35,
+      "roas": 1.68,
+      "cpc": 0.37
+    },
+    "Campaign_115": {
+      "spend": 375.33,
+      "revenue": 582.04,
+      "impressions": 2465,
+      "clicks": 631,
+      "ctr": 25.6,
+      "roas": 1.55,
+      "cpc": 0.59
+    },
+    "Campaign_116": {
+      "spend": 394.39,
+      "revenue": 743.19,
+      "impressions": 1191,
+      "clicks": 340,
+      "ctr": 28.55,
+      "roas": 1.88,
+      "cpc": 1.16
+    },
+    "Campaign_117": {
+      "spend": 222.83,
+      "revenue": 381.32,
+      "impressions": 1210,
+      "clicks": 316,
+      "ctr": 26.12,
+      "roas": 1.71,
+      "cpc": 0.71
+    },
+    "Campaign_118": {
+      "spend": 116.47,
+      "revenue": 155.63,
+      "impressions": 1154,
+      "clicks": 321,
+      "ctr": 27.82,
+      "roas": 1.34,
+      "cpc": 0.36
+    },
+    "Campaign_119": {
+      "spend": 403.12,
+      "revenue": 475.93,
+      "impressions": 1170,
+      "clicks": 313,
+      "ctr": 26.75,
+      "roas": 1.18,
+      "cpc": 1.29
+    },
+    "Campaign_120": {
+      "spend": 259.98,
+      "revenue": 647.93,
+      "impressions": 2101,
+      "clicks": 663,
+      "ctr": 31.56,
+      "roas": 2.49,
+      "cpc": 0.39
+    },
+    "Campaign_121": {
+      "spend": 118.53,
+      "revenue": 210.28,
+      "impressions": 2133,
+      "clicks": 646,
+      "ctr": 30.29,
+      "roas": 1.77,
+      "cpc": 0.18
+    },
+    "Campaign_122": {
+      "spend": 140.84,
+      "revenue": 197.31,
+      "impressions": 1171,
+      "clicks": 387,
+      "ctr": 33.05,
+      "roas": 1.4,
+      "cpc": 0.36
+    },
+    "Campaign_123": {
+      "spend": 299.31,
+      "revenue": 681.66,
+      "impressions": 1147,
+      "clicks": 369,
+      "ctr": 32.17,
+      "roas": 2.28,
+      "cpc": 0.81
+    },
+    "Campaign_124": {
+      "spend": 308.63,
+      "revenue": 696.98,
+      "impressions": 1181,
+      "clicks": 355,
+      "ctr": 30.06,
+      "roas": 2.26,
+      "cpc": 0.87
+    },
+    "Campaign_125": {
+      "spend": 451.83,
+      "revenue": 1047.19,
+      "impressions": 1138,
+      "clicks": 384,
+      "ctr": 33.74,
+      "roas": 2.32,
+      "cpc": 1.18
+    },
+    "Campaign_126": {
+      "spend": 291.66,
+      "revenue": 685.49,
+      "impressions": 1056,
+      "clicks": 312,
+      "ctr": 29.55,
+      "roas": 2.35,
+      "cpc": 0.93
+    },
+    "Campaign_127": {
+      "spend": 197.93,
+      "revenue": 377.45,
+      "impressions": 1061,
+      "clicks": 334,
+      "ctr": 31.48,
+      "roas": 1.91,
+      "cpc": 0.59
+    },
+    "Campaign_128": {
+      "spend": 369.91,
+      "revenue": 619.9,
+      "impressions": 1090,
+      "clicks": 323,
+      "ctr": 29.63,
+      "roas": 1.68,
+      "cpc": 1.15
+    },
+    "Campaign_129": {
+      "spend": 349.53,
+      "revenue": 770.33,
+      "impressions": 1130,
+      "clicks": 327,
+      "ctr": 28.94,
+      "roas": 2.2,
+      "cpc": 1.07
+    },
+    "Campaign_130": {
+      "spend": 339.66,
+      "revenue": 618.24,
+      "impressions": 1219,
+      "clicks": 272,
+      "ctr": 22.31,
+      "roas": 1.82,
+      "cpc": 1.25
+    },
+    "Campaign_131": {
+      "spend": 159.63,
+      "revenue": 308.99,
+      "impressions": 1255,
+      "clicks": 274,
+      "ctr": 21.83,
+      "roas": 1.94,
+      "cpc": 0.58
+    },
+    "Campaign_132": {
+      "spend": 360.37,
+      "revenue": 407.06,
+      "impressions": 1220,
+      "clicks": 309,
+      "ctr": 25.33,
+      "roas": 1.13,
+      "cpc": 1.17
+    },
+    "Campaign_133": {
+      "spend": 264.56,
+      "revenue": 531.23,
+      "impressions": 1178,
+      "clicks": 274,
+      "ctr": 23.26,
+      "roas": 2.01,
+      "cpc": 0.97
+    },
+    "Campaign_134": {
+      "spend": 471.69,
+      "revenue": 1021.56,
+      "impressions": 1122,
+      "clicks": 277,
+      "ctr": 24.69,
+      "roas": 2.17,
+      "cpc": 1.7
+    },
+    "Campaign_135": {
+      "spend": 496.98,
+      "revenue": 831.77,
+      "impressions": 1141,
+      "clicks": 298,
+      "ctr": 26.12,
+      "roas": 1.67,
+      "cpc": 1.67
+    },
+    "Campaign_136": {
+      "spend": 475.65,
+      "revenue": 725.33,
+      "impressions": 1103,
+      "clicks": 289,
+      "ctr": 26.2,
+      "roas": 1.52,
+      "cpc": 1.65
+    },
+    "Campaign_137": {
+      "spend": 130.3,
+      "revenue": 237.87,
+      "impressions": 1136,
+      "clicks": 276,
+      "ctr": 24.3,
+      "roas": 1.83,
+      "cpc": 0.47
+    },
+    "Campaign_138": {
+      "spend": 112.28,
+      "revenue": 164.41,
+      "impressions": 1107,
+      "clicks": 316,
+      "ctr": 28.55,
+      "roas": 1.46,
+      "cpc": 0.36
+    },
+    "Campaign_139": {
+      "spend": 113.29,
+      "revenue": 132.0,
+      "impressions": 1024,
+      "clicks": 303,
+      "ctr": 29.59,
+      "roas": 1.17,
+      "cpc": 0.37
+    },
+    "Campaign_140": {
+      "spend": 485.15,
+      "revenue": 1135.52,
+      "impressions": 1095,
+      "clicks": 307,
+      "ctr": 28.04,
+      "roas": 2.34,
+      "cpc": 1.58
+    },
+    "Campaign_141": {
+      "spend": 421.51,
+      "revenue": 702.82,
+      "impressions": 1064,
+      "clicks": 303,
+      "ctr": 28.48,
+      "roas": 1.67,
+      "cpc": 1.39
+    },
+    "Campaign_142": {
+      "spend": 118.53,
+      "revenue": 180.08,
+      "impressions": 1179,
+      "clicks": 304,
+      "ctr": 25.78,
+      "roas": 1.52,
+      "cpc": 0.39
+    },
+    "Campaign_143": {
+      "spend": 306.08,
+      "revenue": 722.48,
+      "impressions": 1191,
+      "clicks": 293,
+      "ctr": 24.6,
+      "roas": 2.36,
+      "cpc": 1.04
+    },
+    "Campaign_144": {
+      "spend": 336.93,
+      "revenue": 638.23,
+      "impressions": 1094,
+      "clicks": 279,
+      "ctr": 25.5,
+      "roas": 1.89,
+      "cpc": 1.21
+    },
+    "Campaign_145": {
+      "spend": 466.25,
+      "revenue": 593.01,
+      "impressions": 1143,
+      "clicks": 278,
+      "ctr": 24.32,
+      "roas": 1.27,
+      "cpc": 1.68
+    },
+    "Campaign_146": {
+      "spend": 383.12,
+      "revenue": 899.23,
+      "impressions": 2301,
+      "clicks": 640,
+      "ctr": 27.81,
+      "roas": 2.35,
+      "cpc": 0.6
+    },
+    "Campaign_147": {
+      "spend": 317.34,
+      "revenue": 786.28,
+      "impressions": 2343,
+      "clicks": 634,
+      "ctr": 27.06,
+      "roas": 2.48,
+      "cpc": 0.5
+    },
+    "Campaign_148": {
+      "spend": 439.98,
+      "revenue": 990.34,
+      "impressions": 1191,
+      "clicks": 341,
+      "ctr": 28.63,
+      "roas": 2.25,
+      "cpc": 1.29
+    },
+    "Campaign_149": {
+      "spend": 173.3,
+      "revenue": 220.33,
+      "impressions": 1227,
+      "clicks": 350,
+      "ctr": 28.52,
+      "roas": 1.27,
+      "cpc": 0.5
+    },
+    "Campaign_150": {
+      "spend": 401.05,
+      "revenue": 549.17,
+      "impressions": 1183,
+      "clicks": 361,
+      "ctr": 30.52,
+      "roas": 1.37,
+      "cpc": 1.11
+    },
+    "Campaign_151": {
+      "spend": 108.74,
+      "revenue": 158.8,
+      "impressions": 1224,
+      "clicks": 368,
+      "ctr": 30.07,
+      "roas": 1.46,
+      "cpc": 0.3
+    },
+    "Campaign_152": {
+      "spend": 499.47,
+      "revenue": 898.62,
+      "impressions": 2254,
+      "clicks": 712,
+      "ctr": 31.59,
+      "roas": 1.8,
+      "cpc": 0.7
+    },
+    "Campaign_153": {
+      "spend": 418.72,
+      "revenue": 787.21,
+      "impressions": 2247,
+      "clicks": 702,
+      "ctr": 31.24,
+      "roas": 1.88,
+      "cpc": 0.6
+    },
+    "Campaign_154": {
+      "spend": 155.0,
+      "revenue": 307.93,
+      "impressions": 2363,
+      "clicks": 665,
+      "ctr": 28.14,
+      "roas": 1.99,
+      "cpc": 0.23
+    },
+    "Campaign_155": {
+      "spend": 258.21,
+      "revenue": 583.28,
+      "impressions": 2394,
+      "clicks": 672,
+      "ctr": 28.07,
+      "roas": 2.26,
+      "cpc": 0.38
+    },
+    "Campaign_156": {
+      "spend": 493.93,
+      "revenue": 1102.74,
+      "impressions": 2316,
+      "clicks": 636,
+      "ctr": 27.46,
+      "roas": 2.23,
+      "cpc": 0.78
+    },
+    "Campaign_157": {
+      "spend": 262.39,
+      "revenue": 616.8,
+      "impressions": 2372,
+      "clicks": 626,
+      "ctr": 26.39,
+      "roas": 2.35,
+      "cpc": 0.42
+    },
+    "Campaign_158": {
+      "spend": 456.05,
+      "revenue": 751.72,
+      "impressions": 1152,
+      "clicks": 315,
+      "ctr": 27.34,
+      "roas": 1.65,
+      "cpc": 1.45
+    },
+    "Campaign_159": {
+      "spend": 432.12,
+      "revenue": 753.99,
+      "impressions": 1230,
+      "clicks": 343,
+      "ctr": 27.89,
+      "roas": 1.74,
+      "cpc": 1.26
+    },
+    "Campaign_160": {
+      "spend": 107.03,
+      "revenue": 144.26,
+      "impressions": 1222,
+      "clicks": 319,
+      "ctr": 26.1,
+      "roas": 1.35,
+      "cpc": 0.34
+    },
+    "Campaign_161": {
+      "spend": 174.86,
+      "revenue": 214.59,
+      "impressions": 1159,
+      "clicks": 308,
+      "ctr": 26.57,
+      "roas": 1.23,
+      "cpc": 0.57
+    },
+    "Campaign_162": {
+      "spend": 347.47,
+      "revenue": 408.22,
+      "impressions": 1174,
+      "clicks": 329,
+      "ctr": 28.02,
+      "roas": 1.17,
+      "cpc": 1.06
+    },
+    "Campaign_163": {
+      "spend": 348.78,
+      "revenue": 538.81,
+      "impressions": 1138,
+      "clicks": 343,
+      "ctr": 30.14,
+      "roas": 1.54,
+      "cpc": 1.02
+    },
+    "Campaign_164": {
+      "spend": 435.13,
+      "revenue": 762.25,
+      "impressions": 1210,
+      "clicks": 351,
+      "ctr": 29.01,
+      "roas": 1.75,
+      "cpc": 1.24
+    },
+    "Campaign_165": {
+      "spend": 177.18,
+      "revenue": 315.15,
+      "impressions": 1126,
+      "clicks": 352,
+      "ctr": 31.26,
+      "roas": 1.78,
+      "cpc": 0.5
+    },
+    "Campaign_166": {
+      "spend": 389.12,
+      "revenue": 638.54,
+      "impressions": 1641,
+      "clicks": 413,
+      "ctr": 25.17,
+      "roas": 1.64,
+      "cpc": 0.94
+    },
+    "Campaign_167": {
+      "spend": 412.94,
+      "revenue": 591.67,
+      "impressions": 1637,
+      "clicks": 448,
+      "ctr": 27.37,
+      "roas": 1.43,
+      "cpc": 0.92
+    },
+    "Campaign_168": {
+      "spend": 137.88,
+      "revenue": 304.42,
+      "impressions": 1630,
+      "clicks": 409,
+      "ctr": 25.09,
+      "roas": 2.21,
+      "cpc": 0.34
+    },
+    "Campaign_169": {
+      "spend": 110.99,
+      "revenue": 182.98,
+      "impressions": 1044,
+      "clicks": 297,
+      "ctr": 28.45,
+      "roas": 1.65,
+      "cpc": 0.37
+    },
+    "Campaign_170": {
+      "spend": 225.29,
+      "revenue": 400.68,
+      "impressions": 1128,
+      "clicks": 308,
+      "ctr": 27.3,
+      "roas": 1.78,
+      "cpc": 0.73
+    },
+    "Campaign_171": {
+      "spend": 241.52,
+      "revenue": 390.64,
+      "impressions": 1122,
+      "clicks": 329,
+      "ctr": 29.32,
+      "roas": 1.62,
+      "cpc": 0.73
+    },
+    "Campaign_172": {
+      "spend": 199.88,
+      "revenue": 492.98,
+      "impressions": 1068,
+      "clicks": 333,
+      "ctr": 31.18,
+      "roas": 2.47,
+      "cpc": 0.6
+    },
+    "Campaign_173": {
+      "spend": 242.53,
+      "revenue": 348.08,
+      "impressions": 1497,
+      "clicks": 496,
+      "ctr": 33.13,
+      "roas": 1.44,
+      "cpc": 0.49
+    },
+    "Campaign_174": {
+      "spend": 231.24,
+      "revenue": 297.38,
+      "impressions": 1554,
+      "clicks": 497,
+      "ctr": 31.98,
+      "roas": 1.29,
+      "cpc": 0.47
+    },
+    "Campaign_175": {
+      "spend": 306.1,
+      "revenue": 756.32,
+      "impressions": 1528,
+      "clicks": 461,
+      "ctr": 30.17,
+      "roas": 2.47,
+      "cpc": 0.66
+    },
+    "Campaign_176": {
+      "spend": 389.23,
+      "revenue": 461.57,
+      "impressions": 1539,
+      "clicks": 429,
+      "ctr": 27.88,
+      "roas": 1.19,
+      "cpc": 0.91
+    },
+    "Campaign_177": {
+      "spend": 177.22,
+      "revenue": 356.2,
+      "impressions": 1548,
+      "clicks": 459,
+      "ctr": 29.65,
+      "roas": 2.01,
+      "cpc": 0.39
+    },
+    "Campaign_178": {
+      "spend": 115.46,
+      "revenue": 136.57,
+      "impressions": 1561,
+      "clicks": 436,
+      "ctr": 27.93,
+      "roas": 1.18,
+      "cpc": 0.26
+    },
+    "Campaign_179": {
+      "spend": 257.5,
+      "revenue": 412.31,
+      "impressions": 1504,
+      "clicks": 417,
+      "ctr": 27.73,
+      "roas": 1.6,
+      "cpc": 0.62
+    },
+    "Campaign_180": {
+      "spend": 498.45,
+      "revenue": 592.88,
+      "impressions": 1472,
+      "clicks": 416,
+      "ctr": 28.26,
+      "roas": 1.19,
+      "cpc": 1.2
+    },
+    "Campaign_181": {
+      "spend": 474.57,
+      "revenue": 1078.98,
+      "impressions": 1487,
+      "clicks": 427,
+      "ctr": 28.72,
+      "roas": 2.27,
+      "cpc": 1.11
+    },
+    "Campaign_182": {
+      "spend": 273.54,
+      "revenue": 636.76,
+      "impressions": 2211,
+      "clicks": 679,
+      "ctr": 30.71,
+      "roas": 2.33,
+      "cpc": 0.4
+    },
+    "Campaign_183": {
+      "spend": 323.44,
+      "revenue": 417.79,
+      "impressions": 2208,
+      "clicks": 675,
+      "ctr": 30.57,
+      "roas": 1.29,
+      "cpc": 0.48
+    },
+    "Campaign_184": {
+      "spend": 396.08,
+      "revenue": 745.99,
+      "impressions": 1533,
+      "clicks": 382,
+      "ctr": 24.92,
+      "roas": 1.88,
+      "cpc": 1.04
+    },
+    "Campaign_185": {
+      "spend": 102.04,
+      "revenue": 188.87,
+      "impressions": 1499,
+      "clicks": 392,
+      "ctr": 26.15,
+      "roas": 1.85,
+      "cpc": 0.26
+    },
+    "Campaign_186": {
+      "spend": 481.67,
+      "revenue": 1147.29,
+      "impressions": 1547,
+      "clicks": 393,
+      "ctr": 25.4,
+      "roas": 2.38,
+      "cpc": 1.23
+    },
+    "Campaign_187": {
+      "spend": 229.58,
+      "revenue": 389.47,
+      "impressions": 2302,
+      "clicks": 599,
+      "ctr": 26.02,
+      "roas": 1.7,
+      "cpc": 0.38
+    },
+    "Campaign_188": {
+      "spend": 285.14,
+      "revenue": 598.34,
+      "impressions": 2280,
+      "clicks": 593,
+      "ctr": 26.01,
+      "roas": 2.1,
+      "cpc": 0.48
+    },
+    "Campaign_189": {
+      "spend": 447.3,
+      "revenue": 572.41,
+      "impressions": 1198,
+      "clicks": 344,
+      "ctr": 28.71,
+      "roas": 1.28,
+      "cpc": 1.3
+    },
+    "Campaign_190": {
+      "spend": 126.79,
+      "revenue": 308.62,
+      "impressions": 1147,
+      "clicks": 315,
+      "ctr": 27.46,
+      "roas": 2.43,
+      "cpc": 0.4
+    },
+    "Campaign_191": {
+      "spend": 174.84,
+      "revenue": 353.05,
+      "impressions": 1117,
+      "clicks": 314,
+      "ctr": 28.11,
+      "roas": 2.02,
+      "cpc": 0.56
+    },
+    "Campaign_192": {
+      "spend": 165.44,
+      "revenue": 275.13,
+      "impressions": 1200,
+      "clicks": 345,
+      "ctr": 28.75,
+      "roas": 1.66,
+      "cpc": 0.48
+    },
+    "Campaign_193": {
+      "spend": 426.22,
+      "revenue": 510.16,
+      "impressions": 2121,
+      "clicks": 608,
+      "ctr": 28.67,
+      "roas": 1.2,
+      "cpc": 0.7
+    },
+    "Campaign_194": {
+      "spend": 286.75,
+      "revenue": 470.11,
+      "impressions": 2134,
+      "clicks": 612,
+      "ctr": 28.68,
+      "roas": 1.64,
+      "cpc": 0.47
+    },
+    "Campaign_195": {
+      "spend": 460.6,
+      "revenue": 710.63,
+      "impressions": 1169,
+      "clicks": 307,
+      "ctr": 26.26,
+      "roas": 1.54,
+      "cpc": 1.5
+    },
+    "Campaign_196": {
+      "spend": 324.2,
+      "revenue": 674.27,
+      "impressions": 1183,
+      "clicks": 316,
+      "ctr": 26.71,
+      "roas": 2.08,
+      "cpc": 1.03
+    },
+    "Campaign_197": {
+      "spend": 150.41,
+      "revenue": 348.89,
+      "impressions": 1137,
+      "clicks": 310,
+      "ctr": 27.26,
+      "roas": 2.32,
+      "cpc": 0.49
+    },
+    "Campaign_198": {
+      "spend": 462.41,
+      "revenue": 1078.59,
+      "impressions": 1109,
+      "clicks": 311,
+      "ctr": 28.04,
+      "roas": 2.33,
+      "cpc": 1.49
+    },
+    "Campaign_199": {
+      "spend": 178.89,
+      "revenue": 391.84,
+      "impressions": 2244,
+      "clicks": 686,
+      "ctr": 30.57,
+      "roas": 2.19,
+      "cpc": 0.26
+    },
+    "Campaign_200": {
+      "spend": 277.76,
+      "revenue": 482.31,
+      "impressions": 2239,
+      "clicks": 690,
+      "ctr": 30.82,
+      "roas": 1.74,
+      "cpc": 0.4
+    },
+    "Campaign_201": {
+      "spend": 102.13,
+      "revenue": 152.6,
+      "impressions": 1576,
+      "clicks": 427,
+      "ctr": 27.09,
+      "roas": 1.49,
+      "cpc": 0.24
+    },
+    "Campaign_202": {
+      "spend": 311.12,
+      "revenue": 427.95,
+      "impressions": 1641,
+      "clicks": 417,
+      "ctr": 25.41,
+      "roas": 1.38,
+      "cpc": 0.75
+    },
+    "Campaign_203": {
+      "spend": 495.15,
+      "revenue": 670.29,
+      "impressions": 1574,
+      "clicks": 431,
+      "ctr": 27.38,
+      "roas": 1.35,
+      "cpc": 1.15
+    },
+    "Campaign_204": {
+      "spend": 354.42,
+      "revenue": 883.05,
+      "impressions": 1227,
+      "clicks": 355,
+      "ctr": 28.93,
+      "roas": 2.49,
+      "cpc": 1.0
+    },
+    "Campaign_205": {
+      "spend": 365.15,
+      "revenue": 740.36,
+      "impressions": 1191,
+      "clicks": 367,
+      "ctr": 30.81,
+      "roas": 2.03,
+      "cpc": 0.99
+    },
+    "Campaign_206": {
+      "spend": 204.16,
+      "revenue": 252.49,
+      "impressions": 1163,
+      "clicks": 371,
+      "ctr": 31.9,
+      "roas": 1.24,
+      "cpc": 0.55
+    },
+    "Campaign_207": {
+      "spend": 375.07,
+      "revenue": 680.85,
+      "impressions": 1190,
+      "clicks": 350,
+      "ctr": 29.41,
+      "roas": 1.82,
+      "cpc": 1.07
+    },
+    "Campaign_208": {
+      "spend": 370.57,
+      "revenue": 717.17,
+      "impressions": 1401,
+      "clicks": 436,
+      "ctr": 31.12,
+      "roas": 1.94,
+      "cpc": 0.85
+    },
+    "Campaign_209": {
+      "spend": 279.3,
+      "revenue": 595.0,
+      "impressions": 1451,
+      "clicks": 462,
+      "ctr": 31.84,
+      "roas": 2.13,
+      "cpc": 0.6
+    },
+    "Campaign_210": {
+      "spend": 444.24,
+      "revenue": 1021.42,
+      "impressions": 1449,
+      "clicks": 438,
+      "ctr": 30.23,
+      "roas": 2.3,
+      "cpc": 1.01
+    },
+    "Campaign_211": {
+      "spend": 226.03,
+      "revenue": 461.23,
+      "impressions": 1521,
+      "clicks": 430,
+      "ctr": 28.27,
+      "roas": 2.04,
+      "cpc": 0.53
+    },
+    "Campaign_212": {
+      "spend": 338.88,
+      "revenue": 762.59,
+      "impressions": 1521,
+      "clicks": 445,
+      "ctr": 29.26,
+      "roas": 2.25,
+      "cpc": 0.76
+    },
+    "Campaign_213": {
+      "spend": 107.23,
+      "revenue": 121.34,
+      "impressions": 1527,
+      "clicks": 463,
+      "ctr": 30.32,
+      "roas": 1.13,
+      "cpc": 0.23
+    },
+    "Campaign_214": {
+      "spend": 289.08,
+      "revenue": 523.77,
+      "impressions": 1509,
+      "clicks": 487,
+      "ctr": 32.27,
+      "roas": 1.81,
+      "cpc": 0.59
+    },
+    "Campaign_215": {
+      "spend": 340.19,
+      "revenue": 837.76,
+      "impressions": 1567,
+      "clicks": 479,
+      "ctr": 30.57,
+      "roas": 2.46,
+      "cpc": 0.71
+    },
+    "Campaign_216": {
+      "spend": 121.13,
+      "revenue": 161.02,
+      "impressions": 1494,
+      "clicks": 472,
+      "ctr": 31.59,
+      "roas": 1.33,
+      "cpc": 0.26
+    },
+    "Campaign_217": {
+      "spend": 230.02,
+      "revenue": 535.0,
+      "impressions": 2228,
+      "clicks": 684,
+      "ctr": 30.7,
+      "roas": 2.33,
+      "cpc": 0.34
+    },
+    "Campaign_218": {
+      "spend": 332.15,
+      "revenue": 605.28,
+      "impressions": 2165,
+      "clicks": 717,
+      "ctr": 33.12,
+      "roas": 1.82,
+      "cpc": 0.46
+    },
+    "Campaign_219": {
+      "spend": 101.23,
+      "revenue": 128.64,
+      "impressions": 1544,
+      "clicks": 438,
+      "ctr": 28.37,
+      "roas": 1.27,
+      "cpc": 0.23
+    },
+    "Campaign_220": {
+      "spend": 209.59,
+      "revenue": 419.48,
+      "impressions": 1561,
+      "clicks": 472,
+      "ctr": 30.24,
+      "roas": 2.0,
+      "cpc": 0.44
+    },
+    "Campaign_221": {
+      "spend": 440.01,
+      "revenue": 965.44,
+      "impressions": 1602,
+      "clicks": 471,
+      "ctr": 29.4,
+      "roas": 2.19,
+      "cpc": 0.93
+    },
+    "Campaign_222": {
+      "spend": 462.92,
+      "revenue": 895.27,
+      "impressions": 1618,
+      "clicks": 452,
+      "ctr": 27.94,
+      "roas": 1.93,
+      "cpc": 1.02
+    },
+    "Campaign_223": {
+      "spend": 223.05,
+      "revenue": 437.35,
+      "impressions": 1644,
+      "clicks": 447,
+      "ctr": 27.19,
+      "roas": 1.96,
+      "cpc": 0.5
+    },
+    "Campaign_224": {
+      "spend": 496.53,
+      "revenue": 768.65,
+      "impressions": 1614,
+      "clicks": 478,
+      "ctr": 29.62,
+      "roas": 1.55,
+      "cpc": 1.04
+    },
+    "Campaign_225": {
+      "spend": 367.01,
+      "revenue": 747.82,
+      "impressions": 1444,
+      "clicks": 402,
+      "ctr": 27.84,
+      "roas": 2.04,
+      "cpc": 0.91
+    },
+    "Campaign_226": {
+      "spend": 225.68,
+      "revenue": 440.04,
+      "impressions": 1431,
+      "clicks": 380,
+      "ctr": 26.55,
+      "roas": 1.95,
+      "cpc": 0.59
+    },
+    "Campaign_227": {
+      "spend": 455.07,
+      "revenue": 630.94,
+      "impressions": 1409,
+      "clicks": 407,
+      "ctr": 28.89,
+      "roas": 1.39,
+      "cpc": 1.12
+    },
+    "Campaign_228": {
+      "spend": 317.28,
+      "revenue": 512.2,
+      "impressions": 2287,
+      "clicks": 593,
+      "ctr": 25.93,
+      "roas": 1.61,
+      "cpc": 0.54
+    },
+    "Campaign_229": {
+      "spend": 177.6,
+      "revenue": 396.73,
+      "impressions": 2354,
+      "clicks": 587,
+      "ctr": 24.94,
+      "roas": 2.23,
+      "cpc": 0.3
+    },
+    "Campaign_230": {
+      "spend": 338.98,
+      "revenue": 727.45,
+      "impressions": 2290,
+      "clicks": 575,
+      "ctr": 25.11,
+      "roas": 2.15,
+      "cpc": 0.59
+    },
+    "Campaign_231": {
+      "spend": 367.72,
+      "revenue": 702.14,
+      "impressions": 2275,
+      "clicks": 547,
+      "ctr": 24.04,
+      "roas": 1.91,
+      "cpc": 0.67
+    },
+    "Campaign_232": {
+      "spend": 177.17,
+      "revenue": 327.36,
+      "impressions": 2201,
+      "clicks": 626,
+      "ctr": 28.44,
+      "roas": 1.85,
+      "cpc": 0.28
+    },
+    "Campaign_233": {
+      "spend": 211.13,
+      "revenue": 297.72,
+      "impressions": 2217,
+      "clicks": 649,
+      "ctr": 29.27,
+      "roas": 1.41,
+      "cpc": 0.33
+    },
+    "Campaign_234": {
+      "spend": 456.24,
+      "revenue": 732.27,
+      "impressions": 1505,
+      "clicks": 474,
+      "ctr": 31.5,
+      "roas": 1.61,
+      "cpc": 0.96
+    },
+    "Campaign_235": {
+      "spend": 314.2,
+      "revenue": 442.92,
+      "impressions": 1479,
+      "clicks": 451,
+      "ctr": 30.49,
+      "roas": 1.41,
+      "cpc": 0.7
+    },
+    "Campaign_236": {
+      "spend": 341.58,
+      "revenue": 591.42,
+      "impressions": 1462,
+      "clicks": 474,
+      "ctr": 32.42,
+      "roas": 1.73,
+      "cpc": 0.72
+    },
+    "Campaign_237": {
+      "spend": 239.55,
+      "revenue": 440.9,
+      "impressions": 1118,
+      "clicks": 286,
+      "ctr": 25.58,
+      "roas": 1.84,
+      "cpc": 0.84
+    },
+    "Campaign_238": {
+      "spend": 419.27,
+      "revenue": 567.9,
+      "impressions": 1076,
+      "clicks": 311,
+      "ctr": 28.9,
+      "roas": 1.35,
+      "cpc": 1.35
+    },
+    "Campaign_239": {
+      "spend": 468.82,
+      "revenue": 690.08,
+      "impressions": 1118,
+      "clicks": 305,
+      "ctr": 27.28,
+      "roas": 1.47,
+      "cpc": 1.54
+    },
+    "Campaign_240": {
+      "spend": 331.95,
+      "revenue": 458.32,
+      "impressions": 1139,
+      "clicks": 294,
+      "ctr": 25.81,
+      "roas": 1.38,
+      "cpc": 1.13
+    },
+    "Campaign_241": {
+      "spend": 265.17,
+      "revenue": 649.29,
+      "impressions": 1581,
+      "clicks": 392,
+      "ctr": 24.79,
+      "roas": 2.45,
+      "cpc": 0.68
+    },
+    "Campaign_242": {
+      "spend": 250.21,
+      "revenue": 590.3,
+      "impressions": 1562,
+      "clicks": 391,
+      "ctr": 25.03,
+      "roas": 2.36,
+      "cpc": 0.64
+    },
+    "Campaign_243": {
+      "spend": 153.48,
+      "revenue": 188.41,
+      "impressions": 1524,
+      "clicks": 402,
+      "ctr": 26.38,
+      "roas": 1.23,
+      "cpc": 0.38
+    },
+    "Campaign_244": {
+      "spend": 484.55,
+      "revenue": 753.78,
+      "impressions": 2186,
+      "clicks": 584,
+      "ctr": 26.72,
+      "roas": 1.56,
+      "cpc": 0.83
+    },
+    "Campaign_245": {
+      "spend": 383.16,
+      "revenue": 428.01,
+      "impressions": 2175,
+      "clicks": 592,
+      "ctr": 27.22,
+      "roas": 1.12,
+      "cpc": 0.65
+    },
+    "Campaign_246": {
+      "spend": 469.52,
+      "revenue": 1094.62,
+      "impressions": 1199,
+      "clicks": 334,
+      "ctr": 27.86,
+      "roas": 2.33,
+      "cpc": 1.41
+    },
+    "Campaign_247": {
+      "spend": 204.24,
+      "revenue": 251.63,
+      "impressions": 1233,
+      "clicks": 343,
+      "ctr": 27.82,
+      "roas": 1.23,
+      "cpc": 0.6
+    },
+    "Campaign_248": {
+      "spend": 490.01,
+      "revenue": 1119.91,
+      "impressions": 1204,
+      "clicks": 318,
+      "ctr": 26.41,
+      "roas": 2.29,
+      "cpc": 1.54
+    },
+    "Campaign_249": {
+      "spend": 480.11,
+      "revenue": 1097.89,
+      "impressions": 1194,
+      "clicks": 332,
+      "ctr": 27.81,
+      "roas": 2.29,
+      "cpc": 1.45
+    },
+    "Campaign_250": {
+      "spend": 129.86,
+      "revenue": 225.34,
+      "impressions": 1070,
+      "clicks": 315,
+      "ctr": 29.44,
+      "roas": 1.74,
+      "cpc": 0.41
+    },
+    "Campaign_251": {
+      "spend": 443.37,
+      "revenue": 758.2,
+      "impressions": 1067,
+      "clicks": 317,
+      "ctr": 29.71,
+      "roas": 1.71,
+      "cpc": 1.4
+    },
+    "Campaign_252": {
+      "spend": 170.61,
+      "revenue": 270.31,
+      "impressions": 1110,
+      "clicks": 322,
+      "ctr": 29.01,
+      "roas": 1.58,
+      "cpc": 0.53
+    },
+    "Campaign_253": {
+      "spend": 179.1,
+      "revenue": 443.92,
+      "impressions": 1112,
+      "clicks": 310,
+      "ctr": 27.88,
+      "roas": 2.48,
+      "cpc": 0.58
+    },
+    "Campaign_254": {
+      "spend": 254.81,
+      "revenue": 541.23,
+      "impressions": 1406,
+      "clicks": 463,
+      "ctr": 32.93,
+      "roas": 2.12,
+      "cpc": 0.55
+    },
+    "Campaign_255": {
+      "spend": 240.92,
+      "revenue": 481.19,
+      "impressions": 1448,
+      "clicks": 458,
+      "ctr": 31.63,
+      "roas": 2.0,
+      "cpc": 0.53
+    },
+    "Campaign_256": {
+      "spend": 368.43,
+      "revenue": 708.28,
+      "impressions": 1453,
+      "clicks": 488,
+      "ctr": 33.59,
+      "roas": 1.92,
+      "cpc": 0.75
+    },
+    "Campaign_257": {
+      "spend": 312.15,
+      "revenue": 392.85,
+      "impressions": 1207,
+      "clicks": 365,
+      "ctr": 30.24,
+      "roas": 1.26,
+      "cpc": 0.86
+    },
+    "Campaign_258": {
+      "spend": 171.04,
+      "revenue": 255.67,
+      "impressions": 1251,
+      "clicks": 350,
+      "ctr": 27.98,
+      "roas": 1.49,
+      "cpc": 0.49
+    },
+    "Campaign_259": {
+      "spend": 489.77,
+      "revenue": 836.71,
+      "impressions": 1234,
+      "clicks": 370,
+      "ctr": 29.98,
+      "roas": 1.71,
+      "cpc": 1.32
+    },
+    "Campaign_260": {
+      "spend": 436.82,
+      "revenue": 920.39,
+      "impressions": 1234,
+      "clicks": 341,
+      "ctr": 27.63,
+      "roas": 2.11,
+      "cpc": 1.28
+    },
+    "Campaign_261": {
+      "spend": 437.5,
+      "revenue": 970.21,
+      "impressions": 2173,
+      "clicks": 699,
+      "ctr": 32.17,
+      "roas": 2.22,
+      "cpc": 0.63
+    },
+    "Campaign_262": {
+      "spend": 162.84,
+      "revenue": 186.85,
+      "impressions": 2240,
+      "clicks": 673,
+      "ctr": 30.04,
+      "roas": 1.15,
+      "cpc": 0.24
+    },
+    "Campaign_263": {
+      "spend": 343.88,
+      "revenue": 410.02,
+      "impressions": 1104,
+      "clicks": 307,
+      "ctr": 27.81,
+      "roas": 1.19,
+      "cpc": 1.12
+    },
+    "Campaign_264": {
+      "spend": 433.12,
+      "revenue": 1016.83,
+      "impressions": 1093,
+      "clicks": 316,
+      "ctr": 28.91,
+      "roas": 2.35,
+      "cpc": 1.37
+    },
+    "Campaign_265": {
+      "spend": 327.05,
+      "revenue": 396.98,
+      "impressions": 1048,
+      "clicks": 322,
+      "ctr": 30.73,
+      "roas": 1.21,
+      "cpc": 1.02
+    },
+    "Campaign_266": {
+      "spend": 274.53,
+      "revenue": 448.24,
+      "impressions": 1073,
+      "clicks": 304,
+      "ctr": 28.33,
+      "roas": 1.63,
+      "cpc": 0.9
+    },
+    "Campaign_267": {
+      "spend": 410.2,
+      "revenue": 950.71,
+      "impressions": 1118,
+      "clicks": 272,
+      "ctr": 24.33,
+      "roas": 2.32,
+      "cpc": 1.51
+    },
+    "Campaign_268": {
+      "spend": 339.51,
+      "revenue": 766.88,
+      "impressions": 1131,
+      "clicks": 303,
+      "ctr": 26.79,
+      "roas": 2.26,
+      "cpc": 1.12
+    },
+    "Campaign_269": {
+      "spend": 141.52,
+      "revenue": 311.16,
+      "impressions": 1152,
+      "clicks": 276,
+      "ctr": 23.96,
+      "roas": 2.2,
+      "cpc": 0.51
+    },
+    "Campaign_270": {
+      "spend": 335.05,
+      "revenue": 460.81,
+      "impressions": 1106,
+      "clicks": 274,
+      "ctr": 24.77,
+      "roas": 1.38,
+      "cpc": 1.22
+    },
+    "Campaign_271": {
+      "spend": 150.77,
+      "revenue": 261.9,
+      "impressions": 2284,
+      "clicks": 687,
+      "ctr": 30.08,
+      "roas": 1.74,
+      "cpc": 0.22
+    },
+    "Campaign_272": {
+      "spend": 436.02,
+      "revenue": 812.24,
+      "impressions": 2295,
+      "clicks": 675,
+      "ctr": 29.41,
+      "roas": 1.86,
+      "cpc": 0.65
+    },
+    "Campaign_273": {
+      "spend": 430.92,
+      "revenue": 780.22,
+      "impressions": 1531,
+      "clicks": 443,
+      "ctr": 28.94,
+      "roas": 1.81,
+      "cpc": 0.97
+    },
+    "Campaign_274": {
+      "spend": 398.5,
+      "revenue": 776.31,
+      "impressions": 1473,
+      "clicks": 456,
+      "ctr": 30.96,
+      "roas": 1.95,
+      "cpc": 0.87
+    },
+    "Campaign_275": {
+      "spend": 141.97,
+      "revenue": 306.36,
+      "impressions": 1546,
+      "clicks": 436,
+      "ctr": 28.2,
+      "roas": 2.16,
+      "cpc": 0.33
+    },
+    "Campaign_276": {
+      "spend": 402.53,
+      "revenue": 569.55,
+      "impressions": 2106,
+      "clicks": 659,
+      "ctr": 31.29,
+      "roas": 1.41,
+      "cpc": 0.61
+    },
+    "Campaign_277": {
+      "spend": 427.16,
+      "revenue": 800.55,
+      "impressions": 2147,
+      "clicks": 629,
+      "ctr": 29.3,
+      "roas": 1.87,
+      "cpc": 0.68
+    },
+    "Campaign_278": {
+      "spend": 221.11,
+      "revenue": 369.6,
+      "impressions": 1585,
+      "clicks": 440,
+      "ctr": 27.76,
+      "roas": 1.67,
+      "cpc": 0.5
+    },
+    "Campaign_279": {
+      "spend": 252.37,
+      "revenue": 488.17,
+      "impressions": 1548,
+      "clicks": 426,
+      "ctr": 27.52,
+      "roas": 1.93,
+      "cpc": 0.59
+    },
+    "Campaign_280": {
+      "spend": 424.67,
+      "revenue": 753.08,
+      "impressions": 1497,
+      "clicks": 452,
+      "ctr": 30.19,
+      "roas": 1.77,
+      "cpc": 0.94
+    },
+    "Campaign_281": {
+      "spend": 453.0,
+      "revenue": 612.45,
+      "impressions": 1495,
+      "clicks": 478,
+      "ctr": 31.97,
+      "roas": 1.35,
+      "cpc": 0.95
+    },
+    "Campaign_282": {
+      "spend": 286.82,
+      "revenue": 672.0,
+      "impressions": 1514,
+      "clicks": 458,
+      "ctr": 30.25,
+      "roas": 2.34,
+      "cpc": 0.63
+    },
+    "Campaign_283": {
+      "spend": 479.85,
+      "revenue": 662.25,
+      "impressions": 1483,
+      "clicks": 468,
+      "ctr": 31.56,
+      "roas": 1.38,
+      "cpc": 1.03
+    },
+    "Campaign_284": {
+      "spend": 438.3,
+      "revenue": 638.72,
+      "impressions": 1560,
+      "clicks": 420,
+      "ctr": 26.92,
+      "roas": 1.46,
+      "cpc": 1.04
+    },
+    "Campaign_285": {
+      "spend": 232.14,
+      "revenue": 357.68,
+      "impressions": 1567,
+      "clicks": 386,
+      "ctr": 24.63,
+      "roas": 1.54,
+      "cpc": 0.6
+    },
+    "Campaign_286": {
+      "spend": 211.44,
+      "revenue": 340.53,
+      "impressions": 1587,
+      "clicks": 402,
+      "ctr": 25.33,
+      "roas": 1.61,
+      "cpc": 0.53
+    },
+    "Campaign_287": {
+      "spend": 313.7,
+      "revenue": 619.14,
+      "impressions": 1162,
+      "clicks": 348,
+      "ctr": 29.95,
+      "roas": 1.97,
+      "cpc": 0.9
+    },
+    "Campaign_288": {
+      "spend": 458.29,
+      "revenue": 535.58,
+      "impressions": 1134,
+      "clicks": 343,
+      "ctr": 30.25,
+      "roas": 1.17,
+      "cpc": 1.34
+    },
+    "Campaign_289": {
+      "spend": 455.69,
+      "revenue": 1010.06,
+      "impressions": 1201,
+      "clicks": 339,
+      "ctr": 28.23,
+      "roas": 2.22,
+      "cpc": 1.34
+    },
+    "Campaign_290": {
+      "spend": 156.24,
+      "revenue": 300.7,
+      "impressions": 1191,
+      "clicks": 321,
+      "ctr": 26.95,
+      "roas": 1.92,
+      "cpc": 0.49
+    },
+    "Campaign_291": {
+      "spend": 357.91,
+      "revenue": 789.23,
+      "impressions": 2366,
+      "clicks": 700,
+      "ctr": 29.59,
+      "roas": 2.21,
+      "cpc": 0.51
+    },
+    "Campaign_292": {
+      "spend": 241.87,
+      "revenue": 346.83,
+      "impressions": 2295,
+      "clicks": 701,
+      "ctr": 30.54,
+      "roas": 1.43,
+      "cpc": 0.35
+    },
+    "Campaign_293": {
+      "spend": 180.17,
+      "revenue": 215.12,
+      "impressions": 2225,
+      "clicks": 648,
+      "ctr": 29.12,
+      "roas": 1.19,
+      "cpc": 0.28
+    },
+    "Campaign_294": {
+      "spend": 323.79,
+      "revenue": 397.98,
+      "impressions": 2222,
+      "clicks": 631,
+      "ctr": 28.4,
+      "roas": 1.23,
+      "cpc": 0.51
+    },
+    "Campaign_295": {
+      "spend": 390.64,
+      "revenue": 504.82,
+      "impressions": 1495,
+      "clicks": 471,
+      "ctr": 31.51,
+      "roas": 1.29,
+      "cpc": 0.83
+    },
+    "Campaign_296": {
+      "spend": 321.71,
+      "revenue": 509.41,
+      "impressions": 1496,
+      "clicks": 457,
+      "ctr": 30.55,
+      "roas": 1.58,
+      "cpc": 0.7
+    },
+    "Campaign_297": {
+      "spend": 234.09,
+      "revenue": 357.25,
+      "impressions": 1551,
+      "clicks": 468,
+      "ctr": 30.17,
+      "roas": 1.53,
+      "cpc": 0.5
+    },
+    "Campaign_298": {
+      "spend": 111.78,
+      "revenue": 267.99,
+      "impressions": 1639,
+      "clicks": 496,
+      "ctr": 30.26,
+      "roas": 2.4,
+      "cpc": 0.23
+    },
+    "Campaign_299": {
+      "spend": 451.61,
+      "revenue": 869.9,
+      "impressions": 1622,
+      "clicks": 476,
+      "ctr": 29.35,
+      "roas": 1.93,
+      "cpc": 0.95
+    },
+    "Campaign_300": {
+      "spend": 154.75,
+      "revenue": 177.44,
+      "impressions": 1593,
+      "clicks": 505,
+      "ctr": 31.7,
+      "roas": 1.15,
+      "cpc": 0.31
+    },
+    "Campaign_301": {
+      "spend": 323.73,
+      "revenue": 394.37,
+      "impressions": 1109,
+      "clicks": 361,
+      "ctr": 32.55,
+      "roas": 1.22,
+      "cpc": 0.9
+    },
+    "Campaign_302": {
+      "spend": 137.75,
+      "revenue": 242.46,
+      "impressions": 1148,
+      "clicks": 369,
+      "ctr": 32.14,
+      "roas": 1.76,
+      "cpc": 0.37
+    },
+    "Campaign_303": {
+      "spend": 235.93,
+      "revenue": 537.61,
+      "impressions": 1173,
+      "clicks": 339,
+      "ctr": 28.9,
+      "roas": 2.28,
+      "cpc": 0.7
+    },
+    "Campaign_304": {
+      "spend": 399.22,
+      "revenue": 542.21,
+      "impressions": 1186,
+      "clicks": 356,
+      "ctr": 30.02,
+      "roas": 1.36,
+      "cpc": 1.12
+    },
+    "Campaign_305": {
+      "spend": 399.23,
+      "revenue": 717.55,
+      "impressions": 1139,
+      "clicks": 315,
+      "ctr": 27.66,
+      "roas": 1.8,
+      "cpc": 1.27
+    },
+    "Campaign_306": {
+      "spend": 224.03,
+      "revenue": 367.62,
+      "impressions": 1163,
+      "clicks": 316,
+      "ctr": 27.17,
+      "roas": 1.64,
+      "cpc": 0.71
+    },
+    "Campaign_307": {
+      "spend": 457.87,
+      "revenue": 996.9,
+      "impressions": 1141,
+      "clicks": 331,
+      "ctr": 29.01,
+      "roas": 2.18,
+      "cpc": 1.38
+    },
+    "Campaign_308": {
+      "spend": 380.81,
+      "revenue": 804.92,
+      "impressions": 1141,
+      "clicks": 311,
+      "ctr": 27.26,
+      "roas": 2.11,
+      "cpc": 1.22
+    },
+    "Campaign_309": {
+      "spend": 385.64,
+      "revenue": 583.75,
+      "impressions": 2306,
+      "clicks": 648,
+      "ctr": 28.1,
+      "roas": 1.51,
+      "cpc": 0.6
+    },
+    "Campaign_310": {
+      "spend": 367.82,
+      "revenue": 410.41,
+      "impressions": 2319,
+      "clicks": 632,
+      "ctr": 27.25,
+      "roas": 1.12,
+      "cpc": 0.58
+    },
+    "Campaign_311": {
+      "spend": 485.02,
+      "revenue": 1150.71,
+      "impressions": 1515,
+      "clicks": 390,
+      "ctr": 25.74,
+      "roas": 2.37,
+      "cpc": 1.24
+    },
+    "Campaign_312": {
+      "spend": 285.62,
+      "revenue": 679.5,
+      "impressions": 1520,
+      "clicks": 386,
+      "ctr": 25.39,
+      "roas": 2.38,
+      "cpc": 0.74
+    },
+    "Campaign_313": {
+      "spend": 254.91,
+      "revenue": 443.27,
+      "impressions": 1496,
+      "clicks": 408,
+      "ctr": 27.27,
+      "roas": 1.74,
+      "cpc": 0.62
+    },
+    "Campaign_314": {
+      "spend": 302.93,
+      "revenue": 450.21,
+      "impressions": 1461,
+      "clicks": 383,
+      "ctr": 26.21,
+      "roas": 1.49,
+      "cpc": 0.79
+    },
+    "Campaign_315": {
+      "spend": 268.93,
+      "revenue": 368.79,
+      "impressions": 1398,
+      "clicks": 390,
+      "ctr": 27.9,
+      "roas": 1.37,
+      "cpc": 0.69
+    },
+    "Campaign_316": {
+      "spend": 348.86,
+      "revenue": 638.42,
+      "impressions": 1388,
+      "clicks": 389,
+      "ctr": 28.03,
+      "roas": 1.83,
+      "cpc": 0.9
+    },
+    "Campaign_317": {
+      "spend": 243.63,
+      "revenue": 413.85,
+      "impressions": 1457,
+      "clicks": 454,
+      "ctr": 31.16,
+      "roas": 1.7,
+      "cpc": 0.54
+    },
+    "Campaign_318": {
+      "spend": 162.55,
+      "revenue": 220.72,
+      "impressions": 1446,
+      "clicks": 465,
+      "ctr": 32.16,
+      "roas": 1.36,
+      "cpc": 0.35
+    },
+    "Campaign_319": {
+      "spend": 101.89,
+      "revenue": 203.9,
+      "impressions": 1446,
+      "clicks": 456,
+      "ctr": 31.54,
+      "roas": 2.0,
+      "cpc": 0.22
+    },
+    "Campaign_320": {
+      "spend": 351.87,
+      "revenue": 742.07,
+      "impressions": 2262,
+      "clicks": 610,
+      "ctr": 26.97,
+      "roas": 2.11,
+      "cpc": 0.58
+    },
+    "Campaign_321": {
+      "spend": 267.47,
+      "revenue": 625.71,
+      "impressions": 2248,
+      "clicks": 610,
+      "ctr": 27.14,
+      "roas": 2.34,
+      "cpc": 0.44
+    },
+    "Campaign_322": {
+      "spend": 394.71,
+      "revenue": 616.36,
+      "impressions": 2238,
+      "clicks": 646,
+      "ctr": 28.87,
+      "roas": 1.56,
+      "cpc": 0.61
+    },
+    "Campaign_323": {
+      "spend": 254.88,
+      "revenue": 283.16,
+      "impressions": 2203,
+      "clicks": 660,
+      "ctr": 29.96,
+      "roas": 1.11,
+      "cpc": 0.39
+    },
+    "Campaign_324": {
+      "spend": 423.25,
+      "revenue": 808.47,
+      "impressions": 1076,
+      "clicks": 340,
+      "ctr": 31.6,
+      "roas": 1.91,
+      "cpc": 1.24
+    },
+    "Campaign_325": {
+      "spend": 205.45,
+      "revenue": 275.39,
+      "impressions": 1125,
+      "clicks": 353,
+      "ctr": 31.38,
+      "roas": 1.34,
+      "cpc": 0.58
+    },
+    "Campaign_326": {
+      "spend": 282.27,
+      "revenue": 523.63,
+      "impressions": 1121,
+      "clicks": 349,
+      "ctr": 31.13,
+      "roas": 1.86,
+      "cpc": 0.81
+    },
+    "Campaign_327": {
+      "spend": 120.17,
+      "revenue": 212.13,
+      "impressions": 1104,
+      "clicks": 335,
+      "ctr": 30.34,
+      "roas": 1.77,
+      "cpc": 0.36
+    },
+    "Campaign_328": {
+      "spend": 368.05,
+      "revenue": 563.56,
+      "impressions": 1125,
+      "clicks": 360,
+      "ctr": 32.0,
+      "roas": 1.53,
+      "cpc": 1.02
+    },
+    "Campaign_329": {
+      "spend": 356.5,
+      "revenue": 433.0,
+      "impressions": 1060,
+      "clicks": 374,
+      "ctr": 35.28,
+      "roas": 1.21,
+      "cpc": 0.95
+    },
+    "Campaign_330": {
+      "spend": 117.52,
+      "revenue": 252.91,
+      "impressions": 1126,
+      "clicks": 355,
+      "ctr": 31.53,
+      "roas": 2.15,
+      "cpc": 0.33
+    },
+    "Campaign_331": {
+      "spend": 277.58,
+      "revenue": 500.63,
+      "impressions": 1086,
+      "clicks": 353,
+      "ctr": 32.5,
+      "roas": 1.8,
+      "cpc": 0.79
+    },
+    "Campaign_332": {
+      "spend": 465.91,
+      "revenue": 755.2,
+      "impressions": 1532,
+      "clicks": 451,
+      "ctr": 29.44,
+      "roas": 1.62,
+      "cpc": 1.03
+    },
+    "Campaign_333": {
+      "spend": 391.28,
+      "revenue": 827.23,
+      "impressions": 1521,
+      "clicks": 426,
+      "ctr": 28.01,
+      "roas": 2.11,
+      "cpc": 0.92
+    },
+    "Campaign_334": {
+      "spend": 396.1,
+      "revenue": 662.28,
+      "impressions": 1528,
+      "clicks": 454,
+      "ctr": 29.71,
+      "roas": 1.67,
+      "cpc": 0.87
+    },
+    "Campaign_335": {
+      "spend": 116.67,
+      "revenue": 201.62,
+      "impressions": 2158,
+      "clicks": 689,
+      "ctr": 31.93,
+      "roas": 1.73,
+      "cpc": 0.17
+    },
+    "Campaign_336": {
+      "spend": 434.81,
+      "revenue": 531.21,
+      "impressions": 2141,
+      "clicks": 664,
+      "ctr": 31.01,
+      "roas": 1.22,
+      "cpc": 0.65
+    },
+    "Campaign_337": {
+      "spend": 104.78,
+      "revenue": 213.22,
+      "impressions": 1150,
+      "clicks": 363,
+      "ctr": 31.57,
+      "roas": 2.03,
+      "cpc": 0.29
+    },
+    "Campaign_338": {
+      "spend": 295.35,
+      "revenue": 691.37,
+      "impressions": 1210,
+      "clicks": 354,
+      "ctr": 29.26,
+      "roas": 2.34,
+      "cpc": 0.83
+    },
+    "Campaign_339": {
+      "spend": 185.84,
+      "revenue": 421.27,
+      "impressions": 1168,
+      "clicks": 365,
+      "ctr": 31.25,
+      "roas": 2.27,
+      "cpc": 0.51
+    },
+    "Campaign_340": {
+      "spend": 415.13,
+      "revenue": 913.78,
+      "impressions": 1167,
+      "clicks": 367,
+      "ctr": 31.45,
+      "roas": 2.2,
+      "cpc": 1.13
+    },
+    "Campaign_341": {
+      "spend": 437.99,
+      "revenue": 931.02,
+      "impressions": 1103,
+      "clicks": 295,
+      "ctr": 26.75,
+      "roas": 2.13,
+      "cpc": 1.48
+    },
+    "Campaign_342": {
+      "spend": 227.89,
+      "revenue": 421.4,
+      "impressions": 1111,
+      "clicks": 321,
+      "ctr": 28.89,
+      "roas": 1.85,
+      "cpc": 0.71
+    },
+    "Campaign_343": {
+      "spend": 293.54,
+      "revenue": 612.63,
+      "impressions": 1105,
+      "clicks": 294,
+      "ctr": 26.61,
+      "roas": 2.09,
+      "cpc": 1.0
+    },
+    "Campaign_344": {
+      "spend": 217.4,
+      "revenue": 353.78,
+      "impressions": 1063,
+      "clicks": 316,
+      "ctr": 29.73,
+      "roas": 1.63,
+      "cpc": 0.69
+    },
+    "Campaign_345": {
+      "spend": 386.4,
+      "revenue": 691.98,
+      "impressions": 1159,
+      "clicks": 362,
+      "ctr": 31.23,
+      "roas": 1.79,
+      "cpc": 1.07
+    },
+    "Campaign_346": {
+      "spend": 464.0,
+      "revenue": 628.16,
+      "impressions": 1155,
+      "clicks": 343,
+      "ctr": 29.7,
+      "roas": 1.35,
+      "cpc": 1.35
+    },
+    "Campaign_347": {
+      "spend": 196.69,
+      "revenue": 484.72,
+      "impressions": 1209,
+      "clicks": 369,
+      "ctr": 30.52,
+      "roas": 2.46,
+      "cpc": 0.53
+    },
+    "Campaign_348": {
+      "spend": 418.98,
+      "revenue": 1023.54,
+      "impressions": 1209,
+      "clicks": 359,
+      "ctr": 29.69,
+      "roas": 2.44,
+      "cpc": 1.17
+    },
+    "Campaign_349": {
+      "spend": 333.07,
+      "revenue": 441.43,
+      "impressions": 1615,
+      "clicks": 413,
+      "ctr": 25.57,
+      "roas": 1.33,
+      "cpc": 0.81
+    },
+    "Campaign_350": {
+      "spend": 478.55,
+      "revenue": 601.02,
+      "impressions": 1603,
+      "clicks": 434,
+      "ctr": 27.07,
+      "roas": 1.26,
+      "cpc": 1.1
+    },
+    "Campaign_351": {
+      "spend": 266.96,
+      "revenue": 629.22,
+      "impressions": 1584,
+      "clicks": 439,
+      "ctr": 27.71,
+      "roas": 2.36,
+      "cpc": 0.61
+    },
+    "Campaign_352": {
+      "spend": 364.28,
+      "revenue": 650.1,
+      "impressions": 1420,
+      "clicks": 433,
+      "ctr": 30.49,
+      "roas": 1.78,
+      "cpc": 0.84
+    },
+    "Campaign_353": {
+      "spend": 491.68,
+      "revenue": 951.62,
+      "impressions": 1489,
+      "clicks": 436,
+      "ctr": 29.28,
+      "roas": 1.94,
+      "cpc": 1.13
+    },
+    "Campaign_354": {
+      "spend": 179.87,
+      "revenue": 320.16,
+      "impressions": 1396,
+      "clicks": 430,
+      "ctr": 30.8,
+      "roas": 1.78,
+      "cpc": 0.42
+    },
+    "Campaign_355": {
+      "spend": 391.27,
+      "revenue": 956.19,
+      "impressions": 1429,
+      "clicks": 461,
+      "ctr": 32.26,
+      "roas": 2.44,
+      "cpc": 0.85
+    },
+    "Campaign_356": {
+      "spend": 215.15,
+      "revenue": 251.91,
+      "impressions": 1438,
+      "clicks": 449,
+      "ctr": 31.22,
+      "roas": 1.17,
+      "cpc": 0.48
+    },
+    "Campaign_357": {
+      "spend": 131.03,
+      "revenue": 151.13,
+      "impressions": 1433,
+      "clicks": 437,
+      "ctr": 30.5,
+      "roas": 1.15,
+      "cpc": 0.3
+    },
+    "Campaign_358": {
+      "spend": 234.2,
+      "revenue": 476.43,
+      "impressions": 1440,
+      "clicks": 408,
+      "ctr": 28.33,
+      "roas": 2.03,
+      "cpc": 0.57
+    },
+    "Campaign_359": {
+      "spend": 192.14,
+      "revenue": 434.01,
+      "impressions": 1505,
+      "clicks": 433,
+      "ctr": 28.77,
+      "roas": 2.26,
+      "cpc": 0.44
+    },
+    "Campaign_360": {
+      "spend": 173.13,
+      "revenue": 233.76,
+      "impressions": 1465,
+      "clicks": 405,
+      "ctr": 27.65,
+      "roas": 1.35,
+      "cpc": 0.43
+    },
+    "Campaign_361": {
+      "spend": 237.7,
+      "revenue": 439.51,
+      "impressions": 2203,
+      "clicks": 670,
+      "ctr": 30.41,
+      "roas": 1.85,
+      "cpc": 0.35
+    },
+    "Campaign_362": {
+      "spend": 499.97,
+      "revenue": 698.84,
+      "impressions": 2201,
+      "clicks": 679,
+      "ctr": 30.85,
+      "roas": 1.4,
+      "cpc": 0.74
+    },
+    "Campaign_363": {
+      "spend": 291.96,
+      "revenue": 412.65,
+      "impressions": 1465,
+      "clicks": 455,
+      "ctr": 31.06,
+      "roas": 1.41,
+      "cpc": 0.64
+    },
+    "Campaign_364": {
+      "spend": 155.34,
+      "revenue": 217.11,
+      "impressions": 1464,
+      "clicks": 468,
+      "ctr": 31.97,
+      "roas": 1.4,
+      "cpc": 0.33
+    },
+    "Campaign_365": {
+      "spend": 107.33,
+      "revenue": 224.84,
+      "impressions": 1526,
+      "clicks": 448,
+      "ctr": 29.36,
+      "roas": 2.09,
+      "cpc": 0.24
+    },
+    "Campaign_366": {
+      "spend": 496.58,
+      "revenue": 1083.69,
+      "impressions": 1627,
+      "clicks": 489,
+      "ctr": 30.06,
+      "roas": 2.18,
+      "cpc": 1.02
+    },
+    "Campaign_367": {
+      "spend": 317.92,
+      "revenue": 732.16,
+      "impressions": 1599,
+      "clicks": 488,
+      "ctr": 30.52,
+      "roas": 2.3,
+      "cpc": 0.65
+    },
+    "Campaign_368": {
+      "spend": 182.38,
+      "revenue": 400.08,
+      "impressions": 1640,
+      "clicks": 479,
+      "ctr": 29.21,
+      "roas": 2.19,
+      "cpc": 0.38
+    },
+    "Campaign_369": {
+      "spend": 398.97,
+      "revenue": 705.78,
+      "impressions": 1250,
+      "clicks": 338,
+      "ctr": 27.04,
+      "roas": 1.77,
+      "cpc": 1.18
+    },
+    "Campaign_370": {
+      "spend": 471.52,
+      "revenue": 665.83,
+      "impressions": 1233,
+      "clicks": 342,
+      "ctr": 27.74,
+      "roas": 1.41,
+      "cpc": 1.38
+    },
+    "Campaign_371": {
+      "spend": 262.5,
+      "revenue": 591.37,
+      "impressions": 1220,
+      "clicks": 356,
+      "ctr": 29.18,
+      "roas": 2.25,
+      "cpc": 0.74
+    },
+    "Campaign_372": {
+      "spend": 334.17,
+      "revenue": 584.33,
+      "impressions": 1192,
+      "clicks": 347,
+      "ctr": 29.11,
+      "roas": 1.75,
+      "cpc": 0.96
+    },
+    "Campaign_373": {
+      "spend": 285.21,
+      "revenue": 685.41,
+      "impressions": 2228,
+      "clicks": 728,
+      "ctr": 32.68,
+      "roas": 2.4,
+      "cpc": 0.39
+    },
+    "Campaign_374": {
+      "spend": 262.67,
+      "revenue": 455.61,
+      "impressions": 2174,
+      "clicks": 709,
+      "ctr": 32.61,
+      "roas": 1.73,
+      "cpc": 0.37
+    },
+    "Campaign_375": {
+      "spend": 198.69,
+      "revenue": 402.36,
+      "impressions": 2201,
+      "clicks": 670,
+      "ctr": 30.44,
+      "roas": 2.03,
+      "cpc": 0.3
+    },
+    "Campaign_376": {
+      "spend": 235.8,
+      "revenue": 275.44,
+      "impressions": 2175,
+      "clicks": 669,
+      "ctr": 30.76,
+      "roas": 1.17,
+      "cpc": 0.35
+    },
+    "Campaign_377": {
+      "spend": 446.72,
+      "revenue": 961.69,
+      "impressions": 1624,
+      "clicks": 501,
+      "ctr": 30.85,
+      "roas": 2.15,
+      "cpc": 0.89
+    },
+    "Campaign_378": {
+      "spend": 301.11,
+      "revenue": 405.34,
+      "impressions": 1547,
+      "clicks": 496,
+      "ctr": 32.06,
+      "roas": 1.35,
+      "cpc": 0.61
+    },
+    "Campaign_379": {
+      "spend": 346.79,
+      "revenue": 789.4,
+      "impressions": 1546,
+      "clicks": 502,
+      "ctr": 32.47,
+      "roas": 2.28,
+      "cpc": 0.69
+    },
+    "Campaign_380": {
+      "spend": 491.95,
+      "revenue": 1023.28,
+      "impressions": 1478,
+      "clicks": 411,
+      "ctr": 27.81,
+      "roas": 2.08,
+      "cpc": 1.2
+    },
+    "Campaign_381": {
+      "spend": 179.43,
+      "revenue": 328.54,
+      "impressions": 1469,
+      "clicks": 414,
+      "ctr": 28.18,
+      "roas": 1.83,
+      "cpc": 0.43
+    },
+    "Campaign_382": {
+      "spend": 216.63,
+      "revenue": 507.79,
+      "impressions": 1539,
+      "clicks": 426,
+      "ctr": 27.68,
+      "roas": 2.34,
+      "cpc": 0.51
+    },
+    "Campaign_383": {
+      "spend": 137.34,
+      "revenue": 259.64,
+      "impressions": 1415,
+      "clicks": 497,
+      "ctr": 35.12,
+      "roas": 1.89,
+      "cpc": 0.28
+    },
+    "Campaign_384": {
+      "spend": 467.3,
+      "revenue": 965.39,
+      "impressions": 1415,
+      "clicks": 493,
+      "ctr": 34.84,
+      "roas": 2.07,
+      "cpc": 0.95
+    },
+    "Campaign_385": {
+      "spend": 402.93,
+      "revenue": 731.88,
+      "impressions": 1464,
+      "clicks": 505,
+      "ctr": 34.49,
+      "roas": 1.82,
+      "cpc": 0.8
+    },
+    "Campaign_386": {
+      "spend": 253.03,
+      "revenue": 391.89,
+      "impressions": 2248,
+      "clicks": 604,
+      "ctr": 26.87,
+      "roas": 1.55,
+      "cpc": 0.42
+    },
+    "Campaign_387": {
+      "spend": 422.87,
+      "revenue": 603.0,
+      "impressions": 2285,
+      "clicks": 605,
+      "ctr": 26.48,
+      "roas": 1.43,
+      "cpc": 0.7
+    },
+    "Campaign_388": {
+      "spend": 480.92,
+      "revenue": 832.06,
+      "impressions": 1182,
+      "clicks": 291,
+      "ctr": 24.62,
+      "roas": 1.73,
+      "cpc": 1.65
+    },
+    "Campaign_389": {
+      "spend": 426.09,
+      "revenue": 632.32,
+      "impressions": 1178,
+      "clicks": 281,
+      "ctr": 23.85,
+      "roas": 1.48,
+      "cpc": 1.52
+    },
+    "Campaign_390": {
+      "spend": 263.01,
+      "revenue": 429.83,
+      "impressions": 1223,
+      "clicks": 298,
+      "ctr": 24.37,
+      "roas": 1.63,
+      "cpc": 0.88
+    },
+    "Campaign_391": {
+      "spend": 434.99,
+      "revenue": 509.27,
+      "impressions": 1165,
+      "clicks": 269,
+      "ctr": 23.09,
+      "roas": 1.17,
+      "cpc": 1.62
+    },
+    "Campaign_392": {
+      "spend": 188.07,
+      "revenue": 305.02,
+      "impressions": 1065,
+      "clicks": 304,
+      "ctr": 28.54,
+      "roas": 1.62,
+      "cpc": 0.62
+    },
+    "Campaign_393": {
+      "spend": 297.84,
+      "revenue": 571.15,
+      "impressions": 1094,
+      "clicks": 287,
+      "ctr": 26.23,
+      "roas": 1.92,
+      "cpc": 1.04
+    },
+    "Campaign_394": {
+      "spend": 411.87,
+      "revenue": 968.2,
+      "impressions": 1067,
+      "clicks": 304,
+      "ctr": 28.49,
+      "roas": 2.35,
+      "cpc": 1.35
+    },
+    "Campaign_395": {
+      "spend": 143.92,
+      "revenue": 254.02,
+      "impressions": 1069,
+      "clicks": 285,
+      "ctr": 26.66,
+      "roas": 1.77,
+      "cpc": 0.5
+    },
+    "Campaign_396": {
+      "spend": 325.12,
+      "revenue": 567.21,
+      "impressions": 2156,
+      "clicks": 594,
+      "ctr": 27.55,
+      "roas": 1.74,
+      "cpc": 0.55
+    },
+    "Campaign_397": {
+      "spend": 343.6,
+      "revenue": 492.68,
+      "impressions": 2113,
+      "clicks": 611,
+      "ctr": 28.92,
+      "roas": 1.43,
+      "cpc": 0.56
+    },
+    "Campaign_398": {
+      "spend": 233.69,
+      "revenue": 261.2,
+      "impressions": 1568,
+      "clicks": 423,
+      "ctr": 26.98,
+      "roas": 1.12,
+      "cpc": 0.55
+    },
+    "Campaign_399": {
+      "spend": 379.64,
+      "revenue": 665.62,
+      "impressions": 1572,
+      "clicks": 456,
+      "ctr": 29.01,
+      "roas": 1.75,
+      "cpc": 0.83
+    },
+    "Campaign_400": {
+      "spend": 391.6,
+      "revenue": 736.97,
+      "impressions": 1583,
+      "clicks": 440,
+      "ctr": 27.8,
+      "roas": 1.88,
+      "cpc": 0.89
+    },
+    "Campaign_401": {
+      "spend": 362.05,
+      "revenue": 754.71,
+      "impressions": 1534,
+      "clicks": 438,
+      "ctr": 28.55,
+      "roas": 2.08,
+      "cpc": 0.83
+    },
+    "Campaign_402": {
+      "spend": 393.26,
+      "revenue": 464.51,
+      "impressions": 1498,
+      "clicks": 435,
+      "ctr": 29.04,
+      "roas": 1.18,
+      "cpc": 0.9
+    },
+    "Campaign_403": {
+      "spend": 217.11,
+      "revenue": 286.96,
+      "impressions": 1540,
+      "clicks": 468,
+      "ctr": 30.39,
+      "roas": 1.32,
+      "cpc": 0.46
+    },
+    "Campaign_404": {
+      "spend": 219.41,
+      "revenue": 295.59,
+      "impressions": 1160,
+      "clicks": 281,
+      "ctr": 24.22,
+      "roas": 1.35,
+      "cpc": 0.78
+    },
+    "Campaign_405": {
+      "spend": 430.2,
+      "revenue": 484.16,
+      "impressions": 1122,
+      "clicks": 290,
+      "ctr": 25.85,
+      "roas": 1.13,
+      "cpc": 1.48
+    },
+    "Campaign_406": {
+      "spend": 231.2,
+      "revenue": 375.72,
+      "impressions": 1124,
+      "clicks": 266,
+      "ctr": 23.67,
+      "roas": 1.63,
+      "cpc": 0.87
+    },
+    "Campaign_407": {
+      "spend": 385.23,
+      "revenue": 584.01,
+      "impressions": 1089,
+      "clicks": 281,
+      "ctr": 25.8,
+      "roas": 1.52,
+      "cpc": 1.37
+    },
+    "Campaign_408": {
+      "spend": 321.85,
+      "revenue": 479.16,
+      "impressions": 2346,
+      "clicks": 717,
+      "ctr": 30.56,
+      "roas": 1.49,
+      "cpc": 0.45
+    },
+    "Campaign_409": {
+      "spend": 172.83,
+      "revenue": 367.6,
+      "impressions": 2371,
+      "clicks": 731,
+      "ctr": 30.83,
+      "roas": 2.13,
+      "cpc": 0.24
+    },
+    "Campaign_410": {
+      "spend": 447.39,
+      "revenue": 1094.27,
+      "impressions": 1011,
+      "clicks": 307,
+      "ctr": 30.37,
+      "roas": 2.45,
+      "cpc": 1.46
+    },
+    "Campaign_411": {
+      "spend": 190.93,
+      "revenue": 328.69,
+      "impressions": 1095,
+      "clicks": 282,
+      "ctr": 25.75,
+      "roas": 1.72,
+      "cpc": 0.68
+    },
+    "Campaign_412": {
+      "spend": 296.48,
+      "revenue": 393.17,
+      "impressions": 1041,
+      "clicks": 312,
+      "ctr": 29.97,
+      "roas": 1.33,
+      "cpc": 0.95
+    },
+    "Campaign_413": {
+      "spend": 283.56,
+      "revenue": 653.09,
+      "impressions": 1015,
+      "clicks": 293,
+      "ctr": 28.87,
+      "roas": 2.3,
+      "cpc": 0.97
+    },
+    "Campaign_414": {
+      "spend": 374.28,
+      "revenue": 460.88,
+      "impressions": 1052,
+      "clicks": 297,
+      "ctr": 28.23,
+      "roas": 1.23,
+      "cpc": 1.26
+    },
+    "Campaign_415": {
+      "spend": 312.09,
+      "revenue": 526.97,
+      "impressions": 1040,
+      "clicks": 293,
+      "ctr": 28.17,
+      "roas": 1.69,
+      "cpc": 1.07
+    },
+    "Campaign_416": {
+      "spend": 149.01,
+      "revenue": 207.73,
+      "impressions": 1097,
+      "clicks": 324,
+      "ctr": 29.54,
+      "roas": 1.39,
+      "cpc": 0.46
+    },
+    "Campaign_417": {
+      "spend": 242.34,
+      "revenue": 460.5,
+      "impressions": 1093,
+      "clicks": 322,
+      "ctr": 29.46,
+      "roas": 1.9,
+      "cpc": 0.75
+    },
+    "Campaign_418": {
+      "spend": 157.5,
+      "revenue": 297.72,
+      "impressions": 2338,
+      "clicks": 612,
+      "ctr": 26.18,
+      "roas": 1.89,
+      "cpc": 0.26
+    },
+    "Campaign_419": {
+      "spend": 105.45,
+      "revenue": 210.73,
+      "impressions": 2384,
+      "clicks": 607,
+      "ctr": 25.46,
+      "roas": 2.0,
+      "cpc": 0.17
+    },
+    "Campaign_420": {
+      "spend": 269.58,
+      "revenue": 542.04,
+      "impressions": 1131,
+      "clicks": 309,
+      "ctr": 27.32,
+      "roas": 2.01,
+      "cpc": 0.87
+    },
+    "Campaign_421": {
+      "spend": 110.81,
+      "revenue": 242.22,
+      "impressions": 1073,
+      "clicks": 303,
+      "ctr": 28.24,
+      "roas": 2.19,
+      "cpc": 0.37
+    },
+    "Campaign_422": {
+      "spend": 336.92,
+      "revenue": 817.83,
+      "impressions": 1070,
+      "clicks": 300,
+      "ctr": 28.04,
+      "roas": 2.43,
+      "cpc": 1.12
+    },
+    "Campaign_423": {
+      "spend": 314.58,
+      "revenue": 714.01,
+      "impressions": 1146,
+      "clicks": 323,
+      "ctr": 28.18,
+      "roas": 2.27,
+      "cpc": 0.97
+    },
+    "Campaign_424": {
+      "spend": 329.55,
+      "revenue": 616.16,
+      "impressions": 1113,
+      "clicks": 289,
+      "ctr": 25.97,
+      "roas": 1.87,
+      "cpc": 1.14
+    },
+    "Campaign_425": {
+      "spend": 207.65,
+      "revenue": 323.71,
+      "impressions": 1081,
+      "clicks": 312,
+      "ctr": 28.86,
+      "roas": 1.56,
+      "cpc": 0.67
+    },
+    "Campaign_426": {
+      "spend": 264.67,
+      "revenue": 352.46,
+      "impressions": 1057,
+      "clicks": 324,
+      "ctr": 30.65,
+      "roas": 1.33,
+      "cpc": 0.82
+    },
+    "Campaign_427": {
+      "spend": 283.38,
+      "revenue": 639.93,
+      "impressions": 1079,
+      "clicks": 324,
+      "ctr": 30.03,
+      "roas": 2.26,
+      "cpc": 0.87
+    },
+    "Campaign_428": {
+      "spend": 408.86,
+      "revenue": 708.81,
+      "impressions": 1471,
+      "clicks": 425,
+      "ctr": 28.89,
+      "roas": 1.73,
+      "cpc": 0.96
+    },
+    "Campaign_429": {
+      "spend": 443.7,
+      "revenue": 1096.83,
+      "impressions": 1449,
+      "clicks": 443,
+      "ctr": 30.57,
+      "roas": 2.47,
+      "cpc": 1.0
+    },
+    "Campaign_430": {
+      "spend": 166.72,
+      "revenue": 378.71,
+      "impressions": 1416,
+      "clicks": 430,
+      "ctr": 30.37,
+      "roas": 2.27,
+      "cpc": 0.39
+    },
+    "Campaign_431": {
+      "spend": 226.83,
+      "revenue": 363.56,
+      "impressions": 2421,
+      "clicks": 722,
+      "ctr": 29.82,
+      "roas": 1.6,
+      "cpc": 0.31
+    },
+    "Campaign_432": {
+      "spend": 275.29,
+      "revenue": 376.16,
+      "impressions": 2380,
+      "clicks": 728,
+      "ctr": 30.59,
+      "roas": 1.37,
+      "cpc": 0.38
+    },
+    "Campaign_433": {
+      "spend": 126.45,
+      "revenue": 303.22,
+      "impressions": 1200,
+      "clicks": 299,
+      "ctr": 24.92,
+      "roas": 2.4,
+      "cpc": 0.42
+    },
+    "Campaign_434": {
+      "spend": 189.87,
+      "revenue": 270.07,
+      "impressions": 1200,
+      "clicks": 315,
+      "ctr": 26.25,
+      "roas": 1.42,
+      "cpc": 0.6
+    },
+    "Campaign_435": {
+      "spend": 340.93,
+      "revenue": 673.55,
+      "impressions": 1250,
+      "clicks": 333,
+      "ctr": 26.64,
+      "roas": 1.98,
+      "cpc": 1.02
+    },
+    "Campaign_436": {
+      "spend": 439.83,
+      "revenue": 847.16,
+      "impressions": 1185,
+      "clicks": 336,
+      "ctr": 28.35,
+      "roas": 1.93,
+      "cpc": 1.31
+    },
+    "Campaign_437": {
+      "spend": 153.55,
+      "revenue": 370.99,
+      "impressions": 1188,
+      "clicks": 362,
+      "ctr": 30.47,
+      "roas": 2.42,
+      "cpc": 0.42
+    },
+    "Campaign_438": {
+      "spend": 332.71,
+      "revenue": 401.69,
+      "impressions": 1212,
+      "clicks": 369,
+      "ctr": 30.45,
+      "roas": 1.21,
+      "cpc": 0.9
+    },
+    "Campaign_439": {
+      "spend": 401.89,
+      "revenue": 956.05,
+      "impressions": 1135,
+      "clicks": 383,
+      "ctr": 33.74,
+      "roas": 2.38,
+      "cpc": 1.05
+    },
+    "Campaign_440": {
+      "spend": 436.15,
+      "revenue": 618.15,
+      "impressions": 1183,
+      "clicks": 369,
+      "ctr": 31.19,
+      "roas": 1.42,
+      "cpc": 1.18
+    },
+    "Campaign_441": {
+      "spend": 250.08,
+      "revenue": 455.86,
+      "impressions": 2260,
+      "clicks": 719,
+      "ctr": 31.81,
+      "roas": 1.82,
+      "cpc": 0.35
+    },
+    "Campaign_442": {
+      "spend": 174.9,
+      "revenue": 388.53,
+      "impressions": 2293,
+      "clicks": 710,
+      "ctr": 30.96,
+      "roas": 2.22,
+      "cpc": 0.25
+    },
+    "Campaign_443": {
+      "spend": 236.85,
+      "revenue": 471.52,
+      "impressions": 2091,
+      "clicks": 582,
+      "ctr": 27.83,
+      "roas": 1.99,
+      "cpc": 0.41
+    },
+    "Campaign_444": {
+      "spend": 135.59,
+      "revenue": 314.86,
+      "impressions": 2124,
+      "clicks": 591,
+      "ctr": 27.82,
+      "roas": 2.32,
+      "cpc": 0.23
+    },
+    "Campaign_445": {
+      "spend": 457.47,
+      "revenue": 788.96,
+      "impressions": 1427,
+      "clicks": 429,
+      "ctr": 30.06,
+      "roas": 1.72,
+      "cpc": 1.07
+    },
+    "Campaign_446": {
+      "spend": 336.58,
+      "revenue": 731.96,
+      "impressions": 1423,
+      "clicks": 417,
+      "ctr": 29.3,
+      "roas": 2.17,
+      "cpc": 0.81
+    },
+    "Campaign_447": {
+      "spend": 448.73,
+      "revenue": 1090.35,
+      "impressions": 1406,
+      "clicks": 414,
+      "ctr": 29.45,
+      "roas": 2.43,
+      "cpc": 1.08
+    },
+    "Campaign_448": {
+      "spend": 386.88,
+      "revenue": 496.25,
+      "impressions": 1545,
+      "clicks": 496,
+      "ctr": 32.1,
+      "roas": 1.28,
+      "cpc": 0.78
+    },
+    "Campaign_449": {
+      "spend": 352.78,
+      "revenue": 443.19,
+      "impressions": 1517,
+      "clicks": 472,
+      "ctr": 31.11,
+      "roas": 1.26,
+      "cpc": 0.75
+    },
+    "Campaign_450": {
+      "spend": 146.77,
+      "revenue": 359.06,
+      "impressions": 1542,
+      "clicks": 471,
+      "ctr": 30.54,
+      "roas": 2.45,
+      "cpc": 0.31
+    },
+    "Campaign_451": {
+      "spend": 180.12,
+      "revenue": 411.95,
+      "impressions": 1189,
+      "clicks": 317,
+      "ctr": 26.66,
+      "roas": 2.29,
+      "cpc": 0.57
+    },
+    "Campaign_452": {
+      "spend": 332.58,
+      "revenue": 408.25,
+      "impressions": 1197,
+      "clicks": 337,
+      "ctr": 28.15,
+      "roas": 1.23,
+      "cpc": 0.99
+    },
+    "Campaign_453": {
+      "spend": 247.04,
+      "revenue": 474.16,
+      "impressions": 1138,
+      "clicks": 308,
+      "ctr": 27.07,
+      "roas": 1.92,
+      "cpc": 0.8
+    },
+    "Campaign_454": {
+      "spend": 227.86,
+      "revenue": 499.5,
+      "impressions": 1194,
+      "clicks": 308,
+      "ctr": 25.8,
+      "roas": 2.19,
+      "cpc": 0.74
+    },
+    "Campaign_455": {
+      "spend": 121.08,
+      "revenue": 279.56,
+      "impressions": 2369,
+      "clicks": 711,
+      "ctr": 30.01,
+      "roas": 2.31,
+      "cpc": 0.17
+    },
+    "Campaign_456": {
+      "spend": 461.11,
+      "revenue": 1082.86,
+      "impressions": 2342,
+      "clicks": 722,
+      "ctr": 30.83,
+      "roas": 2.35,
+      "cpc": 0.64
+    },
+    "Campaign_457": {
+      "spend": 481.71,
+      "revenue": 1196.42,
+      "impressions": 1106,
+      "clicks": 367,
+      "ctr": 33.18,
+      "roas": 2.48,
+      "cpc": 1.31
+    },
+    "Campaign_458": {
+      "spend": 370.75,
+      "revenue": 446.97,
+      "impressions": 1178,
+      "clicks": 369,
+      "ctr": 31.32,
+      "roas": 1.21,
+      "cpc": 1.0
+    },
+    "Campaign_459": {
+      "spend": 234.06,
+      "revenue": 403.93,
+      "impressions": 1138,
+      "clicks": 374,
+      "ctr": 32.86,
+      "roas": 1.73,
+      "cpc": 0.63
+    },
+    "Campaign_460": {
+      "spend": 423.76,
+      "revenue": 954.51,
+      "impressions": 1174,
+      "clicks": 368,
+      "ctr": 31.35,
+      "roas": 2.25,
+      "cpc": 1.15
+    },
+    "Campaign_461": {
+      "spend": 136.21,
+      "revenue": 264.44,
+      "impressions": 1197,
+      "clicks": 330,
+      "ctr": 27.57,
+      "roas": 1.94,
+      "cpc": 0.41
+    },
+    "Campaign_462": {
+      "spend": 246.62,
+      "revenue": 327.24,
+      "impressions": 1149,
+      "clicks": 328,
+      "ctr": 28.55,
+      "roas": 1.33,
+      "cpc": 0.75
+    },
+    "Campaign_463": {
+      "spend": 380.13,
+      "revenue": 888.73,
+      "impressions": 1227,
+      "clicks": 330,
+      "ctr": 26.89,
+      "roas": 2.34,
+      "cpc": 1.15
+    },
+    "Campaign_464": {
+      "spend": 257.63,
+      "revenue": 629.13,
+      "impressions": 1146,
+      "clicks": 333,
+      "ctr": 29.06,
+      "roas": 2.44,
+      "cpc": 0.77
+    },
+    "Campaign_465": {
+      "spend": 474.34,
+      "revenue": 690.58,
+      "impressions": 1029,
+      "clicks": 325,
+      "ctr": 31.58,
+      "roas": 1.46,
+      "cpc": 1.46
+    },
+    "Campaign_466": {
+      "spend": 458.98,
+      "revenue": 1027.65,
+      "impressions": 1102,
+      "clicks": 316,
+      "ctr": 28.68,
+      "roas": 2.24,
+      "cpc": 1.45
+    },
+    "Campaign_467": {
+      "spend": 289.65,
+      "revenue": 454.4,
+      "impressions": 1103,
+      "clicks": 315,
+      "ctr": 28.56,
+      "roas": 1.57,
+      "cpc": 0.92
+    },
+    "Campaign_468": {
+      "spend": 495.52,
+      "revenue": 1144.5,
+      "impressions": 1028,
+      "clicks": 339,
+      "ctr": 32.98,
+      "roas": 2.31,
+      "cpc": 1.46
+    },
+    "Campaign_469": {
+      "spend": 118.74,
+      "revenue": 216.81,
+      "impressions": 1500,
+      "clicks": 414,
+      "ctr": 27.6,
+      "roas": 1.83,
+      "cpc": 0.29
+    },
+    "Campaign_470": {
+      "spend": 211.88,
+      "revenue": 521.27,
+      "impressions": 1471,
+      "clicks": 431,
+      "ctr": 29.3,
+      "roas": 2.46,
+      "cpc": 0.49
+    },
+    "Campaign_471": {
+      "spend": 111.33,
+      "revenue": 162.47,
+      "impressions": 1426,
+      "clicks": 412,
+      "ctr": 28.89,
+      "roas": 1.46,
+      "cpc": 0.27
+    },
+    "Campaign_472": {
+      "spend": 454.47,
+      "revenue": 572.86,
+      "impressions": 1163,
+      "clicks": 347,
+      "ctr": 29.84,
+      "roas": 1.26,
+      "cpc": 1.31
+    },
+    "Campaign_473": {
+      "spend": 320.31,
+      "revenue": 575.2,
+      "impressions": 1135,
+      "clicks": 342,
+      "ctr": 30.13,
+      "roas": 1.8,
+      "cpc": 0.94
+    },
+    "Campaign_474": {
+      "spend": 252.74,
+      "revenue": 345.51,
+      "impressions": 1169,
+      "clicks": 365,
+      "ctr": 31.22,
+      "roas": 1.37,
+      "cpc": 0.69
+    },
+    "Campaign_475": {
+      "spend": 150.9,
+      "revenue": 287.79,
+      "impressions": 1203,
+      "clicks": 349,
+      "ctr": 29.01,
+      "roas": 1.91,
+      "cpc": 0.43
+    },
+    "Campaign_476": {
+      "spend": 381.8,
+      "revenue": 662.16,
+      "impressions": 2172,
+      "clicks": 553,
+      "ctr": 25.46,
+      "roas": 1.73,
+      "cpc": 0.69
+    },
+    "Campaign_477": {
+      "spend": 224.04,
+      "revenue": 555.76,
+      "impressions": 2177,
+      "clicks": 554,
+      "ctr": 25.45,
+      "roas": 2.48,
+      "cpc": 0.4
+    },
+    "Campaign_478": {
+      "spend": 235.01,
+      "revenue": 347.52,
+      "impressions": 1091,
+      "clicks": 292,
+      "ctr": 26.76,
+      "roas": 1.48,
+      "cpc": 0.8
+    },
+    "Campaign_479": {
+      "spend": 414.06,
+      "revenue": 714.31,
+      "impressions": 1051,
+      "clicks": 299,
+      "ctr": 28.45,
+      "roas": 1.73,
+      "cpc": 1.38
+    },
+    "Campaign_480": {
+      "spend": 206.41,
+      "revenue": 393.09,
+      "impressions": 1039,
+      "clicks": 297,
+      "ctr": 28.59,
+      "roas": 1.9,
+      "cpc": 0.69
+    },
+    "Campaign_481": {
+      "spend": 198.54,
+      "revenue": 292.66,
+      "impressions": 1013,
+      "clicks": 304,
+      "ctr": 30.01,
+      "roas": 1.47,
+      "cpc": 0.65
+    },
+    "Campaign_482": {
+      "spend": 244.26,
+      "revenue": 390.29,
+      "impressions": 2358,
+      "clicks": 614,
+      "ctr": 26.04,
+      "roas": 1.6,
+      "cpc": 0.4
+    },
+    "Campaign_483": {
+      "spend": 365.06,
+      "revenue": 863.71,
+      "impressions": 2370,
+      "clicks": 620,
+      "ctr": 26.16,
+      "roas": 2.37,
+      "cpc": 0.59
+    },
+    "Campaign_484": {
+      "spend": 382.27,
+      "revenue": 473.76,
+      "impressions": 1595,
+      "clicks": 418,
+      "ctr": 26.21,
+      "roas": 1.24,
+      "cpc": 0.91
+    },
+    "Campaign_485": {
+      "spend": 332.0,
+      "revenue": 544.36,
+      "impressions": 1578,
+      "clicks": 435,
+      "ctr": 27.57,
+      "roas": 1.64,
+      "cpc": 0.76
+    },
+    "Campaign_486": {
+      "spend": 489.71,
+      "revenue": 562.63,
+      "impressions": 1558,
+      "clicks": 430,
+      "ctr": 27.6,
+      "roas": 1.15,
+      "cpc": 1.14
+    },
+    "Campaign_487": {
+      "spend": 466.69,
+      "revenue": 587.52,
+      "impressions": 1589,
+      "clicks": 439,
+      "ctr": 27.63,
+      "roas": 1.26,
+      "cpc": 1.06
+    },
+    "Campaign_488": {
+      "spend": 189.11,
+      "revenue": 466.23,
+      "impressions": 1592,
+      "clicks": 442,
+      "ctr": 27.76,
+      "roas": 2.47,
+      "cpc": 0.43
+    },
+    "Campaign_489": {
+      "spend": 196.15,
+      "revenue": 217.9,
+      "impressions": 1552,
+      "clicks": 463,
+      "ctr": 29.83,
+      "roas": 1.11,
+      "cpc": 0.42
+    },
+    "Campaign_490": {
+      "spend": 174.36,
+      "revenue": 223.74,
+      "impressions": 1141,
+      "clicks": 298,
+      "ctr": 26.12,
+      "roas": 1.28,
+      "cpc": 0.59
+    },
+    "Campaign_491": {
+      "spend": 355.36,
+      "revenue": 412.99,
+      "impressions": 1081,
+      "clicks": 301,
+      "ctr": 27.84,
+      "roas": 1.16,
+      "cpc": 1.18
+    },
+    "Campaign_492": {
+      "spend": 344.81,
+      "revenue": 834.67,
+      "impressions": 1066,
+      "clicks": 288,
+      "ctr": 27.02,
+      "roas": 2.42,
+      "cpc": 1.2
+    },
+    "Campaign_493": {
+      "spend": 193.73,
+      "revenue": 381.06,
+      "impressions": 1103,
+      "clicks": 304,
+      "ctr": 27.56,
+      "roas": 1.97,
+      "cpc": 0.64
+    },
+    "Campaign_494": {
+      "spend": 198.26,
+      "revenue": 376.14,
+      "impressions": 2101,
+      "clicks": 650,
+      "ctr": 30.94,
+      "roas": 1.9,
+      "cpc": 0.31
+    },
+    "Campaign_495": {
+      "spend": 399.99,
+      "revenue": 848.84,
+      "impressions": 2178,
+      "clicks": 635,
+      "ctr": 29.16,
+      "roas": 2.12,
+      "cpc": 0.63
+    },
+    "Campaign_496": {
+      "spend": 265.64,
+      "revenue": 424.25,
+      "impressions": 1211,
+      "clicks": 325,
+      "ctr": 26.84,
+      "roas": 1.6,
+      "cpc": 0.82
+    },
+    "Campaign_497": {
+      "spend": 182.88,
+      "revenue": 247.75,
+      "impressions": 1181,
+      "clicks": 349,
+      "ctr": 29.55,
+      "roas": 1.35,
+      "cpc": 0.52
+    },
+    "Campaign_498": {
+      "spend": 471.68,
+      "revenue": 1130.27,
+      "impressions": 1178,
+      "clicks": 325,
+      "ctr": 27.59,
+      "roas": 2.4,
+      "cpc": 1.45
+    },
+    "Campaign_499": {
+      "spend": 281.11,
+      "revenue": 439.84,
+      "impressions": 1157,
+      "clicks": 319,
+      "ctr": 27.57,
+      "roas": 1.56,
+      "cpc": 0.88
+    },
+    "Campaign_500": {
+      "spend": 400.42,
+      "revenue": 716.57,
+      "impressions": 1446,
+      "clicks": 441,
+      "ctr": 30.5,
+      "roas": 1.79,
+      "cpc": 0.91
+    },
+    "Campaign_501": {
+      "spend": 293.0,
+      "revenue": 619.38,
+      "impressions": 1448,
+      "clicks": 452,
+      "ctr": 31.22,
+      "roas": 2.11,
+      "cpc": 0.65
+    },
+    "Campaign_502": {
+      "spend": 381.02,
+      "revenue": 800.12,
+      "impressions": 1499,
+      "clicks": 416,
+      "ctr": 27.75,
+      "roas": 2.1,
+      "cpc": 0.92
+    },
+    "Campaign_503": {
+      "spend": 153.16,
+      "revenue": 374.03,
+      "impressions": 2169,
+      "clicks": 572,
+      "ctr": 26.37,
+      "roas": 2.44,
+      "cpc": 0.27
+    },
+    "Campaign_504": {
+      "spend": 497.71,
+      "revenue": 575.46,
+      "impressions": 2096,
+      "clicks": 575,
+      "ctr": 27.43,
+      "roas": 1.16,
+      "cpc": 0.87
+    },
+    "Campaign_505": {
+      "spend": 143.03,
+      "revenue": 157.96,
+      "impressions": 2345,
+      "clicks": 720,
+      "ctr": 30.7,
+      "roas": 1.1,
+      "cpc": 0.2
+    },
+    "Campaign_506": {
+      "spend": 136.94,
+      "revenue": 216.96,
+      "impressions": 2340,
+      "clicks": 732,
+      "ctr": 31.28,
+      "roas": 1.58,
+      "cpc": 0.19
+    },
+    "Campaign_507": {
+      "spend": 381.32,
+      "revenue": 942.1,
+      "impressions": 2264,
+      "clicks": 677,
+      "ctr": 29.9,
+      "roas": 2.47,
+      "cpc": 0.56
+    },
+    "Campaign_508": {
+      "spend": 498.62,
+      "revenue": 1223.5,
+      "impressions": 2249,
+      "clicks": 653,
+      "ctr": 29.04,
+      "roas": 2.45,
+      "cpc": 0.76
+    },
+    "Campaign_509": {
+      "spend": 372.04,
+      "revenue": 876.65,
+      "impressions": 2240,
+      "clicks": 689,
+      "ctr": 30.76,
+      "roas": 2.36,
+      "cpc": 0.54
+    },
+    "Campaign_510": {
+      "spend": 340.13,
+      "revenue": 781.95,
+      "impressions": 2253,
+      "clicks": 692,
+      "ctr": 30.71,
+      "roas": 2.3,
+      "cpc": 0.49
+    },
+    "Campaign_511": {
+      "spend": 176.07,
+      "revenue": 406.37,
+      "impressions": 1150,
+      "clicks": 330,
+      "ctr": 28.7,
+      "roas": 2.31,
+      "cpc": 0.53
+    },
+    "Campaign_512": {
+      "spend": 383.9,
+      "revenue": 771.84,
+      "impressions": 1106,
+      "clicks": 297,
+      "ctr": 26.85,
+      "roas": 2.01,
+      "cpc": 1.29
+    },
+    "Campaign_513": {
+      "spend": 428.85,
+      "revenue": 677.16,
+      "impressions": 1120,
+      "clicks": 324,
+      "ctr": 28.93,
+      "roas": 1.58,
+      "cpc": 1.32
+    },
+    "Campaign_514": {
+      "spend": 244.21,
+      "revenue": 489.48,
+      "impressions": 1091,
+      "clicks": 317,
+      "ctr": 29.06,
+      "roas": 2.0,
+      "cpc": 0.77
+    },
+    "Campaign_515": {
+      "spend": 449.91,
+      "revenue": 812.33,
+      "impressions": 2097,
+      "clicks": 615,
+      "ctr": 29.33,
+      "roas": 1.81,
+      "cpc": 0.73
+    },
+    "Campaign_516": {
+      "spend": 330.64,
+      "revenue": 653.19,
+      "impressions": 2140,
+      "clicks": 585,
+      "ctr": 27.34,
+      "roas": 1.98,
+      "cpc": 0.57
+    },
+    "Campaign_517": {
+      "spend": 340.24,
+      "revenue": 467.98,
+      "impressions": 2294,
+      "clicks": 659,
+      "ctr": 28.73,
+      "roas": 1.38,
+      "cpc": 0.52
+    },
+    "Campaign_518": {
+      "spend": 277.68,
+      "revenue": 486.08,
+      "impressions": 2333,
+      "clicks": 659,
+      "ctr": 28.25,
+      "roas": 1.75,
+      "cpc": 0.42
+    },
+    "Campaign_519": {
+      "spend": 278.53,
+      "revenue": 314.14,
+      "impressions": 1418,
+      "clicks": 402,
+      "ctr": 28.35,
+      "roas": 1.13,
+      "cpc": 0.69
+    },
+    "Campaign_520": {
+      "spend": 130.56,
+      "revenue": 305.01,
+      "impressions": 1398,
+      "clicks": 395,
+      "ctr": 28.25,
+      "roas": 2.34,
+      "cpc": 0.33
+    },
+    "Campaign_521": {
+      "spend": 323.47,
+      "revenue": 484.53,
+      "impressions": 1436,
+      "clicks": 391,
+      "ctr": 27.23,
+      "roas": 1.5,
+      "cpc": 0.83
+    },
+    "Campaign_522": {
+      "spend": 267.68,
+      "revenue": 363.76,
+      "impressions": 2087,
+      "clicks": 702,
+      "ctr": 33.64,
+      "roas": 1.36,
+      "cpc": 0.38
+    },
+    "Campaign_523": {
+      "spend": 242.48,
+      "revenue": 406.81,
+      "impressions": 2151,
+      "clicks": 717,
+      "ctr": 33.33,
+      "roas": 1.68,
+      "cpc": 0.34
+    },
+    "Campaign_524": {
+      "spend": 127.87,
+      "revenue": 310.93,
+      "impressions": 1150,
+      "clicks": 366,
+      "ctr": 31.83,
+      "roas": 2.43,
+      "cpc": 0.35
+    },
+    "Campaign_525": {
+      "spend": 444.62,
+      "revenue": 1004.36,
+      "impressions": 1176,
+      "clicks": 349,
+      "ctr": 29.68,
+      "roas": 2.26,
+      "cpc": 1.27
+    },
+    "Campaign_526": {
+      "spend": 310.52,
+      "revenue": 426.5,
+      "impressions": 1178,
+      "clicks": 341,
+      "ctr": 28.95,
+      "roas": 1.37,
+      "cpc": 0.91
+    },
+    "Campaign_527": {
+      "spend": 109.86,
+      "revenue": 187.28,
+      "impressions": 1225,
+      "clicks": 366,
+      "ctr": 29.88,
+      "roas": 1.7,
+      "cpc": 0.3
+    },
+    "Campaign_528": {
+      "spend": 109.0,
+      "revenue": 156.81,
+      "impressions": 1550,
+      "clicks": 380,
+      "ctr": 24.52,
+      "roas": 1.44,
+      "cpc": 0.29
+    },
+    "Campaign_529": {
+      "spend": 225.94,
+      "revenue": 253.26,
+      "impressions": 1536,
+      "clicks": 366,
+      "ctr": 23.83,
+      "roas": 1.12,
+      "cpc": 0.62
+    },
+    "Campaign_530": {
+      "spend": 232.02,
+      "revenue": 265.7,
+      "impressions": 1497,
+      "clicks": 385,
+      "ctr": 25.72,
+      "roas": 1.15,
+      "cpc": 0.6
+    },
+    "Campaign_531": {
+      "spend": 118.38,
+      "revenue": 184.12,
+      "impressions": 1106,
+      "clicks": 315,
+      "ctr": 28.48,
+      "roas": 1.56,
+      "cpc": 0.38
+    },
+    "Campaign_532": {
+      "spend": 444.58,
+      "revenue": 565.4,
+      "impressions": 1071,
+      "clicks": 292,
+      "ctr": 27.26,
+      "roas": 1.27,
+      "cpc": 1.52
+    },
+    "Campaign_533": {
+      "spend": 158.22,
+      "revenue": 194.95,
+      "impressions": 1082,
+      "clicks": 312,
+      "ctr": 28.84,
+      "roas": 1.23,
+      "cpc": 0.51
+    },
+    "Campaign_534": {
+      "spend": 460.04,
+      "revenue": 954.94,
+      "impressions": 1050,
+      "clicks": 281,
+      "ctr": 26.76,
+      "roas": 2.08,
+      "cpc": 1.64
+    },
+    "Campaign_535": {
+      "spend": 292.4,
+      "revenue": 370.28,
+      "impressions": 1065,
+      "clicks": 335,
+      "ctr": 31.46,
+      "roas": 1.27,
+      "cpc": 0.87
+    },
+    "Campaign_536": {
+      "spend": 152.28,
+      "revenue": 275.67,
+      "impressions": 1056,
+      "clicks": 323,
+      "ctr": 30.59,
+      "roas": 1.81,
+      "cpc": 0.47
+    },
+    "Campaign_537": {
+      "spend": 229.77,
+      "revenue": 512.55,
+      "impressions": 1129,
+      "clicks": 321,
+      "ctr": 28.43,
+      "roas": 2.23,
+      "cpc": 0.72
+    },
+    "Campaign_538": {
+      "spend": 204.51,
+      "revenue": 441.48,
+      "impressions": 1082,
+      "clicks": 321,
+      "ctr": 29.67,
+      "roas": 2.16,
+      "cpc": 0.64
+    },
+    "Campaign_539": {
+      "spend": 343.34,
+      "revenue": 508.27,
+      "impressions": 1473,
+      "clicks": 417,
+      "ctr": 28.31,
+      "roas": 1.48,
+      "cpc": 0.82
+    },
+    "Campaign_540": {
+      "spend": 196.35,
+      "revenue": 381.63,
+      "impressions": 1438,
+      "clicks": 407,
+      "ctr": 28.3,
+      "roas": 1.94,
+      "cpc": 0.48
+    },
+    "Campaign_541": {
+      "spend": 152.46,
+      "revenue": 256.78,
+      "impressions": 1440,
+      "clicks": 410,
+      "ctr": 28.47,
+      "roas": 1.68,
+      "cpc": 0.37
+    },
+    "Campaign_542": {
+      "spend": 300.38,
+      "revenue": 678.36,
+      "impressions": 1161,
+      "clicks": 356,
+      "ctr": 30.66,
+      "roas": 2.26,
+      "cpc": 0.84
+    },
+    "Campaign_543": {
+      "spend": 241.08,
+      "revenue": 591.32,
+      "impressions": 1131,
+      "clicks": 339,
+      "ctr": 29.97,
+      "roas": 2.45,
+      "cpc": 0.71
+    },
+    "Campaign_544": {
+      "spend": 243.4,
+      "revenue": 313.41,
+      "impressions": 1109,
+      "clicks": 333,
+      "ctr": 30.03,
+      "roas": 1.29,
+      "cpc": 0.73
+    },
+    "Campaign_545": {
+      "spend": 220.04,
+      "revenue": 480.62,
+      "impressions": 1083,
+      "clicks": 348,
+      "ctr": 32.13,
+      "roas": 2.18,
+      "cpc": 0.63
+    },
+    "Campaign_546": {
+      "spend": 375.09,
+      "revenue": 630.06,
+      "impressions": 1172,
+      "clicks": 314,
+      "ctr": 26.79,
+      "roas": 1.68,
+      "cpc": 1.19
+    },
+    "Campaign_547": {
+      "spend": 227.9,
+      "revenue": 321.28,
+      "impressions": 1092,
+      "clicks": 313,
+      "ctr": 28.66,
+      "roas": 1.41,
+      "cpc": 0.73
+    },
+    "Campaign_548": {
+      "spend": 200.68,
+      "revenue": 440.37,
+      "impressions": 1156,
+      "clicks": 333,
+      "ctr": 28.81,
+      "roas": 2.19,
+      "cpc": 0.6
+    },
+    "Campaign_549": {
+      "spend": 318.64,
+      "revenue": 677.36,
+      "impressions": 1171,
+      "clicks": 333,
+      "ctr": 28.44,
+      "roas": 2.13,
+      "cpc": 0.96
+    },
+    "Campaign_550": {
+      "spend": 497.32,
+      "revenue": 781.77,
+      "impressions": 1559,
+      "clicks": 428,
+      "ctr": 27.45,
+      "roas": 1.57,
+      "cpc": 1.16
+    },
+    "Campaign_551": {
+      "spend": 331.15,
+      "revenue": 602.87,
+      "impressions": 1563,
+      "clicks": 443,
+      "ctr": 28.34,
+      "roas": 1.82,
+      "cpc": 0.75
+    },
+    "Campaign_552": {
+      "spend": 419.1,
+      "revenue": 1031.92,
+      "impressions": 1588,
+      "clicks": 424,
+      "ctr": 26.7,
+      "roas": 2.46,
+      "cpc": 0.99
+    },
+    "Campaign_553": {
+      "spend": 227.81,
+      "revenue": 456.63,
+      "impressions": 1600,
+      "clicks": 370,
+      "ctr": 23.12,
+      "roas": 2.0,
+      "cpc": 0.62
+    },
+    "Campaign_554": {
+      "spend": 210.51,
+      "revenue": 306.15,
+      "impressions": 1559,
+      "clicks": 404,
+      "ctr": 25.91,
+      "roas": 1.45,
+      "cpc": 0.52
+    },
+    "Campaign_555": {
+      "spend": 133.81,
+      "revenue": 311.53,
+      "impressions": 1607,
+      "clicks": 399,
+      "ctr": 24.83,
+      "roas": 2.33,
+      "cpc": 0.34
+    },
+    "Campaign_556": {
+      "spend": 205.79,
+      "revenue": 447.52,
+      "impressions": 1178,
+      "clicks": 317,
+      "ctr": 26.91,
+      "roas": 2.17,
+      "cpc": 0.65
+    },
+    "Campaign_557": {
+      "spend": 156.5,
+      "revenue": 387.71,
+      "impressions": 1140,
+      "clicks": 318,
+      "ctr": 27.89,
+      "roas": 2.48,
+      "cpc": 0.49
+    },
+    "Campaign_558": {
+      "spend": 478.85,
+      "revenue": 1113.22,
+      "impressions": 1171,
+      "clicks": 304,
+      "ctr": 25.96,
+      "roas": 2.32,
+      "cpc": 1.58
+    },
+    "Campaign_559": {
+      "spend": 343.44,
+      "revenue": 579.69,
+      "impressions": 1212,
+      "clicks": 307,
+      "ctr": 25.33,
+      "roas": 1.69,
+      "cpc": 1.12
+    },
+    "Campaign_560": {
+      "spend": 408.15,
+      "revenue": 919.52,
+      "impressions": 1135,
+      "clicks": 331,
+      "ctr": 29.16,
+      "roas": 2.25,
+      "cpc": 1.23
+    },
+    "Campaign_561": {
+      "spend": 459.31,
+      "revenue": 665.66,
+      "impressions": 1183,
+      "clicks": 334,
+      "ctr": 28.23,
+      "roas": 1.45,
+      "cpc": 1.38
+    },
+    "Campaign_562": {
+      "spend": 423.73,
+      "revenue": 492.34,
+      "impressions": 1184,
+      "clicks": 328,
+      "ctr": 27.7,
+      "roas": 1.16,
+      "cpc": 1.29
+    },
+    "Campaign_563": {
+      "spend": 384.69,
+      "revenue": 932.44,
+      "impressions": 1134,
+      "clicks": 323,
+      "ctr": 28.48,
+      "roas": 2.42,
+      "cpc": 1.19
+    },
+    "Campaign_564": {
+      "spend": 474.83,
+      "revenue": 1119.84,
+      "impressions": 1628,
+      "clicks": 407,
+      "ctr": 25.0,
+      "roas": 2.36,
+      "cpc": 1.17
+    },
+    "Campaign_565": {
+      "spend": 342.98,
+      "revenue": 427.69,
+      "impressions": 1620,
+      "clicks": 391,
+      "ctr": 24.14,
+      "roas": 1.25,
+      "cpc": 0.88
+    },
+    "Campaign_566": {
+      "spend": 344.74,
+      "revenue": 522.3,
+      "impressions": 1658,
+      "clicks": 414,
+      "ctr": 24.97,
+      "roas": 1.52,
+      "cpc": 0.83
+    },
+    "Campaign_567": {
+      "spend": 277.65,
+      "revenue": 467.32,
+      "impressions": 1184,
+      "clicks": 312,
+      "ctr": 26.35,
+      "roas": 1.68,
+      "cpc": 0.89
+    },
+    "Campaign_568": {
+      "spend": 314.59,
+      "revenue": 418.99,
+      "impressions": 1188,
+      "clicks": 316,
+      "ctr": 26.6,
+      "roas": 1.33,
+      "cpc": 1.0
+    },
+    "Campaign_569": {
+      "spend": 335.67,
+      "revenue": 598.16,
+      "impressions": 1159,
+      "clicks": 335,
+      "ctr": 28.9,
+      "roas": 1.78,
+      "cpc": 1.0
+    },
+    "Campaign_570": {
+      "spend": 438.91,
+      "revenue": 684.42,
+      "impressions": 1126,
+      "clicks": 307,
+      "ctr": 27.26,
+      "roas": 1.56,
+      "cpc": 1.43
+    },
+    "Campaign_571": {
+      "spend": 209.05,
+      "revenue": 437.47,
+      "impressions": 2367,
+      "clicks": 600,
+      "ctr": 25.35,
+      "roas": 2.09,
+      "cpc": 0.35
+    },
+    "Campaign_572": {
+      "spend": 112.47,
+      "revenue": 221.97,
+      "impressions": 2381,
+      "clicks": 600,
+      "ctr": 25.2,
+      "roas": 1.97,
+      "cpc": 0.19
+    },
+    "Campaign_573": {
+      "spend": 420.49,
+      "revenue": 510.35,
+      "impressions": 1543,
+      "clicks": 392,
+      "ctr": 25.41,
+      "roas": 1.21,
+      "cpc": 1.07
+    },
+    "Campaign_574": {
+      "spend": 491.16,
+      "revenue": 1028.51,
+      "impressions": 1504,
+      "clicks": 416,
+      "ctr": 27.66,
+      "roas": 2.09,
+      "cpc": 1.18
+    },
+    "Campaign_575": {
+      "spend": 452.0,
+      "revenue": 507.08,
+      "impressions": 1557,
+      "clicks": 416,
+      "ctr": 26.72,
+      "roas": 1.12,
+      "cpc": 1.09
+    },
+    "Campaign_576": {
+      "spend": 231.87,
+      "revenue": 555.66,
+      "impressions": 1642,
+      "clicks": 426,
+      "ctr": 25.94,
+      "roas": 2.4,
+      "cpc": 0.54
+    },
+    "Campaign_577": {
+      "spend": 326.16,
+      "revenue": 601.85,
+      "impressions": 1596,
+      "clicks": 418,
+      "ctr": 26.19,
+      "roas": 1.85,
+      "cpc": 0.78
+    },
+    "Campaign_578": {
+      "spend": 332.84,
+      "revenue": 369.1,
+      "impressions": 1636,
+      "clicks": 445,
+      "ctr": 27.2,
+      "roas": 1.11,
+      "cpc": 0.75
+    },
+    "Campaign_579": {
+      "spend": 318.87,
+      "revenue": 531.56,
+      "impressions": 1154,
+      "clicks": 307,
+      "ctr": 26.6,
+      "roas": 1.67,
+      "cpc": 1.04
+    },
+    "Campaign_580": {
+      "spend": 150.96,
+      "revenue": 331.34,
+      "impressions": 1129,
+      "clicks": 326,
+      "ctr": 28.88,
+      "roas": 2.19,
+      "cpc": 0.46
+    },
+    "Campaign_581": {
+      "spend": 236.18,
+      "revenue": 381.47,
+      "impressions": 1132,
+      "clicks": 300,
+      "ctr": 26.5,
+      "roas": 1.62,
+      "cpc": 0.79
+    },
+    "Campaign_582": {
+      "spend": 145.79,
+      "revenue": 326.7,
+      "impressions": 1089,
+      "clicks": 305,
+      "ctr": 28.01,
+      "roas": 2.24,
+      "cpc": 0.48
+    },
+    "Campaign_583": {
+      "spend": 280.06,
+      "revenue": 433.43,
+      "impressions": 1470,
+      "clicks": 399,
+      "ctr": 27.14,
+      "roas": 1.55,
+      "cpc": 0.7
+    },
+    "Campaign_584": {
+      "spend": 113.01,
+      "revenue": 146.9,
+      "impressions": 1400,
+      "clicks": 400,
+      "ctr": 28.57,
+      "roas": 1.3,
+      "cpc": 0.28
+    },
+    "Campaign_585": {
+      "spend": 480.18,
+      "revenue": 1089.16,
+      "impressions": 1416,
+      "clicks": 420,
+      "ctr": 29.66,
+      "roas": 2.27,
+      "cpc": 1.14
+    },
+    "Campaign_586": {
+      "spend": 235.02,
+      "revenue": 337.72,
+      "impressions": 1189,
+      "clicks": 378,
+      "ctr": 31.79,
+      "roas": 1.44,
+      "cpc": 0.62
+    },
+    "Campaign_587": {
+      "spend": 239.56,
+      "revenue": 541.21,
+      "impressions": 1148,
+      "clicks": 359,
+      "ctr": 31.27,
+      "roas": 2.26,
+      "cpc": 0.67
+    },
+    "Campaign_588": {
+      "spend": 102.95,
+      "revenue": 182.94,
+      "impressions": 1195,
+      "clicks": 361,
+      "ctr": 30.21,
+      "roas": 1.78,
+      "cpc": 0.29
+    },
+    "Campaign_589": {
+      "spend": 262.24,
+      "revenue": 553.13,
+      "impressions": 1117,
+      "clicks": 347,
+      "ctr": 31.07,
+      "roas": 2.11,
+      "cpc": 0.76
+    },
+    "Campaign_590": {
+      "spend": 131.25,
+      "revenue": 144.45,
+      "impressions": 2276,
+      "clicks": 625,
+      "ctr": 27.46,
+      "roas": 1.1,
+      "cpc": 0.21
+    },
+    "Campaign_591": {
+      "spend": 172.74,
+      "revenue": 240.95,
+      "impressions": 2282,
+      "clicks": 635,
+      "ctr": 27.83,
+      "roas": 1.39,
+      "cpc": 0.27
+    },
+    "Campaign_592": {
+      "spend": 479.69,
+      "revenue": 678.64,
+      "impressions": 1479,
+      "clicks": 458,
+      "ctr": 30.97,
+      "roas": 1.41,
+      "cpc": 1.05
+    },
+    "Campaign_593": {
+      "spend": 259.81,
+      "revenue": 417.0,
+      "impressions": 1502,
+      "clicks": 446,
+      "ctr": 29.69,
+      "roas": 1.61,
+      "cpc": 0.58
+    },
+    "Campaign_594": {
+      "spend": 273.69,
+      "revenue": 458.67,
+      "impressions": 1500,
+      "clicks": 477,
+      "ctr": 31.8,
+      "roas": 1.68,
+      "cpc": 0.57
+    },
+    "Campaign_595": {
+      "spend": 498.61,
+      "revenue": 1112.57,
+      "impressions": 2280,
+      "clicks": 597,
+      "ctr": 26.18,
+      "roas": 2.23,
+      "cpc": 0.84
+    },
+    "Campaign_596": {
+      "spend": 210.95,
+      "revenue": 264.83,
+      "impressions": 2193,
+      "clicks": 585,
+      "ctr": 26.68,
+      "roas": 1.26,
+      "cpc": 0.36
+    },
+    "Campaign_597": {
+      "spend": 286.92,
+      "revenue": 401.69,
+      "impressions": 1078,
+      "clicks": 310,
+      "ctr": 28.76,
+      "roas": 1.4,
+      "cpc": 0.93
+    },
+    "Campaign_598": {
+      "spend": 231.55,
+      "revenue": 351.19,
+      "impressions": 1171,
+      "clicks": 311,
+      "ctr": 26.56,
+      "roas": 1.52,
+      "cpc": 0.74
+    },
+    "Campaign_599": {
+      "spend": 267.02,
+      "revenue": 440.49,
+      "impressions": 1103,
+      "clicks": 288,
+      "ctr": 26.11,
+      "roas": 1.65,
+      "cpc": 0.93
+    },
+    "Campaign_600": {
+      "spend": 144.16,
+      "revenue": 242.79,
+      "impressions": 1174,
+      "clicks": 308,
+      "ctr": 26.24,
+      "roas": 1.68,
+      "cpc": 0.47
+    },
+    "Campaign_601": {
+      "spend": 304.3,
+      "revenue": 570.03,
+      "impressions": 1042,
+      "clicks": 311,
+      "ctr": 29.85,
+      "roas": 1.87,
+      "cpc": 0.98
+    },
+    "Campaign_602": {
+      "spend": 232.84,
+      "revenue": 311.08,
+      "impressions": 1088,
+      "clicks": 292,
+      "ctr": 26.84,
+      "roas": 1.34,
+      "cpc": 0.8
+    },
+    "Campaign_603": {
+      "spend": 496.08,
+      "revenue": 579.6,
+      "impressions": 1096,
+      "clicks": 297,
+      "ctr": 27.1,
+      "roas": 1.17,
+      "cpc": 1.67
+    },
+    "Campaign_604": {
+      "spend": 118.74,
+      "revenue": 147.96,
+      "impressions": 1079,
+      "clicks": 317,
+      "ctr": 29.38,
+      "roas": 1.25,
+      "cpc": 0.37
+    },
+    "Campaign_605": {
+      "spend": 107.81,
+      "revenue": 244.5,
+      "impressions": 1473,
+      "clicks": 442,
+      "ctr": 30.01,
+      "roas": 2.27,
+      "cpc": 0.24
+    },
+    "Campaign_606": {
+      "spend": 305.65,
+      "revenue": 550.41,
+      "impressions": 1543,
+      "clicks": 435,
+      "ctr": 28.19,
+      "roas": 1.8,
+      "cpc": 0.7
+    },
+    "Campaign_607": {
+      "spend": 207.99,
+      "revenue": 494.91,
+      "impressions": 1532,
+      "clicks": 439,
+      "ctr": 28.66,
+      "roas": 2.38,
+      "cpc": 0.47
+    },
+    "Campaign_608": {
+      "spend": 216.4,
+      "revenue": 345.12,
+      "impressions": 1431,
+      "clicks": 405,
+      "ctr": 28.3,
+      "roas": 1.59,
+      "cpc": 0.53
+    },
+    "Campaign_609": {
+      "spend": 474.0,
+      "revenue": 684.61,
+      "impressions": 1396,
+      "clicks": 425,
+      "ctr": 30.44,
+      "roas": 1.44,
+      "cpc": 1.12
+    },
+    "Campaign_610": {
+      "spend": 300.43,
+      "revenue": 629.04,
+      "impressions": 1422,
+      "clicks": 390,
+      "ctr": 27.43,
+      "roas": 2.09,
+      "cpc": 0.77
+    },
+    "Campaign_611": {
+      "spend": 425.43,
+      "revenue": 509.83,
+      "impressions": 2227,
+      "clicks": 589,
+      "ctr": 26.45,
+      "roas": 1.2,
+      "cpc": 0.72
+    },
+    "Campaign_612": {
+      "spend": 119.98,
+      "revenue": 271.38,
+      "impressions": 2208,
+      "clicks": 619,
+      "ctr": 28.03,
+      "roas": 2.26,
+      "cpc": 0.19
+    },
+    "Campaign_613": {
+      "spend": 211.34,
+      "revenue": 235.3,
+      "impressions": 2332,
+      "clicks": 589,
+      "ctr": 25.26,
+      "roas": 1.11,
+      "cpc": 0.36
+    },
+    "Campaign_614": {
+      "spend": 494.75,
+      "revenue": 941.41,
+      "impressions": 2324,
+      "clicks": 591,
+      "ctr": 25.43,
+      "roas": 1.9,
+      "cpc": 0.84
+    },
+    "Campaign_615": {
+      "spend": 304.29,
+      "revenue": 727.11,
+      "impressions": 1080,
+      "clicks": 318,
+      "ctr": 29.44,
+      "roas": 2.39,
+      "cpc": 0.96
+    },
+    "Campaign_616": {
+      "spend": 116.71,
+      "revenue": 141.9,
+      "impressions": 1133,
+      "clicks": 322,
+      "ctr": 28.42,
+      "roas": 1.22,
+      "cpc": 0.36
+    },
+    "Campaign_617": {
+      "spend": 227.01,
+      "revenue": 455.48,
+      "impressions": 1120,
+      "clicks": 326,
+      "ctr": 29.11,
+      "roas": 2.01,
+      "cpc": 0.7
+    },
+    "Campaign_618": {
+      "spend": 451.29,
+      "revenue": 910.51,
+      "impressions": 1106,
+      "clicks": 296,
+      "ctr": 26.76,
+      "roas": 2.02,
+      "cpc": 1.52
+    },
+    "Campaign_619": {
+      "spend": 372.12,
+      "revenue": 810.96,
+      "impressions": 1109,
+      "clicks": 357,
+      "ctr": 32.19,
+      "roas": 2.18,
+      "cpc": 1.04
+    },
+    "Campaign_620": {
+      "spend": 237.63,
+      "revenue": 367.19,
+      "impressions": 1127,
+      "clicks": 388,
+      "ctr": 34.43,
+      "roas": 1.55,
+      "cpc": 0.61
+    },
+    "Campaign_621": {
+      "spend": 132.31,
+      "revenue": 231.22,
+      "impressions": 1180,
+      "clicks": 376,
+      "ctr": 31.86,
+      "roas": 1.75,
+      "cpc": 0.35
+    },
+    "Campaign_622": {
+      "spend": 265.93,
+      "revenue": 292.72,
+      "impressions": 1171,
+      "clicks": 366,
+      "ctr": 31.26,
+      "roas": 1.1,
+      "cpc": 0.73
+    },
+    "Campaign_623": {
+      "spend": 105.94,
+      "revenue": 244.94,
+      "impressions": 2212,
+      "clicks": 744,
+      "ctr": 33.63,
+      "roas": 2.31,
+      "cpc": 0.14
+    },
+    "Campaign_624": {
+      "spend": 228.85,
+      "revenue": 476.32,
+      "impressions": 2199,
+      "clicks": 727,
+      "ctr": 33.06,
+      "roas": 2.08,
+      "cpc": 0.31
+    },
+    "Campaign_625": {
+      "spend": 355.23,
+      "revenue": 609.6,
+      "impressions": 2159,
+      "clicks": 660,
+      "ctr": 30.57,
+      "roas": 1.72,
+      "cpc": 0.54
+    },
+    "Campaign_626": {
+      "spend": 488.91,
+      "revenue": 1072.23,
+      "impressions": 2199,
+      "clicks": 658,
+      "ctr": 29.92,
+      "roas": 2.19,
+      "cpc": 0.74
+    },
+    "Campaign_627": {
+      "spend": 406.75,
+      "revenue": 980.21,
+      "impressions": 2254,
+      "clicks": 680,
+      "ctr": 30.17,
+      "roas": 2.41,
+      "cpc": 0.6
+    },
+    "Campaign_628": {
+      "spend": 171.45,
+      "revenue": 308.84,
+      "impressions": 2234,
+      "clicks": 687,
+      "ctr": 30.75,
+      "roas": 1.8,
+      "cpc": 0.25
+    },
+    "Campaign_629": {
+      "spend": 191.72,
+      "revenue": 302.32,
+      "impressions": 2157,
+      "clicks": 670,
+      "ctr": 31.06,
+      "roas": 1.58,
+      "cpc": 0.29
+    },
+    "Campaign_630": {
+      "spend": 153.86,
+      "revenue": 172.49,
+      "impressions": 2161,
+      "clicks": 698,
+      "ctr": 32.3,
+      "roas": 1.12,
+      "cpc": 0.22
+    },
+    "Campaign_631": {
+      "spend": 352.16,
+      "revenue": 470.96,
+      "impressions": 2381,
+      "clicks": 625,
+      "ctr": 26.25,
+      "roas": 1.34,
+      "cpc": 0.56
+    },
+    "Campaign_632": {
+      "spend": 117.49,
+      "revenue": 145.55,
+      "impressions": 2332,
+      "clicks": 633,
+      "ctr": 27.14,
+      "roas": 1.24,
+      "cpc": 0.19
+    },
+    "Campaign_633": {
+      "spend": 286.22,
+      "revenue": 373.98,
+      "impressions": 1456,
+      "clicks": 470,
+      "ctr": 32.28,
+      "roas": 1.31,
+      "cpc": 0.61
+    },
+    "Campaign_634": {
+      "spend": 463.07,
+      "revenue": 710.06,
+      "impressions": 1456,
+      "clicks": 484,
+      "ctr": 33.24,
+      "roas": 1.53,
+      "cpc": 0.96
+    },
+    "Campaign_635": {
+      "spend": 155.88,
+      "revenue": 248.46,
+      "impressions": 1448,
+      "clicks": 483,
+      "ctr": 33.36,
+      "roas": 1.59,
+      "cpc": 0.32
+    },
+    "Campaign_636": {
+      "spend": 330.74,
+      "revenue": 394.95,
+      "impressions": 1402,
+      "clicks": 417,
+      "ctr": 29.74,
+      "roas": 1.19,
+      "cpc": 0.79
+    },
+    "Campaign_637": {
+      "spend": 218.69,
+      "revenue": 268.11,
+      "impressions": 1365,
+      "clicks": 434,
+      "ctr": 31.79,
+      "roas": 1.23,
+      "cpc": 0.5
+    },
+    "Campaign_638": {
+      "spend": 402.67,
+      "revenue": 479.44,
+      "impressions": 1450,
+      "clicks": 404,
+      "ctr": 27.86,
+      "roas": 1.19,
+      "cpc": 1.0
+    },
+    "Campaign_639": {
+      "spend": 299.13,
+      "revenue": 712.98,
+      "impressions": 2210,
+      "clicks": 699,
+      "ctr": 31.63,
+      "roas": 2.38,
+      "cpc": 0.43
+    },
+    "Campaign_640": {
+      "spend": 144.42,
+      "revenue": 295.98,
+      "impressions": 2179,
+      "clicks": 703,
+      "ctr": 32.26,
+      "roas": 2.05,
+      "cpc": 0.21
+    },
+    "Campaign_641": {
+      "spend": 186.61,
+      "revenue": 228.58,
+      "impressions": 2350,
+      "clicks": 676,
+      "ctr": 28.77,
+      "roas": 1.22,
+      "cpc": 0.28
+    },
+    "Campaign_642": {
+      "spend": 321.58,
+      "revenue": 610.72,
+      "impressions": 2313,
+      "clicks": 705,
+      "ctr": 30.48,
+      "roas": 1.9,
+      "cpc": 0.46
+    },
+    "Campaign_643": {
+      "spend": 360.46,
+      "revenue": 434.57,
+      "impressions": 1218,
+      "clicks": 312,
+      "ctr": 25.62,
+      "roas": 1.21,
+      "cpc": 1.16
+    },
+    "Campaign_644": {
+      "spend": 286.31,
+      "revenue": 364.13,
+      "impressions": 1263,
+      "clicks": 285,
+      "ctr": 22.57,
+      "roas": 1.27,
+      "cpc": 1.0
+    },
+    "Campaign_645": {
+      "spend": 385.51,
+      "revenue": 928.64,
+      "impressions": 1229,
+      "clicks": 311,
+      "ctr": 25.31,
+      "roas": 2.41,
+      "cpc": 1.24
+    },
+    "Campaign_646": {
+      "spend": 310.94,
+      "revenue": 647.0,
+      "impressions": 1245,
+      "clicks": 302,
+      "ctr": 24.26,
+      "roas": 2.08,
+      "cpc": 1.03
+    },
+    "Campaign_647": {
+      "spend": 235.19,
+      "revenue": 359.1,
+      "impressions": 2443,
+      "clicks": 674,
+      "ctr": 27.59,
+      "roas": 1.53,
+      "cpc": 0.35
+    },
+    "Campaign_648": {
+      "spend": 244.17,
+      "revenue": 446.76,
+      "impressions": 2505,
+      "clicks": 658,
+      "ctr": 26.27,
+      "roas": 1.83,
+      "cpc": 0.37
+    },
+    "Campaign_649": {
+      "spend": 402.67,
+      "revenue": 662.48,
+      "impressions": 2103,
+      "clicks": 737,
+      "ctr": 35.05,
+      "roas": 1.65,
+      "cpc": 0.55
+    },
+    "Campaign_650": {
+      "spend": 427.39,
+      "revenue": 631.94,
+      "impressions": 2136,
+      "clicks": 720,
+      "ctr": 33.71,
+      "roas": 1.48,
+      "cpc": 0.59
+    },
+    "Campaign_651": {
+      "spend": 478.1,
+      "revenue": 600.54,
+      "impressions": 2111,
+      "clicks": 626,
+      "ctr": 29.65,
+      "roas": 1.26,
+      "cpc": 0.76
+    },
+    "Campaign_652": {
+      "spend": 238.37,
+      "revenue": 550.26,
+      "impressions": 2148,
+      "clicks": 608,
+      "ctr": 28.31,
+      "roas": 2.31,
+      "cpc": 0.39
+    },
+    "Campaign_653": {
+      "spend": 383.86,
+      "revenue": 829.05,
+      "impressions": 1163,
+      "clicks": 371,
+      "ctr": 31.9,
+      "roas": 2.16,
+      "cpc": 1.03
+    },
+    "Campaign_654": {
+      "spend": 399.8,
+      "revenue": 803.67,
+      "impressions": 1114,
+      "clicks": 345,
+      "ctr": 30.97,
+      "roas": 2.01,
+      "cpc": 1.16
+    },
+    "Campaign_655": {
+      "spend": 328.57,
+      "revenue": 809.88,
+      "impressions": 1159,
+      "clicks": 344,
+      "ctr": 29.68,
+      "roas": 2.46,
+      "cpc": 0.96
+    },
+    "Campaign_656": {
+      "spend": 242.65,
+      "revenue": 336.44,
+      "impressions": 1184,
+      "clicks": 348,
+      "ctr": 29.39,
+      "roas": 1.39,
+      "cpc": 0.7
+    },
+    "Campaign_657": {
+      "spend": 308.12,
+      "revenue": 562.6,
+      "impressions": 2410,
+      "clicks": 665,
+      "ctr": 27.59,
+      "roas": 1.83,
+      "cpc": 0.46
+    },
+    "Campaign_658": {
+      "spend": 115.64,
+      "revenue": 161.8,
+      "impressions": 2430,
+      "clicks": 673,
+      "ctr": 27.7,
+      "roas": 1.4,
+      "cpc": 0.17
+    },
+    "Campaign_659": {
+      "spend": 292.7,
+      "revenue": 494.8,
+      "impressions": 1536,
+      "clicks": 404,
+      "ctr": 26.3,
+      "roas": 1.69,
+      "cpc": 0.72
+    },
+    "Campaign_660": {
+      "spend": 132.52,
+      "revenue": 257.49,
+      "impressions": 1509,
+      "clicks": 405,
+      "ctr": 26.84,
+      "roas": 1.94,
+      "cpc": 0.33
+    },
+    "Campaign_661": {
+      "spend": 471.07,
+      "revenue": 843.63,
+      "impressions": 1585,
+      "clicks": 400,
+      "ctr": 25.24,
+      "roas": 1.79,
+      "cpc": 1.18
+    },
+    "Campaign_662": {
+      "spend": 277.07,
+      "revenue": 691.09,
+      "impressions": 1564,
+      "clicks": 460,
+      "ctr": 29.41,
+      "roas": 2.49,
+      "cpc": 0.6
+    },
+    "Campaign_663": {
+      "spend": 144.25,
+      "revenue": 264.27,
+      "impressions": 1538,
+      "clicks": 442,
+      "ctr": 28.74,
+      "roas": 1.83,
+      "cpc": 0.33
+    },
+    "Campaign_664": {
+      "spend": 196.37,
+      "revenue": 466.41,
+      "impressions": 1588,
+      "clicks": 440,
+      "ctr": 27.71,
+      "roas": 2.38,
+      "cpc": 0.45
+    },
+    "Campaign_665": {
+      "spend": 239.52,
+      "revenue": 535.74,
+      "impressions": 1492,
+      "clicks": 416,
+      "ctr": 27.88,
+      "roas": 2.24,
+      "cpc": 0.58
+    },
+    "Campaign_666": {
+      "spend": 229.28,
+      "revenue": 298.83,
+      "impressions": 1457,
+      "clicks": 432,
+      "ctr": 29.65,
+      "roas": 1.3,
+      "cpc": 0.53
+    },
+    "Campaign_667": {
+      "spend": 210.16,
+      "revenue": 273.22,
+      "impressions": 1415,
+      "clicks": 416,
+      "ctr": 29.4,
+      "roas": 1.3,
+      "cpc": 0.51
+    },
+    "Campaign_668": {
+      "spend": 215.59,
+      "revenue": 499.48,
+      "impressions": 1446,
+      "clicks": 390,
+      "ctr": 26.97,
+      "roas": 2.32,
+      "cpc": 0.55
+    },
+    "Campaign_669": {
+      "spend": 107.03,
+      "revenue": 154.66,
+      "impressions": 1483,
+      "clicks": 385,
+      "ctr": 25.96,
+      "roas": 1.45,
+      "cpc": 0.28
+    },
+    "Campaign_670": {
+      "spend": 285.25,
+      "revenue": 407.31,
+      "impressions": 1451,
+      "clicks": 400,
+      "ctr": 27.57,
+      "roas": 1.43,
+      "cpc": 0.71
+    },
+    "Campaign_671": {
+      "spend": 234.0,
+      "revenue": 342.86,
+      "impressions": 1495,
+      "clicks": 391,
+      "ctr": 26.15,
+      "roas": 1.47,
+      "cpc": 0.6
+    },
+    "Campaign_672": {
+      "spend": 158.6,
+      "revenue": 365.9,
+      "impressions": 1495,
+      "clicks": 379,
+      "ctr": 25.35,
+      "roas": 2.31,
+      "cpc": 0.42
+    },
+    "Campaign_673": {
+      "spend": 224.99,
+      "revenue": 558.86,
+      "impressions": 1468,
+      "clicks": 372,
+      "ctr": 25.34,
+      "roas": 2.48,
+      "cpc": 0.6
+    },
+    "Campaign_674": {
+      "spend": 431.2,
+      "revenue": 708.46,
+      "impressions": 1120,
+      "clicks": 325,
+      "ctr": 29.02,
+      "roas": 1.64,
+      "cpc": 1.33
+    },
+    "Campaign_675": {
+      "spend": 168.31,
+      "revenue": 309.18,
+      "impressions": 1077,
+      "clicks": 325,
+      "ctr": 30.18,
+      "roas": 1.84,
+      "cpc": 0.52
+    },
+    "Campaign_676": {
+      "spend": 489.15,
+      "revenue": 886.04,
+      "impressions": 1095,
+      "clicks": 345,
+      "ctr": 31.51,
+      "roas": 1.81,
+      "cpc": 1.42
+    },
+    "Campaign_677": {
+      "spend": 475.0,
+      "revenue": 605.1,
+      "impressions": 1098,
+      "clicks": 325,
+      "ctr": 29.6,
+      "roas": 1.27,
+      "cpc": 1.46
+    },
+    "Campaign_678": {
+      "spend": 390.87,
+      "revenue": 570.95,
+      "impressions": 2080,
+      "clicks": 648,
+      "ctr": 31.15,
+      "roas": 1.46,
+      "cpc": 0.6
+    },
+    "Campaign_679": {
+      "spend": 449.97,
+      "revenue": 835.18,
+      "impressions": 2066,
+      "clicks": 645,
+      "ctr": 31.22,
+      "roas": 1.86,
+      "cpc": 0.7
+    },
+    "Campaign_680": {
+      "spend": 150.34,
+      "revenue": 259.95,
+      "impressions": 1202,
+      "clicks": 339,
+      "ctr": 28.2,
+      "roas": 1.73,
+      "cpc": 0.44
+    },
+    "Campaign_681": {
+      "spend": 332.76,
+      "revenue": 432.13,
+      "impressions": 1238,
+      "clicks": 367,
+      "ctr": 29.64,
+      "roas": 1.3,
+      "cpc": 0.91
+    },
+    "Campaign_682": {
+      "spend": 312.91,
+      "revenue": 604.61,
+      "impressions": 1194,
+      "clicks": 363,
+      "ctr": 30.4,
+      "roas": 1.93,
+      "cpc": 0.86
+    },
+    "Campaign_683": {
+      "spend": 251.16,
+      "revenue": 416.51,
+      "impressions": 1215,
+      "clicks": 362,
+      "ctr": 29.79,
+      "roas": 1.66,
+      "cpc": 0.69
+    },
+    "Campaign_684": {
+      "spend": 268.76,
+      "revenue": 445.94,
+      "impressions": 2180,
+      "clicks": 628,
+      "ctr": 28.81,
+      "roas": 1.66,
+      "cpc": 0.43
+    },
+    "Campaign_685": {
+      "spend": 258.14,
+      "revenue": 566.59,
+      "impressions": 2252,
+      "clicks": 658,
+      "ctr": 29.22,
+      "roas": 2.19,
+      "cpc": 0.39
+    },
+    "Campaign_686": {
+      "spend": 118.37,
+      "revenue": 176.64,
+      "impressions": 2228,
+      "clicks": 601,
+      "ctr": 26.97,
+      "roas": 1.49,
+      "cpc": 0.2
+    },
+    "Campaign_687": {
+      "spend": 194.28,
+      "revenue": 306.32,
+      "impressions": 2246,
+      "clicks": 573,
+      "ctr": 25.51,
+      "roas": 1.58,
+      "cpc": 0.34
+    },
+    "Campaign_688": {
+      "spend": 185.64,
+      "revenue": 223.31,
+      "impressions": 2125,
+      "clicks": 744,
+      "ctr": 35.01,
+      "roas": 1.2,
+      "cpc": 0.25
+    },
+    "Campaign_689": {
+      "spend": 206.4,
+      "revenue": 383.68,
+      "impressions": 2184,
+      "clicks": 728,
+      "ctr": 33.33,
+      "roas": 1.86,
+      "cpc": 0.28
+    },
+    "Campaign_690": {
+      "spend": 395.78,
+      "revenue": 550.52,
+      "impressions": 2327,
+      "clicks": 657,
+      "ctr": 28.23,
+      "roas": 1.39,
+      "cpc": 0.6
+    },
+    "Campaign_691": {
+      "spend": 211.87,
+      "revenue": 371.1,
+      "impressions": 2302,
+      "clicks": 671,
+      "ctr": 29.15,
+      "roas": 1.75,
+      "cpc": 0.32
+    },
+    "Campaign_692": {
+      "spend": 140.41,
+      "revenue": 338.03,
+      "impressions": 2233,
+      "clicks": 581,
+      "ctr": 26.02,
+      "roas": 2.41,
+      "cpc": 0.24
+    },
+    "Campaign_693": {
+      "spend": 337.48,
+      "revenue": 713.83,
+      "impressions": 2230,
+      "clicks": 575,
+      "ctr": 25.78,
+      "roas": 2.12,
+      "cpc": 0.59
+    },
+    "Campaign_694": {
+      "spend": 485.62,
+      "revenue": 991.45,
+      "impressions": 2218,
+      "clicks": 736,
+      "ctr": 33.18,
+      "roas": 2.04,
+      "cpc": 0.66
+    },
+    "Campaign_695": {
+      "spend": 361.04,
+      "revenue": 457.95,
+      "impressions": 2273,
+      "clicks": 703,
+      "ctr": 30.93,
+      "roas": 1.27,
+      "cpc": 0.51
+    },
+    "Campaign_696": {
+      "spend": 272.48,
+      "revenue": 572.26,
+      "impressions": 2110,
+      "clicks": 635,
+      "ctr": 30.09,
+      "roas": 2.1,
+      "cpc": 0.43
+    },
+    "Campaign_697": {
+      "spend": 299.21,
+      "revenue": 653.8,
+      "impressions": 2061,
+      "clicks": 651,
+      "ctr": 31.59,
+      "roas": 2.19,
+      "cpc": 0.46
+    },
+    "Campaign_698": {
+      "spend": 344.98,
+      "revenue": 597.97,
+      "impressions": 1447,
+      "clicks": 435,
+      "ctr": 30.06,
+      "roas": 1.73,
+      "cpc": 0.79
+    },
+    "Campaign_699": {
+      "spend": 237.05,
+      "revenue": 527.22,
+      "impressions": 1367,
+      "clicks": 424,
+      "ctr": 31.02,
+      "roas": 2.22,
+      "cpc": 0.56
+    },
+    "Campaign_700": {
+      "spend": 190.15,
+      "revenue": 331.42,
+      "impressions": 1372,
+      "clicks": 421,
+      "ctr": 30.69,
+      "roas": 1.74,
+      "cpc": 0.45
+    },
+    "Campaign_701": {
+      "spend": 186.36,
+      "revenue": 208.27,
+      "impressions": 2200,
+      "clicks": 670,
+      "ctr": 30.45,
+      "roas": 1.12,
+      "cpc": 0.28
+    },
+    "Campaign_702": {
+      "spend": 456.87,
+      "revenue": 1049.8,
+      "impressions": 2177,
+      "clicks": 662,
+      "ctr": 30.41,
+      "roas": 2.3,
+      "cpc": 0.69
+    },
+    "Campaign_703": {
+      "spend": 243.87,
+      "revenue": 384.53,
+      "impressions": 2331,
+      "clicks": 594,
+      "ctr": 25.48,
+      "roas": 1.58,
+      "cpc": 0.41
+    },
+    "Campaign_704": {
+      "spend": 317.09,
+      "revenue": 573.8,
+      "impressions": 2398,
+      "clicks": 599,
+      "ctr": 24.98,
+      "roas": 1.81,
+      "cpc": 0.53
+    },
+    "Campaign_705": {
+      "spend": 335.95,
+      "revenue": 447.21,
+      "impressions": 1222,
+      "clicks": 299,
+      "ctr": 24.47,
+      "roas": 1.33,
+      "cpc": 1.12
+    },
+    "Campaign_706": {
+      "spend": 451.29,
+      "revenue": 695.25,
+      "impressions": 1169,
+      "clicks": 291,
+      "ctr": 24.89,
+      "roas": 1.54,
+      "cpc": 1.55
+    },
+    "Campaign_707": {
+      "spend": 404.79,
+      "revenue": 449.73,
+      "impressions": 1178,
+      "clicks": 296,
+      "ctr": 25.13,
+      "roas": 1.11,
+      "cpc": 1.37
+    },
+    "Campaign_708": {
+      "spend": 352.1,
+      "revenue": 706.06,
+      "impressions": 1197,
+      "clicks": 283,
+      "ctr": 23.64,
+      "roas": 2.01,
+      "cpc": 1.24
+    },
+    "Campaign_709": {
+      "spend": 322.87,
+      "revenue": 776.42,
+      "impressions": 1434,
+      "clicks": 385,
+      "ctr": 26.85,
+      "roas": 2.4,
+      "cpc": 0.84
+    },
+    "Campaign_710": {
+      "spend": 249.77,
+      "revenue": 490.95,
+      "impressions": 1517,
+      "clicks": 389,
+      "ctr": 25.64,
+      "roas": 1.97,
+      "cpc": 0.64
+    },
+    "Campaign_711": {
+      "spend": 423.98,
+      "revenue": 748.42,
+      "impressions": 1485,
+      "clicks": 397,
+      "ctr": 26.73,
+      "roas": 1.77,
+      "cpc": 1.07
+    },
+    "Campaign_712": {
+      "spend": 341.62,
+      "revenue": 578.61,
+      "impressions": 1421,
+      "clicks": 422,
+      "ctr": 29.7,
+      "roas": 1.69,
+      "cpc": 0.81
+    },
+    "Campaign_713": {
+      "spend": 399.98,
+      "revenue": 873.63,
+      "impressions": 1489,
+      "clicks": 427,
+      "ctr": 28.68,
+      "roas": 2.18,
+      "cpc": 0.94
+    },
+    "Campaign_714": {
+      "spend": 158.8,
+      "revenue": 296.08,
+      "impressions": 1458,
+      "clicks": 400,
+      "ctr": 27.43,
+      "roas": 1.86,
+      "cpc": 0.4
+    },
+    "Campaign_715": {
+      "spend": 294.65,
+      "revenue": 358.45,
+      "impressions": 1449,
+      "clicks": 452,
+      "ctr": 31.19,
+      "roas": 1.22,
+      "cpc": 0.65
+    },
+    "Campaign_716": {
+      "spend": 429.63,
+      "revenue": 544.5,
+      "impressions": 1466,
+      "clicks": 420,
+      "ctr": 28.65,
+      "roas": 1.27,
+      "cpc": 1.02
+    },
+    "Campaign_717": {
+      "spend": 228.11,
+      "revenue": 516.28,
+      "impressions": 1487,
+      "clicks": 437,
+      "ctr": 29.39,
+      "roas": 2.26,
+      "cpc": 0.52
+    },
+    "Campaign_718": {
+      "spend": 186.95,
+      "revenue": 372.93,
+      "impressions": 1550,
+      "clicks": 463,
+      "ctr": 29.87,
+      "roas": 1.99,
+      "cpc": 0.4
+    },
+    "Campaign_719": {
+      "spend": 262.08,
+      "revenue": 441.87,
+      "impressions": 1546,
+      "clicks": 474,
+      "ctr": 30.66,
+      "roas": 1.69,
+      "cpc": 0.55
+    },
+    "Campaign_720": {
+      "spend": 413.05,
+      "revenue": 573.15,
+      "impressions": 1558,
+      "clicks": 455,
+      "ctr": 29.2,
+      "roas": 1.39,
+      "cpc": 0.91
+    },
+    "Campaign_721": {
+      "spend": 135.49,
+      "revenue": 295.22,
+      "impressions": 2358,
+      "clicks": 702,
+      "ctr": 29.77,
+      "roas": 2.18,
+      "cpc": 0.19
+    },
+    "Campaign_722": {
+      "spend": 194.32,
+      "revenue": 482.44,
+      "impressions": 2292,
+      "clicks": 696,
+      "ctr": 30.37,
+      "roas": 2.48,
+      "cpc": 0.28
+    },
+    "Campaign_723": {
+      "spend": 321.18,
+      "revenue": 448.13,
+      "impressions": 1571,
+      "clicks": 448,
+      "ctr": 28.52,
+      "roas": 1.4,
+      "cpc": 0.72
+    },
+    "Campaign_724": {
+      "spend": 379.96,
+      "revenue": 550.44,
+      "impressions": 1666,
+      "clicks": 467,
+      "ctr": 28.03,
+      "roas": 1.45,
+      "cpc": 0.81
+    },
+    "Campaign_725": {
+      "spend": 469.32,
+      "revenue": 633.58,
+      "impressions": 1632,
+      "clicks": 447,
+      "ctr": 27.39,
+      "roas": 1.35,
+      "cpc": 1.05
+    },
+    "Campaign_726": {
+      "spend": 314.03,
+      "revenue": 485.99,
+      "impressions": 1603,
+      "clicks": 472,
+      "ctr": 29.44,
+      "roas": 1.55,
+      "cpc": 0.67
+    },
+    "Campaign_727": {
+      "spend": 108.98,
+      "revenue": 249.06,
+      "impressions": 1517,
+      "clicks": 479,
+      "ctr": 31.58,
+      "roas": 2.29,
+      "cpc": 0.23
+    },
+    "Campaign_728": {
+      "spend": 375.49,
+      "revenue": 814.06,
+      "impressions": 1546,
+      "clicks": 448,
+      "ctr": 28.98,
+      "roas": 2.17,
+      "cpc": 0.84
+    },
+    "Campaign_729": {
+      "spend": 331.03,
+      "revenue": 417.27,
+      "impressions": 1463,
+      "clicks": 417,
+      "ctr": 28.5,
+      "roas": 1.26,
+      "cpc": 0.79
+    },
+    "Campaign_730": {
+      "spend": 180.78,
+      "revenue": 343.7,
+      "impressions": 1529,
+      "clicks": 432,
+      "ctr": 28.25,
+      "roas": 1.9,
+      "cpc": 0.42
+    },
+    "Campaign_731": {
+      "spend": 442.83,
+      "revenue": 1008.96,
+      "impressions": 1520,
+      "clicks": 417,
+      "ctr": 27.43,
+      "roas": 2.28,
+      "cpc": 1.06
+    },
+    "Campaign_732": {
+      "spend": 417.73,
+      "revenue": 991.59,
+      "impressions": 2168,
+      "clicks": 619,
+      "ctr": 28.55,
+      "roas": 2.37,
+      "cpc": 0.67
+    },
+    "Campaign_733": {
+      "spend": 137.12,
+      "revenue": 182.26,
+      "impressions": 2202,
+      "clicks": 584,
+      "ctr": 26.52,
+      "roas": 1.33,
+      "cpc": 0.23
+    },
+    "Campaign_734": {
+      "spend": 161.03,
+      "revenue": 216.34,
+      "impressions": 1419,
+      "clicks": 394,
+      "ctr": 27.77,
+      "roas": 1.34,
+      "cpc": 0.41
+    },
+    "Campaign_735": {
+      "spend": 280.6,
+      "revenue": 325.12,
+      "impressions": 1414,
+      "clicks": 410,
+      "ctr": 29.0,
+      "roas": 1.16,
+      "cpc": 0.68
+    },
+    "Campaign_736": {
+      "spend": 151.21,
+      "revenue": 264.11,
+      "impressions": 1459,
+      "clicks": 405,
+      "ctr": 27.76,
+      "roas": 1.75,
+      "cpc": 0.37
+    },
+    "Campaign_737": {
+      "spend": 473.51,
+      "revenue": 1170.24,
+      "impressions": 2333,
+      "clicks": 677,
+      "ctr": 29.02,
+      "roas": 2.47,
+      "cpc": 0.7
+    },
+    "Campaign_738": {
+      "spend": 171.39,
+      "revenue": 346.42,
+      "impressions": 2308,
+      "clicks": 690,
+      "ctr": 29.9,
+      "roas": 2.02,
+      "cpc": 0.25
+    },
+    "Campaign_739": {
+      "spend": 433.03,
+      "revenue": 1068.03,
+      "impressions": 1418,
+      "clicks": 456,
+      "ctr": 32.16,
+      "roas": 2.47,
+      "cpc": 0.95
+    },
+    "Campaign_740": {
+      "spend": 441.96,
+      "revenue": 605.29,
+      "impressions": 1420,
+      "clicks": 456,
+      "ctr": 32.11,
+      "roas": 1.37,
+      "cpc": 0.97
+    },
+    "Campaign_741": {
+      "spend": 473.05,
+      "revenue": 622.7,
+      "impressions": 1405,
+      "clicks": 472,
+      "ctr": 33.59,
+      "roas": 1.32,
+      "cpc": 1.0
+    },
+    "Campaign_742": {
+      "spend": 297.11,
+      "revenue": 742.34,
+      "impressions": 2412,
+      "clicks": 620,
+      "ctr": 25.7,
+      "roas": 2.5,
+      "cpc": 0.48
+    },
+    "Campaign_743": {
+      "spend": 332.98,
+      "revenue": 538.26,
+      "impressions": 2429,
+      "clicks": 623,
+      "ctr": 25.65,
+      "roas": 1.62,
+      "cpc": 0.53
+    },
+    "Campaign_744": {
+      "spend": 133.54,
+      "revenue": 330.81,
+      "impressions": 1189,
+      "clicks": 320,
+      "ctr": 26.91,
+      "roas": 2.48,
+      "cpc": 0.42
+    },
+    "Campaign_745": {
+      "spend": 156.2,
+      "revenue": 258.13,
+      "impressions": 1113,
+      "clicks": 320,
+      "ctr": 28.75,
+      "roas": 1.65,
+      "cpc": 0.49
+    },
+    "Campaign_746": {
+      "spend": 202.47,
+      "revenue": 474.59,
+      "impressions": 1140,
+      "clicks": 297,
+      "ctr": 26.05,
+      "roas": 2.34,
+      "cpc": 0.68
+    },
+    "Campaign_747": {
+      "spend": 159.95,
+      "revenue": 232.35,
+      "impressions": 1165,
+      "clicks": 319,
+      "ctr": 27.38,
+      "roas": 1.45,
+      "cpc": 0.5
+    },
+    "Campaign_748": {
+      "spend": 362.6,
+      "revenue": 531.18,
+      "impressions": 1549,
+      "clicks": 452,
+      "ctr": 29.18,
+      "roas": 1.46,
+      "cpc": 0.8
+    },
+    "Campaign_749": {
+      "spend": 188.9,
+      "revenue": 470.54,
+      "impressions": 1585,
+      "clicks": 447,
+      "ctr": 28.2,
+      "roas": 2.49,
+      "cpc": 0.42
+    },
+    "Campaign_750": {
+      "spend": 321.77,
+      "revenue": 357.55,
+      "impressions": 1523,
+      "clicks": 474,
+      "ctr": 31.12,
+      "roas": 1.11,
+      "cpc": 0.68
+    },
+    "Campaign_751": {
+      "spend": 393.21,
+      "revenue": 677.79,
+      "impressions": 2396,
+      "clicks": 690,
+      "ctr": 28.8,
+      "roas": 1.72,
+      "cpc": 0.57
+    },
+    "Campaign_752": {
+      "spend": 248.98,
+      "revenue": 304.29,
+      "impressions": 2401,
+      "clicks": 686,
+      "ctr": 28.57,
+      "roas": 1.22,
+      "cpc": 0.36
+    },
+    "Campaign_753": {
+      "spend": 167.71,
+      "revenue": 249.79,
+      "impressions": 1149,
+      "clicks": 315,
+      "ctr": 27.42,
+      "roas": 1.49,
+      "cpc": 0.53
+    },
+    "Campaign_754": {
+      "spend": 254.55,
+      "revenue": 413.02,
+      "impressions": 1119,
+      "clicks": 296,
+      "ctr": 26.45,
+      "roas": 1.62,
+      "cpc": 0.86
+    },
+    "Campaign_755": {
+      "spend": 205.96,
+      "revenue": 438.15,
+      "impressions": 1121,
+      "clicks": 314,
+      "ctr": 28.01,
+      "roas": 2.13,
+      "cpc": 0.66
+    },
+    "Campaign_756": {
+      "spend": 418.04,
+      "revenue": 724.1,
+      "impressions": 1122,
+      "clicks": 285,
+      "ctr": 25.4,
+      "roas": 1.73,
+      "cpc": 1.47
+    },
+    "Campaign_757": {
+      "spend": 250.74,
+      "revenue": 520.8,
+      "impressions": 2235,
+      "clicks": 717,
+      "ctr": 32.08,
+      "roas": 2.08,
+      "cpc": 0.35
+    },
+    "Campaign_758": {
+      "spend": 186.47,
+      "revenue": 245.37,
+      "impressions": 2301,
+      "clicks": 707,
+      "ctr": 30.73,
+      "roas": 1.32,
+      "cpc": 0.26
+    },
+    "Campaign_759": {
+      "spend": 135.81,
+      "revenue": 252.78,
+      "impressions": 1233,
+      "clicks": 341,
+      "ctr": 27.66,
+      "roas": 1.86,
+      "cpc": 0.4
+    },
+    "Campaign_760": {
+      "spend": 175.73,
+      "revenue": 214.32,
+      "impressions": 1176,
+      "clicks": 343,
+      "ctr": 29.17,
+      "roas": 1.22,
+      "cpc": 0.51
+    },
+    "Campaign_761": {
+      "spend": 198.61,
+      "revenue": 428.58,
+      "impressions": 1173,
+      "clicks": 349,
+      "ctr": 29.75,
+      "roas": 2.16,
+      "cpc": 0.57
+    },
+    "Campaign_762": {
+      "spend": 427.63,
+      "revenue": 662.87,
+      "impressions": 1245,
+      "clicks": 367,
+      "ctr": 29.48,
+      "roas": 1.55,
+      "cpc": 1.17
+    },
+    "Campaign_763": {
+      "spend": 312.97,
+      "revenue": 707.63,
+      "impressions": 1572,
+      "clicks": 397,
+      "ctr": 25.25,
+      "roas": 2.26,
+      "cpc": 0.79
+    },
+    "Campaign_764": {
+      "spend": 381.02,
+      "revenue": 485.63,
+      "impressions": 1484,
+      "clicks": 401,
+      "ctr": 27.02,
+      "roas": 1.27,
+      "cpc": 0.95
+    },
+    "Campaign_765": {
+      "spend": 247.19,
+      "revenue": 457.36,
+      "impressions": 1522,
+      "clicks": 386,
+      "ctr": 25.36,
+      "roas": 1.85,
+      "cpc": 0.64
+    },
+    "Campaign_766": {
+      "spend": 361.02,
+      "revenue": 485.89,
+      "impressions": 1198,
+      "clicks": 319,
+      "ctr": 26.63,
+      "roas": 1.35,
+      "cpc": 1.13
+    },
+    "Campaign_767": {
+      "spend": 123.79,
+      "revenue": 238.73,
+      "impressions": 1142,
+      "clicks": 318,
+      "ctr": 27.85,
+      "roas": 1.93,
+      "cpc": 0.39
+    },
+    "Campaign_768": {
+      "spend": 213.19,
+      "revenue": 496.95,
+      "impressions": 1173,
+      "clicks": 345,
+      "ctr": 29.41,
+      "roas": 2.33,
+      "cpc": 0.62
+    },
+    "Campaign_769": {
+      "spend": 115.11,
+      "revenue": 227.6,
+      "impressions": 1149,
+      "clicks": 350,
+      "ctr": 30.46,
+      "roas": 1.98,
+      "cpc": 0.33
+    },
+    "Campaign_770": {
+      "spend": 436.72,
+      "revenue": 988.99,
+      "impressions": 1202,
+      "clicks": 359,
+      "ctr": 29.87,
+      "roas": 2.26,
+      "cpc": 1.22
+    },
+    "Campaign_771": {
+      "spend": 125.15,
+      "revenue": 261.96,
+      "impressions": 1136,
+      "clicks": 366,
+      "ctr": 32.22,
+      "roas": 2.09,
+      "cpc": 0.34
+    },
+    "Campaign_772": {
+      "spend": 187.55,
+      "revenue": 414.68,
+      "impressions": 1219,
+      "clicks": 361,
+      "ctr": 29.61,
+      "roas": 2.21,
+      "cpc": 0.52
+    },
+    "Campaign_773": {
+      "spend": 335.97,
+      "revenue": 627.93,
+      "impressions": 1167,
+      "clicks": 368,
+      "ctr": 31.53,
+      "roas": 1.87,
+      "cpc": 0.91
+    },
+    "Campaign_774": {
+      "spend": 263.43,
+      "revenue": 541.01,
+      "impressions": 1057,
+      "clicks": 290,
+      "ctr": 27.44,
+      "roas": 2.05,
+      "cpc": 0.91
+    },
+    "Campaign_775": {
+      "spend": 488.36,
+      "revenue": 1026.93,
+      "impressions": 1047,
+      "clicks": 279,
+      "ctr": 26.65,
+      "roas": 2.1,
+      "cpc": 1.75
+    },
+    "Campaign_776": {
+      "spend": 254.2,
+      "revenue": 623.69,
+      "impressions": 1049,
+      "clicks": 312,
+      "ctr": 29.74,
+      "roas": 2.45,
+      "cpc": 0.81
+    },
+    "Campaign_777": {
+      "spend": 278.04,
+      "revenue": 533.28,
+      "impressions": 1097,
+      "clicks": 277,
+      "ctr": 25.25,
+      "roas": 1.92,
+      "cpc": 1.0
+    },
+    "Campaign_778": {
+      "spend": 324.2,
+      "revenue": 663.17,
+      "impressions": 1622,
+      "clicks": 394,
+      "ctr": 24.29,
+      "roas": 2.05,
+      "cpc": 0.82
+    },
+    "Campaign_779": {
+      "spend": 247.08,
+      "revenue": 274.91,
+      "impressions": 1574,
+      "clicks": 393,
+      "ctr": 24.97,
+      "roas": 1.11,
+      "cpc": 0.63
+    },
+    "Campaign_780": {
+      "spend": 334.03,
+      "revenue": 537.05,
+      "impressions": 1571,
+      "clicks": 385,
+      "ctr": 24.51,
+      "roas": 1.61,
+      "cpc": 0.87
+    },
+    "Campaign_781": {
+      "spend": 234.03,
+      "revenue": 534.87,
+      "impressions": 2343,
+      "clicks": 686,
+      "ctr": 29.28,
+      "roas": 2.29,
+      "cpc": 0.34
+    },
+    "Campaign_782": {
+      "spend": 322.81,
+      "revenue": 528.66,
+      "impressions": 2291,
+      "clicks": 708,
+      "ctr": 30.9,
+      "roas": 1.64,
+      "cpc": 0.46
+    },
+    "Campaign_783": {
+      "spend": 220.38,
+      "revenue": 374.7,
+      "impressions": 1182,
+      "clicks": 288,
+      "ctr": 24.37,
+      "roas": 1.7,
+      "cpc": 0.77
+    },
+    "Campaign_784": {
+      "spend": 313.91,
+      "revenue": 466.11,
+      "impressions": 1100,
+      "clicks": 296,
+      "ctr": 26.91,
+      "roas": 1.48,
+      "cpc": 1.06
+    },
+    "Campaign_785": {
+      "spend": 210.65,
+      "revenue": 371.16,
+      "impressions": 1176,
+      "clicks": 264,
+      "ctr": 22.45,
+      "roas": 1.76,
+      "cpc": 0.8
+    },
+    "Campaign_786": {
+      "spend": 192.09,
+      "revenue": 315.62,
+      "impressions": 1107,
+      "clicks": 286,
+      "ctr": 25.84,
+      "roas": 1.64,
+      "cpc": 0.67
+    },
+    "Campaign_787": {
+      "spend": 403.38,
+      "revenue": 848.09,
+      "impressions": 1159,
+      "clicks": 341,
+      "ctr": 29.42,
+      "roas": 2.1,
+      "cpc": 1.18
+    },
+    "Campaign_788": {
+      "spend": 347.05,
+      "revenue": 769.8,
+      "impressions": 1177,
+      "clicks": 341,
+      "ctr": 28.97,
+      "roas": 2.22,
+      "cpc": 1.02
+    },
+    "Campaign_789": {
+      "spend": 495.11,
+      "revenue": 581.24,
+      "impressions": 1166,
+      "clicks": 337,
+      "ctr": 28.9,
+      "roas": 1.17,
+      "cpc": 1.47
+    },
+    "Campaign_790": {
+      "spend": 380.99,
+      "revenue": 643.32,
+      "impressions": 1199,
+      "clicks": 351,
+      "ctr": 29.27,
+      "roas": 1.69,
+      "cpc": 1.09
+    },
+    "Campaign_791": {
+      "spend": 235.05,
+      "revenue": 415.57,
+      "impressions": 1418,
+      "clicks": 486,
+      "ctr": 34.27,
+      "roas": 1.77,
+      "cpc": 0.48
+    },
+    "Campaign_792": {
+      "spend": 479.19,
+      "revenue": 1083.68,
+      "impressions": 1474,
+      "clicks": 476,
+      "ctr": 32.29,
+      "roas": 2.26,
+      "cpc": 1.01
+    },
+    "Campaign_793": {
+      "spend": 443.26,
+      "revenue": 563.27,
+      "impressions": 1461,
+      "clicks": 480,
+      "ctr": 32.85,
+      "roas": 1.27,
+      "cpc": 0.92
+    },
+    "Campaign_794": {
+      "spend": 495.39,
+      "revenue": 604.04,
+      "impressions": 2272,
+      "clicks": 719,
+      "ctr": 31.65,
+      "roas": 1.22,
+      "cpc": 0.69
+    },
+    "Campaign_795": {
+      "spend": 455.33,
+      "revenue": 965.38,
+      "impressions": 2317,
+      "clicks": 700,
+      "ctr": 30.21,
+      "roas": 2.12,
+      "cpc": 0.65
+    },
+    "Campaign_796": {
+      "spend": 133.51,
+      "revenue": 199.17,
+      "impressions": 1634,
+      "clicks": 397,
+      "ctr": 24.3,
+      "roas": 1.49,
+      "cpc": 0.34
+    },
+    "Campaign_797": {
+      "spend": 210.14,
+      "revenue": 492.72,
+      "impressions": 1550,
+      "clicks": 417,
+      "ctr": 26.9,
+      "roas": 2.34,
+      "cpc": 0.5
+    },
+    "Campaign_798": {
+      "spend": 370.89,
+      "revenue": 738.76,
+      "impressions": 1566,
+      "clicks": 401,
+      "ctr": 25.61,
+      "roas": 1.99,
+      "cpc": 0.92
+    },
+    "Campaign_799": {
+      "spend": 200.7,
+      "revenue": 340.22,
+      "impressions": 1419,
+      "clicks": 400,
+      "ctr": 28.19,
+      "roas": 1.7,
+      "cpc": 0.5
+    },
+    "Campaign_800": {
+      "spend": 349.42,
+      "revenue": 839.88,
+      "impressions": 1474,
+      "clicks": 395,
+      "ctr": 26.8,
+      "roas": 2.4,
+      "cpc": 0.88
+    },
+    "Campaign_801": {
+      "spend": 325.26,
+      "revenue": 554.39,
+      "impressions": 1477,
+      "clicks": 415,
+      "ctr": 28.1,
+      "roas": 1.7,
+      "cpc": 0.78
+    },
+    "Campaign_802": {
+      "spend": 465.97,
+      "revenue": 723.85,
+      "impressions": 1178,
+      "clicks": 309,
+      "ctr": 26.23,
+      "roas": 1.55,
+      "cpc": 1.51
+    },
+    "Campaign_803": {
+      "spend": 404.59,
+      "revenue": 883.25,
+      "impressions": 1147,
+      "clicks": 292,
+      "ctr": 25.46,
+      "roas": 2.18,
+      "cpc": 1.39
+    },
+    "Campaign_804": {
+      "spend": 343.03,
+      "revenue": 835.35,
+      "impressions": 1143,
+      "clicks": 303,
+      "ctr": 26.51,
+      "roas": 2.44,
+      "cpc": 1.13
+    },
+    "Campaign_805": {
+      "spend": 261.98,
+      "revenue": 508.7,
+      "impressions": 1172,
+      "clicks": 312,
+      "ctr": 26.62,
+      "roas": 1.94,
+      "cpc": 0.84
+    },
+    "Campaign_806": {
+      "spend": 217.95,
+      "revenue": 462.63,
+      "impressions": 2411,
+      "clicks": 567,
+      "ctr": 23.52,
+      "roas": 2.12,
+      "cpc": 0.38
+    },
+    "Campaign_807": {
+      "spend": 476.14,
+      "revenue": 1119.26,
+      "impressions": 2409,
+      "clicks": 583,
+      "ctr": 24.2,
+      "roas": 2.35,
+      "cpc": 0.82
+    },
+    "Campaign_808": {
+      "spend": 456.13,
+      "revenue": 931.38,
+      "impressions": 1581,
+      "clicks": 445,
+      "ctr": 28.15,
+      "roas": 2.04,
+      "cpc": 1.03
+    },
+    "Campaign_809": {
+      "spend": 369.33,
+      "revenue": 416.29,
+      "impressions": 1561,
+      "clicks": 462,
+      "ctr": 29.6,
+      "roas": 1.13,
+      "cpc": 0.8
+    },
+    "Campaign_810": {
+      "spend": 282.06,
+      "revenue": 510.69,
+      "impressions": 1568,
+      "clicks": 456,
+      "ctr": 29.08,
+      "roas": 1.81,
+      "cpc": 0.62
+    },
+    "Campaign_811": {
+      "spend": 158.5,
+      "revenue": 376.12,
+      "impressions": 1198,
+      "clicks": 327,
+      "ctr": 27.3,
+      "roas": 2.37,
+      "cpc": 0.48
+    },
+    "Campaign_812": {
+      "spend": 378.51,
+      "revenue": 648.49,
+      "impressions": 1188,
+      "clicks": 308,
+      "ctr": 25.93,
+      "roas": 1.71,
+      "cpc": 1.23
+    },
+    "Campaign_813": {
+      "spend": 344.66,
+      "revenue": 557.41,
+      "impressions": 1166,
+      "clicks": 320,
+      "ctr": 27.44,
+      "roas": 1.62,
+      "cpc": 1.08
+    },
+    "Campaign_814": {
+      "spend": 265.24,
+      "revenue": 390.83,
+      "impressions": 1152,
+      "clicks": 293,
+      "ctr": 25.43,
+      "roas": 1.47,
+      "cpc": 0.91
+    },
+    "Campaign_815": {
+      "spend": 334.4,
+      "revenue": 594.4,
+      "impressions": 1567,
+      "clicks": 458,
+      "ctr": 29.23,
+      "roas": 1.78,
+      "cpc": 0.73
+    },
+    "Campaign_816": {
+      "spend": 245.31,
+      "revenue": 585.88,
+      "impressions": 1493,
+      "clicks": 461,
+      "ctr": 30.88,
+      "roas": 2.39,
+      "cpc": 0.53
+    },
+    "Campaign_817": {
+      "spend": 152.37,
+      "revenue": 173.23,
+      "impressions": 1526,
+      "clicks": 477,
+      "ctr": 31.26,
+      "roas": 1.14,
+      "cpc": 0.32
+    },
+    "Campaign_818": {
+      "spend": 156.23,
+      "revenue": 305.25,
+      "impressions": 1105,
+      "clicks": 332,
+      "ctr": 30.05,
+      "roas": 1.95,
+      "cpc": 0.47
+    },
+    "Campaign_819": {
+      "spend": 426.08,
+      "revenue": 1027.36,
+      "impressions": 1024,
+      "clicks": 329,
+      "ctr": 32.13,
+      "roas": 2.41,
+      "cpc": 1.3
+    },
+    "Campaign_820": {
+      "spend": 441.22,
+      "revenue": 970.43,
+      "impressions": 1067,
+      "clicks": 309,
+      "ctr": 28.96,
+      "roas": 2.2,
+      "cpc": 1.43
+    },
+    "Campaign_821": {
+      "spend": 159.96,
+      "revenue": 369.2,
+      "impressions": 1031,
+      "clicks": 320,
+      "ctr": 31.04,
+      "roas": 2.31,
+      "cpc": 0.5
+    },
+    "Campaign_822": {
+      "spend": 301.3,
+      "revenue": 569.17,
+      "impressions": 2196,
+      "clicks": 614,
+      "ctr": 27.96,
+      "roas": 1.89,
+      "cpc": 0.49
+    },
+    "Campaign_823": {
+      "spend": 304.68,
+      "revenue": 568.9,
+      "impressions": 2167,
+      "clicks": 605,
+      "ctr": 27.92,
+      "roas": 1.87,
+      "cpc": 0.5
+    },
+    "Campaign_824": {
+      "spend": 347.52,
+      "revenue": 388.34,
+      "impressions": 1455,
+      "clicks": 424,
+      "ctr": 29.14,
+      "roas": 1.12,
+      "cpc": 0.82
+    },
+    "Campaign_825": {
+      "spend": 283.72,
+      "revenue": 468.23,
+      "impressions": 1467,
+      "clicks": 423,
+      "ctr": 28.83,
+      "roas": 1.65,
+      "cpc": 0.67
+    },
+    "Campaign_826": {
+      "spend": 303.45,
+      "revenue": 680.33,
+      "impressions": 1464,
+      "clicks": 413,
+      "ctr": 28.21,
+      "roas": 2.24,
+      "cpc": 0.73
+    }
+  },
+  "product_analytics": {
+    "products_per_category": {
+      "Electronics": 111,
+      "Beauty": 107,
+      "Food": 103,
+      "Clothes": 96,
+      "Home": 83
+    },
+    "avg_price_category": {
+      "Beauty": 10752.33,
+      "Clothes": 10760.08,
+      "Electronics": 10631.41,
+      "Food": 9586.0,
+      "Home": 11228.16
+    },
+    "price_range_category": {
+      "Beauty": {
+        "min": 388.82,
+        "max": 19865.45,
+        "avg": 10752.33
+      },
+      "Clothes": {
+        "min": 408.78,
+        "max": 19891.79,
+        "avg": 10760.08
+      },
+      "Food": {
+        "min": 215.95,
+        "max": 19979.16,
+        "avg": 9586.0
+      },
+      "Electronics": {
+        "min": 240.82,
+        "max": 19940.59,
+        "avg": 10631.41
+      },
+      "Home": {
+        "min": 337.98,
+        "max": 19994.71,
+        "avg": 11228.16
+      }
+    }
+  },
+  "inventory_analytics": {
+    "stock_per_category": {
+      "Beauty": 35529,
+      "Clothes": 38809,
+      "Electronics": 45362,
+      "Food": 41769,
+      "Home": 29915
+    },
+    "avg_stock_per_category": {
+      "Beauty": 473.72,
+      "Clothes": 491.25,
+      "Electronics": 546.53,
+      "Food": 528.72,
+      "Home": 507.03
+    }
+  },
+  "returns_analytics": {
+    "returns_reason_count": {
+      "wrong_size": 5029,
+      "other": 5027,
+      "damaged": 5004,
+      "defect": 4940
+    },
+    "returns_per_category": {
+      "Electronics": 4444,
+      "Beauty": 4321,
+      "Food": 4091,
+      "Clothes": 3854,
+      "Home": 3290
+    },
+    "return_rate_per_category": {
+      "Beauty": 4038.32,
+      "Clothes": 4014.58,
+      "Food": 3971.84,
+      "Electronics": 4003.6,
+      "Home": 3963.86
+    }
+  },
+  "supplier_analytics": {
+    "suppliers_per_region": {
+      "SPB": 9,
+      "Moscow": 5,
+      "Ekaterinburg": 5,
+      "Kazan": 1
+    },
+    "avg_rating_per_region": {
+      "Ekaterinburg": 4.4,
+      "Kazan": 4.27,
+      "Moscow": 3.77,
+      "SPB": 4.15
+    },
+    "products_per_region": {
+      "SPB": 232,
+      "Moscow": 126,
+      "Ekaterinburg": 119,
+      "Kazan": 23
+    }
+  },
+  "period_info": {
+    "year_start": "2025-01-01",
+    "year_end": "2025-10-10",
+    "total_days": 283,
+    "description": "Данные за период с 1 января 2025 по 10 октября 2025"
+  },
+  "categories": [
+    "Beauty",
+    "Clothes",
+    "Food",
+    "Electronics",
+    "Home"
+  ],
+  "chart_insights": {
+    "sales_trend": "Показывает динамику продаж по времени. Рост указывает на успешные маркетинговые кампании или сезонные факторы.",
+    "category_distribution": "Отображает долю каждой категории в общих продажах. Помогает выявить наиболее прибыльные направления.",
+    "return_reasons": "Анализ причин возвратов помогает улучшить качество товаров и сервиса.",
+    "advertising_roas": "ROAS показывает эффективность рекламных вложений. Значения выше 4 считаются хорошими.",
+    "inventory_levels": "Уровень запасов помогает избежать дефицита и избыточных остатков.",
+    "supplier_performance": "Рейтинг поставщиков влияет на качество товаров и скорость поставок.",
+    "hourly_pattern": "Пики активности показывают оптимальное время для запуска акций.",
+    "geographic_distribution": "Распределение продаж по регионам помогает оптимизировать логистику.",
+    "funnel_conversion": "Воронка показывает этапы потери клиентов и возможности для улучшения.",
+    "price_analysis": "Анализ цен помогает найти оптимальное позиционирование товаров."
+  },
+  "wildberries_colors": {
+    "primary": "#6639BA",
+    "primary_light": "#8B5FE6",
+    "secondary": "#F5F5F5",
+    "accent": "#FF6B35",
+    "success": "#10B981",
+    "warning": "#F59E0B",
+    "danger": "#EF4444",
+    "text_primary": "#1F2937",
+    "text_secondary": "#6B7280",
+    "background": "#FFFFFF",
+    "card_bg": "#F9FAFB"
+  }
+}
